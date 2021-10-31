@@ -5,13 +5,13 @@ using UnityEngine;
 public class eventosRaton : MonoBehaviour
 {
 
-    public GameObject comenzar, comenzar_iluminado;
+    public GameObject botonNormal, botonIluminado;
 
     // Start is called before the first frame update
     void Start()
     {
-        comenzar.gameObject.SetActive(true);
-        comenzar_iluminado.gameObject.SetActive(false);
+        botonNormal.gameObject.SetActive(true);
+        botonIluminado.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,8 +29,8 @@ public class eventosRaton : MonoBehaviour
     void OnMouseEnter()
     {
         print("estas encima del boton");
-        comenzar.gameObject.SetActive(false);
-        comenzar_iluminado.gameObject.SetActive(true);
+        botonNormal.gameObject.SetActive(false);
+        botonIluminado.gameObject.SetActive(true);
 
 
     }
@@ -38,7 +38,7 @@ public class eventosRaton : MonoBehaviour
     void OnMouseExit()
     {
         print("ya no estas encima");
-        comenzar.gameObject.SetActive(true);
+        botonNormal.gameObject.SetActive(true);
 
     }
 }
