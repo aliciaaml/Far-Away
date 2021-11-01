@@ -1,0 +1,263 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16262 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/DDVJ/Documents/ingSoft/Far-Away/Far Away
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54331
+Successfully changed project path to: C:/Users/DDVJ/Documents/ingSoft/Far-Away/Far Away
+C:/Users/DDVJ/Documents/ingSoft/Far-Away/Far Away
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DDVJ/Documents/ingSoft/Far-Away/Far Away/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002726 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.259300 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.068000 ms MarkObjects: 1.905200 ms  DeleteObjects: 0.095900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Escena_inicial.unity
+  artifactKey: Guid(a9aa2a60bab6f084e95fc0fcef74d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena_inicial.unity using Guid(a9aa2a60bab6f084e95fc0fcef74d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e29a01a1a3ae1929a380b60ed09938') in 0.020148 seconds
+  Import took 0.023914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(052c0865c360c1f4a95ab9114be562af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(052c0865c360c1f4a95ab9114be562af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b037ee4d246a400efa24367ee5f594') in 0.008390 seconds
+  Import took 0.012513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 809.684428 seconds.
+  path: Assets/Art
+  artifactKey: Guid(45a57816d9313314d80466901497edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(45a57816d9313314d80466901497edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512a9b9cb09831e8dbb6e3c1796dc264') in 0.012837 seconds
+  Import took 0.018454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 909.514646 seconds.
+  path: Assets/Art/casa1.png
+  artifactKey: Guid(46dbe34bc2094794c8d99e90db5baedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casa1.png using Guid(46dbe34bc2094794c8d99e90db5baedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afaa1cc68eb1d0ec2b606620bb1c705') in 0.199206 seconds
+  Import took 0.205953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Art/fondo.png
+  artifactKey: Guid(7a4c07dd7bad1af499856183c0ff7c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fondo.png using Guid(7a4c07dd7bad1af499856183c0ff7c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5268343918dcd8ada46ebb4ff4dcf37f') in 0.020207 seconds
+  Import took 0.026167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Art/hierbaCasaProta.png
+  artifactKey: Guid(1b9eae1de6978c24e849db7309e2a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/hierbaCasaProta.png using Guid(1b9eae1de6978c24e849db7309e2a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a8ca7933f233ef031c38d3e10e6a82') in 0.032759 seconds
+  Import took 0.036106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Art/hierba.png
+  artifactKey: Guid(1cb10eb2795bfe546b749026aa43a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/hierba.png using Guid(1cb10eb2795bfe546b749026aa43a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e75eea9fb85834084c2b9a65bb1507') in 0.023508 seconds
+  Import took 0.029725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Art/casaProta.png
+  artifactKey: Guid(6405b1d98a8d3054686f1fcb91b0f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casaProta.png using Guid(6405b1d98a8d3054686f1fcb91b0f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ddb05bc81882777623ea4ede17be36') in 0.019554 seconds
+  Import took 0.024788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Art/poste.png
+  artifactKey: Guid(0712f0b3c4f02254488cf89c396d3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/poste.png using Guid(0712f0b3c4f02254488cf89c396d3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3821cf3bf28e095c892d456baa310ec6') in 0.019544 seconds
+  Import took 0.023343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Art/montaña.png
+  artifactKey: Guid(f477a0cffaf5baf4d8f4fca38362a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/montaña.png using Guid(f477a0cffaf5baf4d8f4fca38362a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773b1ee467fda8b6415b78bf29aba3d9') in 0.044149 seconds
+  Import took 0.047954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/casa2.png
+  artifactKey: Guid(964b2cdc52182b644886c958061aba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casa2.png using Guid(964b2cdc52182b644886c958061aba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11cc582416d9d2d06a0ea577b9fc5bc') in 0.018178 seconds
+  Import took 0.023218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Art/puente.png
+  artifactKey: Guid(5c811adc5311dad45a4d36cd55e7c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/puente.png using Guid(5c811adc5311dad45a4d36cd55e7c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac8fb0ad3e7c44f88bc2d63c2a83191') in 0.018710 seconds
+  Import took 0.023634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Art/casa2.png
+  artifactKey: Guid(964b2cdc52182b644886c958061aba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casa2.png using Guid(964b2cdc52182b644886c958061aba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11cc582416d9d2d06a0ea577b9fc5bc') in 0.020031 seconds
+  Import took 0.025740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Art/suelo.png
+  artifactKey: Guid(e003a95395ac48849864c102c699b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/suelo.png using Guid(e003a95395ac48849864c102c699b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243d25627649c5b8cf7f7e73d445f614') in 0.020010 seconds
+  Import took 0.024639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 646.011687 seconds.
+  path: Assets/Art/casasFondo.png
+  artifactKey: Guid(f8ef29ffecf89a843a1e794064cdd4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casasFondo.png using Guid(f8ef29ffecf89a843a1e794064cdd4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874f30b77750863769b66352695b0714') in 0.042209 seconds
+  Import took 0.047938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/hierbaCasaProta.png
+  artifactKey: Guid(1b9eae1de6978c24e849db7309e2a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/hierbaCasaProta.png using Guid(1b9eae1de6978c24e849db7309e2a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae41179ff66200bf55a6fc8405b0593c') in 0.013173 seconds
+  Import took 0.017315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/hierba.png
+  artifactKey: Guid(1cb10eb2795bfe546b749026aa43a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/hierba.png using Guid(1cb10eb2795bfe546b749026aa43a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa0f9febb3ef1139884f4c384f53352') in 0.014753 seconds
+  Import took 0.018018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Art/montaña.png
+  artifactKey: Guid(f477a0cffaf5baf4d8f4fca38362a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/montaña.png using Guid(f477a0cffaf5baf4d8f4fca38362a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44096d9d40c560e0190036f971aaf5f') in 0.017298 seconds
+  Import took 0.021382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/puente.png
+  artifactKey: Guid(5c811adc5311dad45a4d36cd55e7c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/puente.png using Guid(5c811adc5311dad45a4d36cd55e7c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b65337538d9b672fbebb7a4c7ccb0e') in 0.019444 seconds
+  Import took 0.023696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.957466 seconds.
+  path: Assets/Art/casa1.png
+  artifactKey: Guid(46dbe34bc2094794c8d99e90db5baedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casa1.png using Guid(46dbe34bc2094794c8d99e90db5baedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2d061a564b471a0801117a6e3f344a') in 0.109718 seconds
+  Import took 0.116391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/casaProta.png
+  artifactKey: Guid(6405b1d98a8d3054686f1fcb91b0f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casaProta.png using Guid(6405b1d98a8d3054686f1fcb91b0f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e69c1311e8f7246f63b0764e8639cc') in 0.023491 seconds
+  Import took 0.028425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Art/poste.png
+  artifactKey: Guid(0712f0b3c4f02254488cf89c396d3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/poste.png using Guid(0712f0b3c4f02254488cf89c396d3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632c0878c04a3af2ce26822ce78cf4f2') in 0.017183 seconds
+  Import took 0.022666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Art/casa2.png
+  artifactKey: Guid(964b2cdc52182b644886c958061aba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/casa2.png using Guid(964b2cdc52182b644886c958061aba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef46198fe66ba864ae64af3fe11977') in 0.020242 seconds
+  Import took 0.023844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Art/suelo.png
+  artifactKey: Guid(e003a95395ac48849864c102c699b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/suelo.png using Guid(e003a95395ac48849864c102c699b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af489c4046228397d01535b8dbdd75e') in 0.017330 seconds
+  Import took 0.023317 seconds .
+
