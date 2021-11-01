@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TileMovement : MonoBehaviour
 {
-    [SerializeField] private GameObject EmptyTile;
+    [SerializeField] private Transform EmptyTile;
     private Camera camera;
     // Start is called before the first frame update
     void Start()
