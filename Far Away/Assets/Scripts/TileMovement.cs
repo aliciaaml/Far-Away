@@ -21,7 +21,7 @@ public class TileMovement : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             if (hit)
             {
-                if (Vector2.Distance(EmptyTile.position, hit.transform.position) < 3)
+                if (Vector2.Distance(EmptyTile.position, hit.transform.position) < 2.5)
                 {
                     Vector2 auxEmptyPos = EmptyTile.position;
                     EmptyTile.position = hit.transform.position;
