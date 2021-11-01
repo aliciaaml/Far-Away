@@ -5,24 +5,32 @@ using UnityEngine.EventSystems;
 
 public class Movimiento_piñones : MonoBehaviour, IDragHandler
 {
-    //int done=0;
-    //bool terminado=false;
-    
-   //public GameObject piñon;
-    
+   
 
-    //Vector2 position = piñon.position;
+    Vector3 mousePosition;
 
+    public Pos_correcta correcta;
+
+    public AudioClip sound_engranajes;
 
     AudioSource audioSource;
 
-    Vector3 mousePosition;
-    
+    Vector3 aux= new Vector3 (0,0,0);
 
+    void Start(){
 
-    public AudioClip sound_correcto;
+        audioSource= GetComponent<AudioSource>();
 
-    //public AudioClip sound_engranajes;
+    }
+
+    void Update(){
+
+        if (Input.anyKey && correcta.colision==false){
+
+            audioSource.PlayOneShot(sound_engranajes);
+        }
+        else audioSource.Stop();
+    }
 
     public void OnDrag(PointerEventData eventData){
 
@@ -30,40 +38,17 @@ public class Movimiento_piñones : MonoBehaviour, IDragHandler
         mousePosition.z=1;
         mousePosition.x=263;
 
-       
 
         transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        //audioSource.PlayOneShot(sound_engranajes);
     }
 
-
-    void Start(){
-         audioSource= GetComponent<AudioSource>();
-    }
-    // Update is called once per frame
-    void Update()
+    public void PlaySound(AudioClip clip)
     {
-        play_sound();
+        audioSource.PlayOneShot(clip);
     }
-
-
+        
     
-    public void play_sound(){
-
-
-        if (mousePosition.y== 200){
-        
-            //audioSource.Stop(sound_engranajes);
-            audioSource.PlayOneShot(sound_correcto);
-            //done+=1;
-        }
-
-  
-        
-    }
-
-   
     
 
 }

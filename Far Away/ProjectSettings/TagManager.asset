@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "pi\xF1on"
+  - pos_correcta1
   layers:
   - Default
   - TransparentFX
