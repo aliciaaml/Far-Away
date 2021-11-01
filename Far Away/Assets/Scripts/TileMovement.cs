@@ -24,8 +24,9 @@ public class TileMovement : MonoBehaviour
                 if (Vector2.Distance(EmptyTile.position, hit.transform.position) < 2.5)
                 {
                     Vector2 auxEmptyPos = EmptyTile.position;
-                    EmptyTile.position = hit.transform.position;
-                    hit.transform.position = auxEmptyPos;
+                    TileSmooth tile = hit.transform.GetComponent<TileSmooth>();
+                    EmptyTile.position = tile.targetPos;
+                    tile.targetPos = auxEmptyPos;
                 }
             }
         }
