@@ -12,24 +12,39 @@ public class Movimiento_piñones : MonoBehaviour, IDragHandler
     public Pos_correcta correcta;
 
     public AudioClip sound_engranajes;
+    public AudioClip sound_correcto;
+
+    public GameObject piñon;
 
     AudioSource audioSource;
 
-    Vector3 aux= new Vector3 (0,0,0);
+    bool aux;
+    public bool aux2;
+
+   
 
     void Start(){
 
         audioSource= GetComponent<AudioSource>();
+        aux=false;
+        aux2=false;
+
 
     }
 
     void Update(){
 
-        if (Input.anyKey && correcta.colision==false){
+        if (Input.anyKey && aux==false){
 
             audioSource.PlayOneShot(sound_engranajes);
+            aux=true;
         }
-        else audioSource.Stop();
+        if (correcta.colision && aux2==false){
+            audioSource.Stop();
+            correcta.PlaySound(sound_correcto);
+            aux2=true;
+        }
+
     }
 
     public void OnDrag(PointerEventData eventData){
@@ -38,17 +53,12 @@ public class Movimiento_piñones : MonoBehaviour, IDragHandler
         mousePosition.z=1;
         mousePosition.x=263;
 
+        Debug.Log(Input.mouseScrollDelta);
 
         transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
 
     }
 
-    public void PlaySound(AudioClip clip)
-    {
-        audioSource.PlayOneShot(clip);
-    }
-        
-    
     
 
 }
