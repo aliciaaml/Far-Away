@@ -296,12 +296,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 526178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f453a032d3db8494482955dc749ba561, type: 3}
+  m_Script: {fileID: 11500000, guid: 59a8d72380727da478eb83bd3139c3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correcta: {fileID: 1725119706}
-  sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
-  sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
+  correcta: {fileID: 0}
+  velocidad: 0
+  sound_engranajes: {fileID: 0}
+  sound_correcto: {fileID: 0}
+  rigidbody2d1: {fileID: 0}
+  rigidbody2d2: {fileID: 0}
+  rigidbody2d3: {fileID: 0}
+  rigidbody2d4: {fileID: 0}
+  rigidbody2d5: {fileID: 0}
   aux2: 0
 --- !u!212 &526183
 SpriteRenderer:
@@ -880,7 +886,6 @@ GameObject:
   m_Component:
   - component: {fileID: 738975577}
   - component: {fileID: 738975580}
-  - component: {fileID: 738975579}
   - component: {fileID: 738975578}
   m_Layer: 0
   m_Name: Pos_correcta2
@@ -999,19 +1004,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &738975579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738975576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35921e9ad33bb4a4e9491e5a05cab87e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colision: 0
 --- !u!61 &738975580
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1346,8 +1338,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correcta: {fileID: 968735703}
+  velocidad: 0.005
   sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
   sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
+  rigidbody2d1: {fileID: 964578152}
+  rigidbody2d2: {fileID: 1354232627}
+  rigidbody2d3: {fileID: 526181}
+  rigidbody2d4: {fileID: 1522792289}
+  rigidbody2d5: {fileID: 1611323124}
   aux2: 0
 --- !u!1 &967040412
 GameObject:
@@ -1609,7 +1607,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1144273439}
   - component: {fileID: 1144273442}
-  - component: {fileID: 1144273441}
   - component: {fileID: 1144273440}
   m_Layer: 0
   m_Name: Pos_correcta5
@@ -1728,19 +1725,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1144273441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144273438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e05613cfe30964845ab4efece61e36ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colision: 0
 --- !u!61 &1144273442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2079,12 +2063,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1354232624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0d30c595c00a0847959d77ae8bf7cfb, type: 3}
+  m_Script: {fileID: 11500000, guid: 59a8d72380727da478eb83bd3139c3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correcta: {fileID: 738975579}
-  sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
-  sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
+  correcta: {fileID: 0}
+  velocidad: 0
+  sound_engranajes: {fileID: 0}
+  sound_correcto: {fileID: 0}
+  rigidbody2d1: {fileID: 0}
+  rigidbody2d2: {fileID: 0}
+  rigidbody2d3: {fileID: 0}
+  rigidbody2d4: {fileID: 0}
+  rigidbody2d5: {fileID: 0}
   aux2: 0
 --- !u!212 &1354232629
 SpriteRenderer:
@@ -2161,7 +2151,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1375505232}
   - component: {fileID: 1375505235}
-  - component: {fileID: 1375505234}
   - component: {fileID: 1375505233}
   m_Layer: 0
   m_Name: Pos_correcta4
@@ -2280,19 +2269,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1375505234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375505231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebb5869ac33cffd47848e494e9128370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colision: 0
 --- !u!61 &1375505235
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2649,12 +2625,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1522792286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0109f45e0b7c57842beb44acc8807008, type: 3}
+  m_Script: {fileID: 11500000, guid: 59a8d72380727da478eb83bd3139c3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correcta: {fileID: 1375505234}
-  sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
-  sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
+  correcta: {fileID: 0}
+  velocidad: 0
+  sound_engranajes: {fileID: 0}
+  sound_correcto: {fileID: 0}
+  rigidbody2d1: {fileID: 0}
+  rigidbody2d2: {fileID: 0}
+  rigidbody2d3: {fileID: 0}
+  rigidbody2d4: {fileID: 0}
+  rigidbody2d5: {fileID: 0}
   aux2: 0
 --- !u!212 &1522792291
 SpriteRenderer:
@@ -2973,12 +2955,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1611323121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a46ab331a4e40b84b9b9de9739be850e, type: 3}
+  m_Script: {fileID: 11500000, guid: 59a8d72380727da478eb83bd3139c3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correcta: {fileID: 1144273441}
-  sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
-  sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
+  correcta: {fileID: 0}
+  velocidad: 0
+  sound_engranajes: {fileID: 0}
+  sound_correcto: {fileID: 0}
+  rigidbody2d1: {fileID: 0}
+  rigidbody2d2: {fileID: 0}
+  rigidbody2d3: {fileID: 0}
+  rigidbody2d4: {fileID: 0}
+  rigidbody2d5: {fileID: 0}
   aux2: 0
 --- !u!212 &1611323126
 SpriteRenderer:
@@ -3137,7 +3125,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1725119704}
   - component: {fileID: 1725119707}
-  - component: {fileID: 1725119706}
   - component: {fileID: 1725119705}
   m_Layer: 0
   m_Name: Pos_correcta3
@@ -3256,19 +3243,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1725119706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725119703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833744558600d2146a20ab5e394538cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colision: 0
 --- !u!61 &1725119707
 BoxCollider2D:
   m_ObjectHideFlags: 0
