@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Movimiento_piñones : MonoBehaviour
+public class Movimiento_piñones5 : MonoBehaviour
 {
+
+    public Movimiento_piñones mov;
 
     public float velocidad;
 
@@ -13,28 +15,27 @@ public class Movimiento_piñones : MonoBehaviour
 
     float dirY;
 
-    public Rigidbody2D piñon1;
+    public Rigidbody2D piñon5;
 
-   
     AudioSource audioSource;
 
 
     bool colis;
-    public int num_colis;
+ 
     bool aux;
 
     public GameObject position;
 
+    bool terminado=false;
 
    void Start(){
 
-        piñon1= GetComponent<Rigidbody2D>();
+        piñon5= GetComponent<Rigidbody2D>();
 
         audioSource= GetComponent<AudioSource>();
         
         aux=false;
         colis=false;
-        num_colis=0;
         
        
    }
@@ -51,10 +52,10 @@ public class Movimiento_piñones : MonoBehaviour
 
         dirY=Input.GetAxis("Vertical");
 
-        if(num_colis==0){
+        if(mov.num_colis==4){
 
-            position.name="Pos_correcta1";
-            Arrows(piñon1);
+            position.name="Pos_correcta5";
+            Arrows(piñon5);
         }
             
 
@@ -89,12 +90,8 @@ public class Movimiento_piñones : MonoBehaviour
 
         if(colis){
 
-            if(Input.GetKey(KeyCode.RightArrow)){
-
-                    num_colis=1;
-
-                    
-            }
+           terminado=true;
+           Debug.Log(terminado);
                 
                     
         }
