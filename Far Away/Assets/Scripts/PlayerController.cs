@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rigidbody2d;
     float horizontal;
     bool goNext1 = false;
+    private string nextScene;
    
     //Vector2 lookDirection = new Vector2(1, 0);
 
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
         {
             if (goNext1)     //repetir para cada puerta con su respectivo bool y escena
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(nextScene);
             }
         }
     }
@@ -42,10 +43,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)   //inicio de interaccion con puertas (Repetir para cada puerta con otro tag y bool ambos void)
     {
-         if (collision.gameObject.tag == "Puerta")
-         {
+        if (collision.gameObject.tag == "Puerta")
+        {
+            DoorController puerta = collision.gameObject.GetComponent<DoorController>();
+            nextScene = puerta.sceneName;
+            Debug.Log("entrar");
+            Debug.Log(puerta.sceneName);
             goNext1 = true;
-         }
+        }
         
     }
     private void OnTriggerExit2D(Collider2D collision)
