@@ -6,13 +6,20 @@ public class TileMovement : MonoBehaviour
 {
     [SerializeField] private Transform EmptyTile;
     [SerializeField] private TileSmooth[] tiles;
+    [SerializeField] private GameObject Texto;
+
     private Camera camera;
+
+    private bool solved;
+    private int contador;
 
     // Start is called before the first frame update
     void Start()
     {
-        shuffle();
+        //shuffle();
         camera = Camera.main;
+
+        Texto.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,6 +40,19 @@ public class TileMovement : MonoBehaviour
                 }
             }
         }
+
+        for (int i = 0; i < 8; i++)
+        {
+            if (tiles[i].GetComponent<SpriteRenderer>().color == Color.green)
+            {
+                contador += 1;
+            }
+            else { contador = 0; solved = false; }
+            if (contador == 8) { solved = true; }
+        }
+
+        if (solved) { Texto.SetActive(true); }
+        else { Texto.SetActive(false); }
     }
 
     public void shuffle()

@@ -9,7 +9,7 @@ public class MinigameEnter : MonoBehaviour
 
     private void OnMouseDown()
     {
-        tile.SetActive(tile);
-        exit.SetActive(exit);
+        tile.SetActive(true);
+        exit.SetActive(true);
     }
 }

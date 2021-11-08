@@ -28,5 +28,6 @@ public class TileSmooth : MonoBehaviour
         {
             sprite.color = Color.white;
         }
+
     }
 }
