@@ -16,7 +16,7 @@ public class TileMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //shuffle();
+        shuffle();
         camera = Camera.main;
 
         Texto.SetActive(false);
