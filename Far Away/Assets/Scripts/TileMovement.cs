@@ -37,10 +37,10 @@ public class TileMovement : MonoBehaviour
 
     public void shuffle()
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 8; i++)
         {
             var lastPos = tiles[i].targetPos;
-            int randomI = Random.Range(0, 6);
+            int randomI = Random.Range(0, 7);
             tiles[i].targetPos = tiles[randomI].targetPos;
             tiles[randomI].targetPos = lastPos;
         }
