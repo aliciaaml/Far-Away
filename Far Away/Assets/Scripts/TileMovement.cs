@@ -5,10 +5,13 @@ using UnityEngine;
 public class TileMovement : MonoBehaviour
 {
     [SerializeField] private Transform EmptyTile;
+    [SerializeField] private TileSmooth[] tiles;
     private Camera camera;
+
     // Start is called before the first frame update
     void Start()
     {
+        shuffle();
         camera = Camera.main;
     }
 
@@ -29,6 +32,17 @@ public class TileMovement : MonoBehaviour
                     tile.targetPos = auxEmptyPos;
                 }
             }
+        }
+    }
+
+    public void shuffle()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            var lastPos = tiles[i].targetPos;
+            int randomI = Random.Range(0, 6);
+            tiles[i].targetPos = tiles[randomI].targetPos;
+            tiles[randomI].targetPos = lastPos;
         }
     }
 }
