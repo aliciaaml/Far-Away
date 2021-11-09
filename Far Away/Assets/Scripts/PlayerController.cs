@@ -12,18 +12,29 @@ public class PlayerController : MonoBehaviour
     bool goNext1 = false;
     private string nextScene;
    
-    //Vector2 lookDirection = new Vector2(1, 0);
+    Animator animator;
+    bool looksRight = true;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
+
+        if(!Mathf.Approximately(horizontal, 0.0f)){
+            if(horizontal > 0) looksRight = true;
+            else if(horizontal < 0) looksRight = false;
+            
+        }
+
+        animator.SetBool("LookRight", looksRight);
+        animator.SetFloat("Speed", Mathf.Abs(rigidbody2d.velocity.x));
 
         if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
         {
