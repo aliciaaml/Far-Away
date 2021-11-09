@@ -34,7 +34,8 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("LookRight", looksRight);
-        animator.SetFloat("Speed", Mathf.Abs(rigidbody2d.velocity.x));
+        animator.SetFloat("Speed", horizontal);
+        Debug.Log("speed: " + horizontal);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
         {
