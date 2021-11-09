@@ -16,7 +16,7 @@ public class TileMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        shuffle();
+        shuffle(); //Para verificar el pop up comentad esto, moved unas pocas piezas y volvedlas a poner bien
         camera = Camera.main;
 
         Texto.SetActive(false);
@@ -41,6 +41,7 @@ public class TileMovement : MonoBehaviour
             }
         }
 
+        // Comprueba que todos las tiles son verdes (posicion corecta) y activa el pop up
         for (int i = 0; i < 8; i++)
         {
             if (tiles[i].GetComponent<SpriteRenderer>().color == Color.green)
@@ -55,7 +56,7 @@ public class TileMovement : MonoBehaviour
         else { Texto.SetActive(false); }
     }
 
-    public void shuffle()
+    public void shuffle() //Mezcla las tiles automaticamente
     {
         for (int i = 0; i < 8; i++)
         {

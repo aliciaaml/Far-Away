@@ -8,7 +8,7 @@ public class TileSmooth : MonoBehaviour
     private Vector3 correctPos;
     private SpriteRenderer sprite;
     // Start is called before the first frame update
-    void Awake()
+    void Awake() //Awake para que se guarden las posiciones antes del start del shuffle
     {
         targetPos = transform.position;
         correctPos = transform.position;
@@ -20,7 +20,7 @@ public class TileSmooth : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, targetPos, 0.03f);
 
-        if (targetPos == correctPos)
+        if (targetPos == correctPos)            //Si estan en la posicion correcta se pintan de verde, si no de blanco
         {
             sprite.color = Color.green;
         }
