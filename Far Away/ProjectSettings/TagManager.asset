@@ -6,6 +6,7 @@ TagManager:
   tags:
   - "pi\xF1on"
   - pos_correcta1
+  - Puerta
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - cameraConfiner
   - 
   - 
   - 
