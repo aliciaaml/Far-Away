@@ -6,6 +6,8 @@ public class ObjectPickUp : MonoBehaviour
 {
     private Camera camera;
 
+    public Item item;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,7 @@ public class ObjectPickUp : MonoBehaviour
 
             if (hit.transform.tag == "Objeto")
             {
-                Debug.Log(hit.transform.name);
+                Debug.Log(item.name);
                 
             }
         }
