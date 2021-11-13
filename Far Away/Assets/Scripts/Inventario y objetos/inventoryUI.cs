@@ -1,12 +1,12 @@
 using UnityEngine;
 
 public class inventoryUI : MonoBehaviour
-{ /*
+{ 
     Inventory inventory;
     // Start is called before the first frame update
     void Start()
     {
-        inventory = Inventory.instance;
+        inventory = Inventory.inst;
     }
 
     // Update is called once per frame
@@ -14,5 +14,4 @@ public class inventoryUI : MonoBehaviour
     {
         
     }
-    */
 }

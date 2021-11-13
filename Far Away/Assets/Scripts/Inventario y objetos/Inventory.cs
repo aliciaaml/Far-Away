@@ -7,6 +7,7 @@ public class Inventory : MonoBehaviour
     // ESTE SCRIPT PUEDE IR EN EL PERSONAJE, PERO COMO NO ESTA EN ESCENA ESTA EN UN OBJETO VACIO
 
     #region Singleton
+
     public static Inventory inst;
     private void Awake()
     {
@@ -23,6 +24,14 @@ public class Inventory : MonoBehaviour
             Destroy(gameObject);            // Si ya hay una instancia destruye la segunda
         }
     }
+
+    #endregion
+
+    #region Delegate
+
+    delegate void OnItemChange();
+    OnItemChange OnItemChangeCallback;
+
     #endregion
 
     public List<Item> items = new List<Item>();
