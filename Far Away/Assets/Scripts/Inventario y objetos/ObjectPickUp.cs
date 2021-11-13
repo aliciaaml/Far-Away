@@ -24,7 +24,8 @@ public class ObjectPickUp : MonoBehaviour
 
             if (hit.transform.tag == "Objeto")
             {
-                Debug.Log(item.name);
+                Inventory.inst.Add(item);
+                Destroy(gameObject);
                 
             }
         }
