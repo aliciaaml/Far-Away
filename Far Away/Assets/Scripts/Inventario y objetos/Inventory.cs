@@ -29,8 +29,8 @@ public class Inventory : MonoBehaviour
 
     #region Delegate
 
-    delegate void OnItemChange();
-    OnItemChange OnItemChangeCallback;
+    public delegate void OnItemChange();
+    public OnItemChange OnItemChangeCallback;
 
     #endregion
 
