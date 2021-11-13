@@ -7,11 +7,17 @@ public class inventoryUI : MonoBehaviour
     void Start()
     {
         inventory = Inventory.inst;
+        inventory.OnItemChangeCallback += UpdateUI;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void UpdateUI()
+    {
+
     }
 }
