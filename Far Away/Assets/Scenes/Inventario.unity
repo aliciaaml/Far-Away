@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 81013718}
   - component: {fileID: 81013719}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Inventario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
