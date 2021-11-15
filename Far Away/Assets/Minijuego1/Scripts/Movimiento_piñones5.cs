@@ -13,6 +13,13 @@ public class Movimiento_piñones5 : MonoBehaviour
     public AudioClip sound_engranajes;
     public AudioClip sound_correcto;
 
+    public GameObject Flecha;
+
+    public GameObject completado;
+
+    public GameObject boton;
+    
+
     float dirY;
 
     public Rigidbody2D piñon5;
@@ -26,7 +33,7 @@ public class Movimiento_piñones5 : MonoBehaviour
 
     public GameObject position;
 
-    bool terminado=false;
+
 
    void Start(){
 
@@ -54,6 +61,7 @@ public class Movimiento_piñones5 : MonoBehaviour
 
         if(mov.num_colis==4){
 
+            Flecha.SetActive(true);
             position.name="Pos_correcta5";
             Arrows(piñon5);
         }
@@ -90,8 +98,10 @@ public class Movimiento_piñones5 : MonoBehaviour
 
         if(colis){
 
-           terminado=true;
-           Debug.Log(terminado);
+           Flecha.SetActive(false);
+           completado.SetActive(true);
+           boton.SetActive(true);
+           
                 
                     
         }

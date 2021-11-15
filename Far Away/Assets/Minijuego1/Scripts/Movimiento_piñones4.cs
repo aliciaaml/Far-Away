@@ -13,6 +13,8 @@ public class Movimiento_piñones4 : MonoBehaviour
     public AudioClip sound_engranajes;
     public AudioClip sound_correcto;
 
+    public GameObject Flecha;
+
     float dirY;
 
     public Rigidbody2D piñon4;
@@ -53,6 +55,7 @@ public class Movimiento_piñones4 : MonoBehaviour
 
         if(mov.num_colis==3){
 
+            Flecha.SetActive(true);
             position.name="Pos_correcta4";
             Arrows(piñon4);
         }
@@ -92,6 +95,7 @@ public class Movimiento_piñones4 : MonoBehaviour
             if(Input.GetKey(KeyCode.RightArrow)){
 
                     mov.num_colis=4;
+                    Flecha.SetActive(false);
 
                     
             }

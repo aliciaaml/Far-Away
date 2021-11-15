@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enabling : MonoBehaviour
 {
 
+    public GameObject texto;
+    public GameObject cuadro_dialogo;
     public GameObject fondo;
     public GameObject boton_x;
     public GameObject base_c;
@@ -17,6 +19,8 @@ public class Enabling : MonoBehaviour
 
     public void whenCerraduraClicked(){
         if (fondo.activeInHierarchy==false)
+            texto.SetActive(false);
+            cuadro_dialogo.SetActive(false);
             fondo.SetActive(true);
 
         if (boton_x.activeInHierarchy==false)

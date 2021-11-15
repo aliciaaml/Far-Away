@@ -11,6 +11,8 @@ public class Movimiento_piñones : MonoBehaviour
     public AudioClip sound_engranajes;
     public AudioClip sound_correcto;
 
+    public GameObject Flecha;
+
     float dirY;
 
     public Rigidbody2D piñon1;
@@ -31,6 +33,8 @@ public class Movimiento_piñones : MonoBehaviour
         piñon1= GetComponent<Rigidbody2D>();
 
         audioSource= GetComponent<AudioSource>();
+
+        Flecha.SetActive(true);
         
         aux=false;
         colis=false;
@@ -92,6 +96,7 @@ public class Movimiento_piñones : MonoBehaviour
             if(Input.GetKey(KeyCode.RightArrow)){
 
                     num_colis=1;
+                    Flecha.SetActive(false);
 
                     
             }
