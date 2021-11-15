@@ -7,6 +7,7 @@ public class TileMovement : MonoBehaviour
     [SerializeField] private Transform EmptyTile;
     [SerializeField] private TileSmooth[] tiles;
     [SerializeField] private GameObject Texto;
+    [SerializeField] private GameObject Boton;
 
     private Camera camera;
 
@@ -16,10 +17,11 @@ public class TileMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        shuffle(); //Para verificar el pop up comentad esto, moved unas pocas piezas y volvedlas a poner bien
+        //shuffle(); //Para verificar el pop up comentad esto, moved unas pocas piezas y volvedlas a poner bien
         camera = Camera.main;
 
         Texto.SetActive(false);
+        Boton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -52,9 +54,15 @@ public class TileMovement : MonoBehaviour
             if (contador == 8) { solved = true; }
         }
 
-        if (solved) { Texto.SetActive(true); }
-        else { Texto.SetActive(false); }
-    }
+        if (solved) { 
+            Texto.SetActive(true); 
+            Boton.SetActive(true); 
+            
+        }
+        else { 
+            Texto.SetActive(false); 
+            Boton.SetActive(false);}
+        }
 
     public void shuffle() //Mezcla las tiles automaticamente
     {

@@ -17,7 +17,7 @@ public class TextoMinijuego1 : MonoBehaviour
     {
         StartCoroutine(Reloj());
     }
-
+    
     IEnumerator Reloj()
     {
         foreach (char caracter in frase)
