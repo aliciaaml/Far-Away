@@ -8,6 +8,7 @@ public class TileMovement : MonoBehaviour
     [SerializeField] private TileSmooth[] tiles;
     [SerializeField] private GameObject Texto;
     [SerializeField] private GameObject Boton;
+    [SerializeField] private GameObject Leer;
 
     private Camera camera;
 
@@ -22,6 +23,7 @@ public class TileMovement : MonoBehaviour
 
         Texto.SetActive(false);
         Boton.SetActive(false);
+        Leer.SetActive(false);
     }
 
     // Update is called once per frame
@@ -55,14 +57,15 @@ public class TileMovement : MonoBehaviour
         }
 
         if (solved) { 
-            Texto.SetActive(true); 
+            Leer.SetActive(true); 
             Boton.SetActive(true); 
             
         }
         else { 
-            Texto.SetActive(false); 
+            Leer.SetActive(false); 
             Boton.SetActive(false);}
-        }
+    }
+
 
     public void shuffle() //Mezcla las tiles automaticamente
     {
