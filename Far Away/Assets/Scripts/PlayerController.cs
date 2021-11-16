@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     private string nextScene;
    
     Animator animator;
-    bool looksRight = true;
 
     // Start is called before the first frame update
     void Start()
@@ -27,15 +26,8 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
 
-        if(!Mathf.Approximately(horizontal, 0.0f)){
-            if(horizontal > 0) looksRight = true;
-            else if(horizontal < 0) looksRight = false;
-            
-        }
-
-        animator.SetBool("LookRight", looksRight);
         animator.SetFloat("Speed", horizontal);
-        Debug.Log("speed: " + horizontal);
+        //Debug.Log("speed: " + horizontal);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
         {

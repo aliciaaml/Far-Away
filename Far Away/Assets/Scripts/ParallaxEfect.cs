@@ -18,7 +18,7 @@ public class ParallaxEfect : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void FixedUpdate()
     {
         float deltaX = (cameraTransform.position.x - previousCameraPosition.x) * parallaxMultiplier;
         transform.Translate(new Vector3(deltaX, 0, 0));
