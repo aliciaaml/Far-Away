@@ -441,7 +441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &59014804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -729,8 +729,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4274792, y: 0.4198148}
   m_AnchorMax: {x: 0.5975208, y: 0.5278519}
-  m_AnchoredPosition: {x: 421.71, y: -198}
-  m_SizeDelta: {x: 249.565, y: 121.7555}
+  m_AnchoredPosition: {x: 296, y: -187}
+  m_SizeDelta: {x: -112.0627, y: -27.9288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408227531
 MonoBehaviour:
