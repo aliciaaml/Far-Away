@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel3Exterior.unity
     guid: c6f0c9387b572f247b81d0ec1d76bc47
+  - enabled: 1
+    path: Assets/Scenes/Casa2.unity
+    guid: f0cd8c8eb2689e249882652f5b41ae9b
+  - enabled: 1
+    path: Assets/Scenes/Casa3.unity
+    guid: e30ca4362412aef42be0ab2388b5a40f
+  - enabled: 1
+    path: Assets/Scenes/Minijuego2.unity
+    guid: 1e1a1edc674c2fa4ba0de9ebdffc908d
   m_configObjects: {}
