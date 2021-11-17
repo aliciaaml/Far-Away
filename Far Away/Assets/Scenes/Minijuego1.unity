@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mov: {fileID: 964578155}
-  velocidad: 0.005
+  velocidad: 0.015
   sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
   sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
   Flecha: {fileID: 1723857746}
@@ -1695,7 +1695,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a8d72380727da478eb83bd3139c3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 0.005
+  velocidad: 0.015
   sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
   sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
   Flecha: {fileID: 531133791}
@@ -2596,7 +2596,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2616,7 +2616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mov: {fileID: 964578155}
-  velocidad: 0.005
+  velocidad: 0.015
   sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
   sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
   Flecha: {fileID: 538865581}
@@ -3097,7 +3097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mov: {fileID: 964578155}
-  velocidad: 0.005
+  velocidad: 0.015
   sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
   sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
   Flecha: {fileID: 969194266}
@@ -3424,7 +3424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mov: {fileID: 964578155}
-  velocidad: 0.005
+  velocidad: 0.015
   sound_engranajes: {fileID: 8300000, guid: 23624d8fa802636479018ffeaa26a26a, type: 3}
   sound_correcto: {fileID: 8300000, guid: 43c6459a82ec50c40a586f98dd334fea, type: 3}
   Flecha: {fileID: 1281498409}
