@@ -18,7 +18,7 @@ public class TileMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //shuffle(); //Para verificar el pop up comentad esto, moved unas pocas piezas y volvedlas a poner bien
+        shuffle(); //Para verificar el pop up comentad esto, moved unas pocas piezas y volvedlas a poner bien
         camera = Camera.main;
 
         Texto.SetActive(false);
