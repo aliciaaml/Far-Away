@@ -30,7 +30,9 @@ public class wire : MonoBehaviour
 
     private void OnMouseUp()
     {
-        
+        // Reseteamos la posición del ratón al levantar
+
+        UpdateWire(StartPos);
     }
 
     void UpdateWire(Vector3 MousePos)
