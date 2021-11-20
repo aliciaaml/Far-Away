@@ -230,7 +230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable
+      value: Cable Verde
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -360,7 +360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable (3)
+      value: Cable Negro
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -498,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable (3)
+      value: Cable Negro
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -671,7 +671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable (1)
+      value: Cable Azul
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -931,7 +931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable (2)
+      value: Cable Rojo
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -1065,7 +1065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable (2)
+      value: Cable Rojo
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -1203,7 +1203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable (1)
+      value: Cable Azul
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
@@ -1301,7 +1301,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
-      value: Cable
+      value: Cable Verde
       objectReference: {fileID: 0}
     - target: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_RootOrder
