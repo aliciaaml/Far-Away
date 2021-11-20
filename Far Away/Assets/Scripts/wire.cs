@@ -37,6 +37,8 @@ public class wire : MonoBehaviour
                 if (gameObject.transform.parent.name.Equals(collider.transform.parent.name))        // Se comprueba que colisiona con el color adecuado
                 {
                     light.GetComponent<SpriteRenderer>().color = Color.green;
+
+                    Destroy(gameObject.GetComponent<wire>());
                 }
 
                 return;                                     // Para que el UpdateWire de abajo no se ejecute
