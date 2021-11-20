@@ -5,6 +5,7 @@ using UnityEngine;
 public class wire : MonoBehaviour
 {
     public SpriteRenderer WireEnd;
+    public GameObject light;
 
     Vector3 StartParentPos;
     Vector3 StartPos;
@@ -32,6 +33,12 @@ public class wire : MonoBehaviour
             if (collider.gameObject != gameObject)          // comprueba que e collider no pertenece al gameobject
             {
                 UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
+
+                if (gameObject.transform.parent.name.Equals(collider.transform.parent.name))        // Se comprueba que colisiona con el color adecuado
+                {
+                    light.GetComponent<SpriteRenderer>().color = Color.green;
+                }
+
                 return;                                     // Para que el UpdateWire de abajo no se ejecute
             }
         }
