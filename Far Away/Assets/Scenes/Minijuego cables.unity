@@ -205,6 +205,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &395554770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625516017, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+  m_PrefabInstance: {fileID: 2082634524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &424145602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -228,6 +233,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2133737489, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+      propertyPath: light
+      value: 
+      objectReference: {fileID: 1625516017}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
       value: Cable Verde
@@ -449,6 +458,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
   m_PrefabInstance: {fileID: 711896536}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &915560301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625516017, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+  m_PrefabInstance: {fileID: 711896536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &995823818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,6 +510,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2133737489, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+      propertyPath: light
+      value: 
+      objectReference: {fileID: 915560301}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
       value: Cable Negro
@@ -586,6 +604,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
   m_PrefabInstance: {fileID: 995823818}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1103651406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625516017, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+  m_PrefabInstance: {fileID: 1288492815}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1154958824
 GameObject:
@@ -929,6 +952,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2133737489, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+      propertyPath: light
+      value: 
+      objectReference: {fileID: 395554770}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
       value: Cable Rojo
@@ -1019,6 +1046,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4038882881667757869, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
   m_PrefabInstance: {fileID: 1538990447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1625516017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625516017, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+  m_PrefabInstance: {fileID: 2948135045837204879}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2082634524
 PrefabInstance:
@@ -1201,6 +1233,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2133737489, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
+      propertyPath: light
+      value: 
+      objectReference: {fileID: 1103651406}
     - target: {fileID: 2310021382461346908, guid: 9a2d83e415a6d594595477d6687057ba, type: 3}
       propertyPath: m_Name
       value: Cable Azul
