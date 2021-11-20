@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1412244500937958295}
   - component: {fileID: 1412244500937958315}
   - component: {fileID: 1412244500937958292}
-  - component: {fileID: 8281356407014273929}
+  - component: {fileID: 13680730}
   m_Layer: 0
   m_Name: personaje
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1412244500937958288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.72, y: -2.1537, z: 0}
-  m_LocalScale: {x: 0.32801905, y: 0.32801905, z: 0.32801905}
+  m_LocalScale: {x: 0.4193723, y: 0.4193723, z: 0.4193723}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2994365519953458730, guid: 639443ef72d21ba488357d2072e89585, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -146,7 +146,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7463455, y: 6.7875977}
   m_EdgeRadius: 0
---- !u!95 &8281356407014273929
+--- !u!95 &13680730
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
