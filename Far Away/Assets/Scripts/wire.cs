@@ -6,6 +6,7 @@ public class wire : MonoBehaviour
 {
     public SpriteRenderer WireEnd;
     public GameObject light;
+    public static int contador;
 
     Vector3 StartParentPos;
     Vector3 StartPos;
@@ -15,6 +16,8 @@ public class wire : MonoBehaviour
     {
         StartParentPos = gameObject.transform.parent.position;
         StartPos = gameObject.transform.position;
+
+        contador = 0;
     }
 
     // Update is called once per frame
@@ -38,7 +41,14 @@ public class wire : MonoBehaviour
                 {
                     light.GetComponent<SpriteRenderer>().color = Color.green;
 
+                    contador += 1;
+
                     Destroy(gameObject.GetComponent<wire>());
+
+                    if (contador == 4)
+                    {
+                        Debug.Log("Minijuego completado");
+                    }
                 }
 
                 return;                                     // Para que el UpdateWire de abajo no se ejecute
