@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Wire : MonoBehaviour
 {
+    Vector3 StartPos;
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartPos = gameObject.transform.parent.position;
     }
 
     // Update is called once per frame
@@ -21,5 +22,10 @@ public class Wire : MonoBehaviour
         // Actuaizar posición del objeto
 
         gameObject.transform.position = MousePos;
+
+        // Actualizar dirección
+
+        Vector3 Direction = MousePos - StartPos;
+        gameObject.transform.right = Direction;
     }
 }
