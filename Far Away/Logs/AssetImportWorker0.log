@@ -962,3 +962,495 @@ Received Import Request.
 Start importing Assets/Scripts/wire.cs using Guid(e4d6068ae63f1f3409306695669e65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d99257b520a4a750b0f89bc37ff8709') in 0.006386 seconds
   Import took 0.011075 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 3.656400 ms (FindLiveObjects: 0.518400 ms CreateObjectMapping: 0.187900 ms MarkObjects: 2.919600 ms  DeleteObjects: 0.028700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.539905 seconds.
+  path: Assets/Art/Placeholder cables.png
+  artifactKey: Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cables.png using Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4972e3cbb385484536410db61b16eb5d') in 0.080509 seconds
+  Import took 0.085659 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.466 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 2.975800 ms (FindLiveObjects: 0.276600 ms CreateObjectMapping: 0.119500 ms MarkObjects: 2.557100 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.563852 seconds.
+  path: Assets/Art/Placeholder cables.png
+  artifactKey: Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cables.png using Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cda3b237ed0bfbfa13deddc912db36b') in 0.060583 seconds
+  Import took 0.064912 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2856.
+Total: 2.894200 ms (FindLiveObjects: 0.242200 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.519000 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2860.
+Total: 3.528400 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.118100 ms MarkObjects: 3.041000 ms  DeleteObjects: 0.023100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.691029 seconds.
+  path: Assets/Art/Placeholder cables.png
+  artifactKey: Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cables.png using Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83783746f3b8e0e942ff386afa2fd457') in 0.072013 seconds
+  Import took 0.078374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.995517 seconds.
+  path: Assets/Art/Placeholder cable.png
+  artifactKey: Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable.png using Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b822cf16fae843e1eb164c84f1bf7f1a') in 0.015459 seconds
+  Import took 0.020593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004040 seconds.
+  path: Assets/Art/Placeholder cable.png
+  artifactKey: Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable.png using Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b822cf16fae843e1eb164c84f1bf7f1a') in 0.010875 seconds
+  Import took 0.015122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.418733 seconds.
+  path: Assets/Art/Placeholder cable 1.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable 1.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f38e66192032efa7106261acd68d7') in 0.017486 seconds
+  Import took 0.022420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007308 seconds.
+  path: Assets/Art/Placeholder cable 1.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable 1.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f38e66192032efa7106261acd68d7') in 0.010721 seconds
+  Import took 0.014781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.735516 seconds.
+  path: Assets/Art/Placeholder cable final.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57dc94f486e4b064a42101d60cb2f3f') in 0.017402 seconds
+  Import took 0.023668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001947 seconds.
+  path: Assets/Art/Placeholder cable final.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57dc94f486e4b064a42101d60cb2f3f') in 0.011064 seconds
+  Import took 0.015339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.127606 seconds.
+  path: Assets/Art/Placeholder cable final 1.png
+  artifactKey: Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final 1.png using Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06f2ffa1dbe7e95ec0121f98c6f8128') in 0.018012 seconds
+  Import took 0.022443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002582 seconds.
+  path: Assets/Art/Placeholder cable final 1.png
+  artifactKey: Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final 1.png using Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06f2ffa1dbe7e95ec0121f98c6f8128') in 0.010732 seconds
+  Import took 0.014731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.198084 seconds.
+  path: Assets/Art/Placeholder cable interior.png
+  artifactKey: Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable interior.png using Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bac696d1fdf40f7ce9f65a4c184bd87') in 0.016792 seconds
+  Import took 0.021380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003336 seconds.
+  path: Assets/Art/Placeholder cable interior.png
+  artifactKey: Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable interior.png using Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bac696d1fdf40f7ce9f65a4c184bd87') in 0.010115 seconds
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.1 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2865.
+Total: 2.800400 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.097400 ms MarkObjects: 2.428300 ms  DeleteObjects: 0.020500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.385228 seconds.
+  path: Assets/Art/Placeholder cable interior.png
+  artifactKey: Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable interior.png using Guid(8600c4b2d6838cc439a0a151ce91f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe649b6db0431bc9d0cba9728d550cf') in 0.057559 seconds
+  Import took 0.061873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.525291 seconds.
+  path: Assets/Art/Placeholder cable.png
+  artifactKey: Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable.png using Guid(eddcc8a9106c6f0428013940ea9b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecd6512b1ade7d0e9361b7642561efd') in 0.014066 seconds
+  Import took 0.019217 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2870.
+Total: 2.732800 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.101300 ms MarkObjects: 2.349900 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 2.713200 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.101800 ms MarkObjects: 2.335600 ms  DeleteObjects: 0.020100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2878.
+Total: 3.322300 ms (FindLiveObjects: 0.285800 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.872500 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.310340 seconds.
+  path: Assets/Art/Placeholder cable final.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab0a9cab4f2ba8b50ca0393bfb31e41') in 0.059770 seconds
+  Import took 0.064871 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.266 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2883.
+Total: 5.003100 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.206300 ms MarkObjects: 4.317400 ms  DeleteObjects: 0.042500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.640356 seconds.
+  path: Assets/Art/Placeholder cable final.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494697961b00b6b859b3b996dc0ebd14') in 0.090117 seconds
+  Import took 0.095768 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2888.
+Total: 2.736500 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.368600 ms  DeleteObjects: 0.020100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.633786 seconds.
+  path: Assets/Art/Placeholder cable final.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c654eb43a1173bd885e994a53ccd9cf1') in 0.059080 seconds
+  Import took 0.063566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156492 seconds.
+  path: Assets/Art/Placeholder cable final.png
+  artifactKey: Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Placeholder cable final.png using Guid(e2c798c8f8a67d049a821d2403ca028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c654eb43a1173bd885e994a53ccd9cf1') in 0.010952 seconds
+  Import took 0.015338 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2893.
+Total: 3.160100 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.123400 ms MarkObjects: 2.713800 ms  DeleteObjects: 0.023100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2897.
+Total: 3.070900 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.673300 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2901.
+Total: 2.975300 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.121500 ms MarkObjects: 2.528100 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2905.
+Total: 3.049600 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.673500 ms  DeleteObjects: 0.021200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2909.
+Total: 3.339200 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.116700 ms MarkObjects: 2.845800 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2913.
+Total: 3.086200 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.105600 ms MarkObjects: 2.683800 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.436 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 2.770000 ms (FindLiveObjects: 0.280700 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.341100 ms  DeleteObjects: 0.022400 ms)
+
