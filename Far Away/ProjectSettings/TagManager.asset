@@ -8,6 +8,7 @@ TagManager:
   - pos_correcta1
   - Puerta
   - Objeto
+  - "Se\xF1al"
   layers:
   - Default
   - TransparentFX
