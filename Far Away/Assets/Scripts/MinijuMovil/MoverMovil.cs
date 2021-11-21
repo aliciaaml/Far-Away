@@ -5,9 +5,13 @@ using UnityEngine.EventSystems;
 
 public class MoverMovil : MonoBehaviour, IDragHandler
 {
+
+     Rigidbody2D rigidbody2d;
+
     // Start is called before the first frame update
     void Start()
     {
+        rigidbody2d = GetComponent<Rigidbody2D>();
         
     }
 
@@ -19,6 +23,12 @@ public class MoverMovil : MonoBehaviour, IDragHandler
 
     public void OnDrag(PointerEventData data){
 
-        transform.position=data.position;
+        //transform.position=data.position;
+
+        Vector2 position = rigidbody2d.position;
+        
+        position=data.position;
+
+        rigidbody2d.MovePosition(position);
     }
 }

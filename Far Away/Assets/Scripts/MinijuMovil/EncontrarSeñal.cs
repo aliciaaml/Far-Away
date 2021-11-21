@@ -8,8 +8,6 @@ public class EncontrarSeñal : MonoBehaviour
 
     public Image Imagen;
 
-    public Collider2D Señal;
-
 
     void Start(){
         
@@ -19,7 +17,9 @@ public class EncontrarSeñal : MonoBehaviour
 
     void Update(){
 
-        if(MonoBehaviour.OnTriggerEnter2D(Collider2D Señal)){
+        Vector3 mousePos = Input.mousePosition;
+
+        if((mousePos.x<154 && mousePos.x>=-42.22) && (transform.position.y>=156 && transform.position.y<218.24) ){
 
             Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_con_señal");
             Debug.Log("SEÑAL");
@@ -30,21 +30,7 @@ public class EncontrarSeñal : MonoBehaviour
             Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_sin_señal");
             Debug.Log("NO SEÑAL");
         }
-                
-      
+                 
 
     }
-    /*void OnTriggerEnter2D(Collider2D coll){
- 
-            
-            colision+=1;
-
-            if(señal==false){
-                Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_con_señal");
-                señal=true;
-                colision=0;
-                Debug.Log("SEÑAL");
-            }      
-            
-    }*/
 }
