@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 5
 --- !u!61 &91934825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -549,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 8
 --- !u!61 &346144523
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -672,6 +674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 4
 --- !u!61 &451561389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -795,6 +798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 6
 --- !u!61 &580816218
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -918,6 +922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 7
 --- !u!61 &588146453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1342,6 +1347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 2
 --- !u!61 &1016455752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1548,6 +1554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 1
 --- !u!61 &1059012708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1702,6 +1709,7 @@ MonoBehaviour:
   - {fileID: 580816217}
   - {fileID: 588146452}
   - {fileID: 346144522}
+  - {fileID: 0}
   Texto: {fileID: 1654079530}
   Boton: {fileID: 663270633}
   Leer: {fileID: 607349424}
@@ -2182,6 +2190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 0, y: 0, z: 0}
+  num: 3
 --- !u!61 &2087753469
 BoxCollider2D:
   m_ObjectHideFlags: 0

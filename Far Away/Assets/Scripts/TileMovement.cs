@@ -15,6 +15,8 @@ public class TileMovement : MonoBehaviour
     private bool solved;
     private int contador;
 
+    private int EmptyTileIndex = 8;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +43,11 @@ public class TileMovement : MonoBehaviour
                     TileSmooth tile = hit.transform.GetComponent<TileSmooth>();
                     EmptyTile.position = tile.targetPos;
                     tile.targetPos = auxEmptyPos;
+
+                    int tileIndex = findIndex(tile);
+                    tiles[EmptyTileIndex] = tiles[tileIndex];
+                    tiles[tileIndex] = null;
+                    EmptyTileIndex = tileIndex;
                 }
             }
         }
@@ -69,12 +76,78 @@ public class TileMovement : MonoBehaviour
 
     public void shuffle() //Mezcla las tiles automaticamente
     {
-        for (int i = 0; i < 8; i++)
+
+        int inversion;
+
+        if (EmptyTileIndex != 8)
         {
-            var lastPos = tiles[i].targetPos;
-            int randomI = Random.Range(0, 7);
-            tiles[i].targetPos = tiles[randomI].targetPos;
-            tiles[randomI].targetPos = lastPos;
+            var tile8Aux = tiles[8].targetPos;
+            tiles[8].targetPos = EmptyTile.position;
+            EmptyTile.position = tile8Aux;
+
+            tiles[EmptyTileIndex] = tiles[8];
+            tiles[8] = null;
+
+            EmptyTileIndex = 8;
         }
+
+        do
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                var lastPos = tiles[i].targetPos;
+                int randomI = Random.Range(0, 7);
+                tiles[i].targetPos = tiles[randomI].targetPos;
+                tiles[randomI].targetPos = lastPos;
+                var tile = tiles[i];
+                tiles[i] = tiles[randomI];
+                tiles[randomI] = tile;
+            }
+
+            inversion = Inversions();
+            Debug.Log("Suffled");
+
+        } while (inversion % 2 != 0);
+    }
+
+    public int findIndex(TileSmooth ts)
+    {
+        for (int i = 0; i < tiles.Length; i++)
+        {
+            if (tiles[i] != null)
+            {
+                if (tiles[i] == ts)
+                {
+                    return i;
+                }
+            }
+        }
+
+        return -1;
+    }
+
+    int Inversions()                                // Comprueba que no haya tiles más grandes por debajo de un atile dada
+    {
+        int inversionsSUM = 0;
+
+        for (int i = 0; i < tiles.Length; i++)
+        {
+            int thisInversion = 0;
+
+            for (int j = i; j < tiles.Length; j++)
+            {
+                if (tiles[j] != null)
+                {
+                    if (tiles[i].num > tiles[j].num)        
+                    {
+                        thisInversion ++;
+                    }
+                }
+            }
+
+            inversionsSUM += thisInversion;
+        }
+
+        return inversionsSUM;                       // Si es par es resolvible // Si es impar es imposible (en principio xd)
     }
 }

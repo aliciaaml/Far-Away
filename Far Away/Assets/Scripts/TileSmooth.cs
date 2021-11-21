@@ -7,6 +7,9 @@ public class TileSmooth : MonoBehaviour
     public Vector3 targetPos;
     private Vector3 correctPos;
     private SpriteRenderer sprite;
+
+    public int num;
+
     // Start is called before the first frame update
     void Awake() //Awake para que se guarden las posiciones antes del start del shuffle
     {
