@@ -277,7 +277,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -2.2259521}
+  m_Offset: {x: -758.2908, y: -2.2259521}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -288,7 +288,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 97.650024, y: 1073.5054}
+  m_Size: {x: 1614.2314, y: 1073.5054}
   m_EdgeRadius: 0
 --- !u!222 &176926226
 CanvasRenderer:
@@ -499,7 +499,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000030517578, y: 1.6514893}
+  m_Offset: {x: 749.9881, y: 1.6514893}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -510,7 +510,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 100.09442, y: 1074.5217}
+  m_Size: {x: 1600.0707, y: 1074.5217}
   m_EdgeRadius: 0
 --- !u!222 &313284982
 CanvasRenderer:
@@ -636,7 +636,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000030517578, y: 1.6514893}
+  m_Offset: {x: -260.1436, y: -212.35791}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -647,7 +647,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 100.09442, y: 1074.5217}
+  m_Size: {x: 620.3814, y: 3619.4995}
   m_EdgeRadius: 0
 --- !u!222 &1368764299
 CanvasRenderer:
@@ -707,7 +707,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000030517578, y: 1.6514893}
+  m_Offset: {x: 332.09805, y: 51.466187}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -718,7 +718,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 100.09442, y: 1074.5217}
+  m_Size: {x: 764.2906, y: 2247.9348}
   m_EdgeRadius: 0
 --- !u!222 &2117641340
 CanvasRenderer:
