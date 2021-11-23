@@ -997,7 +997,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: sceneName
-      value: Minijuego1
+      value: Casa4
       objectReference: {fileID: 0}
     - target: {fileID: 6568288032104938577, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: m_Name
