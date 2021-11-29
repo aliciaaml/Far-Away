@@ -6,6 +6,7 @@ public class Tablones : MonoBehaviour
 { 
     public SpriteRenderer Tablon;
     public static int contador;
+    [SerializeField] private GameObject[] tablones;
 
     Vector3 StartPos;
 
@@ -30,7 +31,7 @@ public class Tablones : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
         foreach (Collider2D collider in colliders)
         {
-            if (collider.transform.parent.parent.name.Equals("PosicionesCorrectas"))          // comprueba que e collider no pertenece al gameobject
+            if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasVentana") && gameObject.transform.parent.parent.name.Equals("SpritesVentana")) 
             {
                 UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
 
@@ -43,10 +44,29 @@ public class Tablones : MonoBehaviour
                 {
                     Debug.Log("Minijuego completado");
                 }
-                
+
 
                 return;                                     // Para que el UpdateWire de abajo no se ejecute
             }
+
+            else if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasPuerta") && gameObject.transform.parent.parent.name.Equals("SpritesPuerta"))
+            {
+                UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
+
+                contador += 1;
+
+                Destroy(gameObject.GetComponent<Tablones>());
+                Destroy(collider);
+
+                if (contador == 8)
+                {
+                    Debug.Log("Minijuego completado");
+                }
+
+
+                return;                                     // Para que el UpdateWire de abajo no se ejecute
+            }
+
         }
 
         UpdateWire(MousePos);
