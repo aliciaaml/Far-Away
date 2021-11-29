@@ -7,6 +7,8 @@ public class Tablones : MonoBehaviour
     public SpriteRenderer Tablon;
     public static int contador;
 
+    [SerializeField] private GameObject[] tablones;
+
     Vector3 StartParentPos;
     Vector3 StartPos;
 
@@ -27,7 +29,7 @@ public class Tablones : MonoBehaviour
         Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
 
-        // Cmporbar si esta cerca de algun cable para hacer un snap
+        // Cmporbar si esta cerca de algun tablon para hacer un snap
 
         Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
         foreach (Collider2D collider in colliders)
@@ -36,7 +38,7 @@ public class Tablones : MonoBehaviour
             {
                 UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
 
-                if (collider.transform.parent.name.Equals(gameObject.transform.parent.name))        // Se comprueba que colisiona con el color adecuado
+                if (collider.transform.position == gameObject.transform.position)      // Se comprueba que colisiona con el color adecuado
                 {
 
                     contador += 1;

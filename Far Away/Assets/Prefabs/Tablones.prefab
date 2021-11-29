@@ -158,7 +158,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a33a5c26474884447b2611cd67df4d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tablon: {fileID: 0}
+  Tablon: {fileID: 3260731939866738355}
+  tablones:
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
+  - {fileID: 5876580495830544129}
 --- !u!61 &8144363228365983287
 BoxCollider2D:
   m_ObjectHideFlags: 0

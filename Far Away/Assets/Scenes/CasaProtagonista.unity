@@ -175,9 +175,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-      propertyPath: Tablon
+      propertyPath: tablones.Array.data[0]
       value: 
-      objectReference: {fileID: 1066998564}
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon1
@@ -188,6 +212,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
   m_PrefabInstance: {fileID: 15904638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &53075769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 893699068}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &101371367
 GameObject:
@@ -326,6 +355,34 @@ PrefabInstance:
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 870004593}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon7
@@ -580,6 +637,34 @@ PrefabInstance:
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 1502948216}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon2
@@ -728,6 +813,34 @@ PrefabInstance:
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 2106447832}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon6
@@ -953,6 +1066,34 @@ PrefabInstance:
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 1112338957}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon4
@@ -1046,16 +1187,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &952070315 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-  m_PrefabInstance: {fileID: 4447978279575906818}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &1066998564 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-  m_PrefabInstance: {fileID: 15904638}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1076316635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1195,6 +1326,16 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
   m_PrefabInstance: {fileID: 893699068}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1167738234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 427323573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1273180213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 15904638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1353687230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,6 +1428,34 @@ PrefabInstance:
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 1829850805}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon5
@@ -1365,6 +1534,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
   m_PrefabInstance: {fileID: 1609678600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1677730183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 1516218308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1708908922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1437,6 +1611,11 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
   m_PrefabInstance: {fileID: 1516218308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1865668898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 178748697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1942108331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1492,6 +1671,34 @@ PrefabInstance:
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 773613298}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon3
@@ -1502,6 +1709,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
   m_PrefabInstance: {fileID: 1942108331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1965090107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 4447978279575906818}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2022524764
 PrefabInstance:
@@ -1569,6 +1781,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
   m_PrefabInstance: {fileID: 2022524764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2056991809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 281212307}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2057285662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+  m_PrefabInstance: {fileID: 1942108331}
   m_PrefabAsset: {fileID: 0}
 --- !u!212 &2106447832 stripped
 SpriteRenderer:
@@ -1665,24 +1887,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-      propertyPath: Tablon
+      propertyPath: tablones.Array.data[1]
       value: 
-      objectReference: {fileID: 952070315}
+      objectReference: {fileID: 1273180213}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-      propertyPath: tablones
+      propertyPath: tablones.Array.data[2]
       value: 
-      objectReference: {fileID: 279425969}
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8144363228365983287, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-      propertyPath: m_Size.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8144363228365983287, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
-      propertyPath: m_Size.y
-      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
