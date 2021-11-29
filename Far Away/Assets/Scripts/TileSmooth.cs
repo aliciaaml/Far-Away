@@ -9,6 +9,7 @@ public class TileSmooth : MonoBehaviour
     private SpriteRenderer sprite;
 
     public int num;
+    public bool inRightPlace;
 
     // Start is called before the first frame update
     void Awake() //Awake para que se guarden las posiciones antes del start del shuffle
@@ -26,10 +27,12 @@ public class TileSmooth : MonoBehaviour
         if (targetPos == correctPos)            //Si estan en la posicion correcta se pintan de verde, si no de blanco
         {
             sprite.color = Color.green;
+            inRightPlace = true;
         }
         else
         {
             sprite.color = Color.white;
+            inRightPlace = false;
         }
 
     }

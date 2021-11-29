@@ -52,27 +52,29 @@ public class TileMovement : MonoBehaviour
             }
         }
 
-        // Comprueba que todos las tiles son verdes (posicion corecta) y activa el pop up
-        for (int i = 0; i < 8; i++)
+        int correctTiles = 0;
+        foreach (var a in tiles)
         {
-            if (tiles[i].GetComponent<SpriteRenderer>().color == Color.green)
+            if (a != null)
             {
-                contador += 1;
+                if (a.inRightPlace)
+                {
+                    correctTiles++;
+                }
             }
-            else { contador = 0; solved = false; }
-            if (contador == 8) { solved = true; }
+        }
+        if (correctTiles == tiles.Length-1)
+        {
+            Leer.SetActive(true);
+            Boton.SetActive(true);
+        }
+        else
+        {
+            Leer.SetActive(false);
+            Boton.SetActive(false);
         }
 
-        if (solved) { 
-            Leer.SetActive(true); 
-            Boton.SetActive(true); 
-            
-        }
-        else { 
-            Leer.SetActive(false); 
-            Boton.SetActive(false);}
     }
-
 
     public void shuffle() //Mezcla las tiles automaticamente
     {
