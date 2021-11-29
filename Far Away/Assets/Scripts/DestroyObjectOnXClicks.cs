@@ -5,6 +5,7 @@ public class DestroyObjectOnXClicks : MonoBehaviour
     [SerializeField] int clicks;
     [SerializeField] GameObject destroyObject;
     [SerializeField] GameObject objectShows;
+    public Timer timer;
 
     int contador;
     private void Start()
@@ -16,11 +17,15 @@ public class DestroyObjectOnXClicks : MonoBehaviour
 
     private void OnMouseDown()
     {
-        contador += 1;
-        if (contador == clicks)
+        if (timer.timerIsRunning)
         {
-            destroyObject.SetActive(false);
-            objectShows.SetActive(true);
+            contador += 1;
+            if (contador == clicks)
+            {
+                destroyObject.SetActive(false);
+                objectShows.SetActive(true);
+            }
         }
+        
     }
 }

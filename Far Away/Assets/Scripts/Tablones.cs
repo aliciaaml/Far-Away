@@ -4,9 +4,11 @@ public class Tablones : MonoBehaviour
 { 
     public SpriteRenderer Tablon;
     public static int contador;
+
     [SerializeField] private GameObject[] tablones;
     [SerializeField] private GameObject mesa;
     [SerializeField] private GameObject silla;
+    [SerializeField] private Timer timer;
 
     Vector3 StartPos;
 
@@ -21,17 +23,17 @@ public class Tablones : MonoBehaviour
     // Update is called once per frame
     void OnMouseDrag()
     {
-        // Posición del ratón
-
-        Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
-
-        // Cmporbar si esta cerca de algun cable para hacer un snap
-
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
-
-        if (!mesa.activeSelf && !silla.activeSelf)
+        if (!mesa.activeSelf && !silla.activeSelf && timer.timerIsRunning)
         {
+            // Posición del ratón
+
+            Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
+
+            // Cmporbar si esta cerca de algun cable para hacer un snap
+
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
+
             foreach (Collider2D collider in colliders)
             {
                 if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasVentana") && gameObject.transform.parent.parent.name.Equals("SpritesVentana"))
@@ -46,6 +48,7 @@ public class Tablones : MonoBehaviour
                     if (contador == 8)
                     {
                         Debug.Log("Minijuego completado");
+                        timer.timerIsRunning = false;
                     }
 
 
@@ -64,8 +67,8 @@ public class Tablones : MonoBehaviour
                     if (contador == 8)
                     {
                         Debug.Log("Minijuego completado");
+                        timer.timerIsRunning = false;
                     }
-
 
                     return;                                     // Para que el UpdateWire de abajo no se ejecute
                 }
@@ -74,8 +77,6 @@ public class Tablones : MonoBehaviour
 
             UpdateWire(MousePos);
         }
-        
-
     }
 
     
