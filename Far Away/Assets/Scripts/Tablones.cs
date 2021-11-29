@@ -32,11 +32,11 @@ public class Tablones : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
         foreach (Collider2D collider in colliders)
         {
-            if (collider.gameObject != gameObject)          // comprueba que e collider no pertenece al gameobject
+            if (collider.gameObject != gameObject)          // comprueba que el collider no pertenece al gameobject
             {
                 UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
 
-                if (gameObject.transform.parent.name.Equals(collider.transform.parent.name))        // Se comprueba que colisiona con el color adecuado
+                if (collider.transform.parent.name.Equals(gameObject.transform.parent.name))        // Se comprueba que colisiona con el color adecuado
                 {
 
                     contador += 1;
@@ -56,13 +56,14 @@ public class Tablones : MonoBehaviour
         UpdateWire(MousePos);
 
     }
-
+    /*
     private void OnMouseUp()
     {
         // Reseteamos la posición del ratón al levantar
 
         UpdateWire(StartPos);
-    }
+    } 
+    */
 
     void UpdateWire(Vector3 MousePos)
     {
