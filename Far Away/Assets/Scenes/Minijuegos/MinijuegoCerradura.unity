@@ -2900,6 +2900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto: {fileID: 1262442023}
   cuadro_dialogo: {fileID: 68204903}
+  flecha_dialogo: {fileID: 1861953787}
   fondo: {fileID: 1673110882}
   boton_x: {fileID: 294951719}
   base_c: {fileID: 967040412}
