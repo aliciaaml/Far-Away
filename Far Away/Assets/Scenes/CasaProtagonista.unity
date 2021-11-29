@@ -532,6 +532,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon7
@@ -907,6 +939,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: 'Tablon4 '
@@ -1242,6 +1306,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon1
@@ -1309,6 +1405,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon5
@@ -1522,6 +1650,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon2
@@ -1594,6 +1754,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon3
@@ -1770,6 +1962,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon6
@@ -1992,6 +2216,38 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.21960786
       objectReference: {fileID: 0}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[0]
+      value: 
+      objectReference: {fileID: 1965090107}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[1]
+      value: 
+      objectReference: {fileID: 1273180213}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056991809}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2057285662}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[4]
+      value: 
+      objectReference: {fileID: 53075769}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[5]
+      value: 
+      objectReference: {fileID: 1677730183}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[6]
+      value: 
+      objectReference: {fileID: 1167738234}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: tablones.Array.data[7]
+      value: 
+      objectReference: {fileID: 1865668898}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon0
