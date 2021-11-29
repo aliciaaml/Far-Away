@@ -330,3 +330,135 @@ Received Import Request.
 Start importing Assets/Scenes/CasaProtagonista.unity using Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5adf8aaf551c39e193702b1936bb6b') in 0.003867 seconds
   Import took 0.007994 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 337.043657 seconds.
+  path: Assets/Scenes/Minijuego cables.unity
+  artifactKey: Guid(21d0d687ee05bcc4f99639b5f7eae8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Minijuego cables.unity using Guid(21d0d687ee05bcc4f99639b5f7eae8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb58d5379fe780d95f55f86b56ca0573') in 0.015273 seconds
+  Import took 0.023802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.298656 seconds.
+  path: Assets/Scenes/CasaProtagonista.unity
+  artifactKey: Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CasaProtagonista.unity using Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabbc25c7a5c509f47a4b608681f336') in 0.012018 seconds
+  Import took 0.024102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.406930 seconds.
+  path: Assets/Prefabs/pared.prefab
+  artifactKey: Guid(d0a6f1ba429655a48b0b358bfb0a8d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pared.prefab using Guid(d0a6f1ba429655a48b0b358bfb0a8d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903814664f2ff9a90dde165b883282b1') in 0.029253 seconds
+  Import took 0.035316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/poste.prefab
+  artifactKey: Guid(00fb9f6d7165d0d4892ecff949124f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/poste.prefab using Guid(00fb9f6d7165d0d4892ecff949124f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35917bbd36e38b9716aa61e9cb1093a8') in 0.058203 seconds
+  Import took 0.063457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Prefabs/personaje.prefab
+  artifactKey: Guid(f11073a7fbae2c44ba8b3756b0ab661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/personaje.prefab using Guid(f11073a7fbae2c44ba8b3756b0ab661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad8b8bccf2b9b28d0f8d47bcf120db7') in 0.025809 seconds
+  Import took 0.032191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Prefabs/Wire.prefab
+  artifactKey: Guid(9a2d83e415a6d594595477d6687057ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wire.prefab using Guid(9a2d83e415a6d594595477d6687057ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412180c08dd2e279b99e5e75de73221a') in 0.021775 seconds
+  Import took 0.027116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Prefabs/personaje.prefab
+  artifactKey: Guid(f11073a7fbae2c44ba8b3756b0ab661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/personaje.prefab using Guid(f11073a7fbae2c44ba8b3756b0ab661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad8b8bccf2b9b28d0f8d47bcf120db7') in 0.013004 seconds
+  Import took 0.018660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Prefabs/UI.prefab
+  artifactKey: Guid(74484d9c9be061144a4ed3dca7955e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI.prefab using Guid(74484d9c9be061144a4ed3dca7955e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970669b54487117d6c32384681a7c4ff') in 0.028553 seconds
+  Import took 0.033549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefabs/posteTripleFront.prefab
+  artifactKey: Guid(59ee3c14d82073f46b4469e027be58ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/posteTripleFront.prefab using Guid(59ee3c14d82073f46b4469e027be58ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb52f652918ac8ef5a16d1679e3cdb35') in 0.035079 seconds
+  Import took 0.039566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.844864 seconds.
+  path: Assets/Prefabs/Tablones.prefab
+  artifactKey: Guid(7632efd786a9b6d47a48d3866d5c2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tablones.prefab using Guid(7632efd786a9b6d47a48d3866d5c2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6a491c2dde9a89d4c04ccb1b3fb09b') in 0.016661 seconds
+  Import took 0.021475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.807663 seconds.
+  path: Assets/Scenes/CasaProtagonista.unity
+  artifactKey: Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CasaProtagonista.unity using Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9e2a33407f17806ccb0df3d6dd729') in 0.003954 seconds
+  Import took 0.009217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/Scenes/CasaProtagonista.unity
+  artifactKey: Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CasaProtagonista.unity using Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9e2a33407f17806ccb0df3d6dd729') in 0.004124 seconds
+  Import took 0.008610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.898105 seconds.
+  path: Assets/Scripts/Tablones.cs
+  artifactKey: Guid(a33a5c26474884447b2611cd67df4d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tablones.cs using Guid(a33a5c26474884447b2611cd67df4d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd427a4cd6f045e4c2a94c4264ffe80a') in 0.003468 seconds
+  Import took 0.008278 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
+System memory in use after: 102.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 3.234800 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.808800 ms  DeleteObjects: 0.023900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.731573 seconds.
+  path: Assets/Scenes/CasaProtagonista.unity
+  artifactKey: Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CasaProtagonista.unity using Guid(2757844c44c056448baa0483320c2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b730d65740723dc1a0007768c4940d') in 0.019820 seconds
+  Import took 0.026612 seconds .
+
