@@ -7,7 +7,6 @@ public class Enabling : MonoBehaviour
 
     public GameObject texto;
     public GameObject cuadro_dialogo;
-    public GameObject flecha_dialogo;
     public GameObject fondo;
     public GameObject boton_x;
     public GameObject base_c;
@@ -22,7 +21,6 @@ public class Enabling : MonoBehaviour
         if (fondo.activeInHierarchy==false)
             texto.SetActive(false);
             cuadro_dialogo.SetActive(false);
-            flecha_dialogo.SetActive(false);
             fondo.SetActive(true);
 
         if (boton_x.activeInHierarchy==false)
