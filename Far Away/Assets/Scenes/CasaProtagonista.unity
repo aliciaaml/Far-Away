@@ -463,6 +463,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon7
@@ -769,6 +773,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: 'Tablon4 '
@@ -1057,6 +1065,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon1
@@ -1117,6 +1129,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
@@ -1275,6 +1291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
       value: Tablon2
@@ -1335,6 +1355,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
@@ -1459,6 +1483,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
@@ -1630,6 +1658,22 @@ PrefabInstance:
     - target: {fileID: 2285706337654830211, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21960786
       objectReference: {fileID: 0}
     - target: {fileID: 5876580495830544129, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: m_Name
