@@ -187,6 +187,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cd2f41e976a34704e9edcac976085004, type: 3}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: tablones.Array.data[0]
       value: 
       objectReference: {fileID: 1965090107}
@@ -403,6 +411,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 03ab15feaede00f44bf1b9ff3cfc2244, type: 3}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: Tablon
       value: 
@@ -750,6 +766,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: feb30572d1fab244bb517b788e8825eb, type: 3}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 1502948216}
@@ -834,6 +858,8 @@ GameObject:
   m_Component:
   - component: {fileID: 288841275}
   - component: {fileID: 288841274}
+  - component: {fileID: 288841276}
+  - component: {fileID: 288841277}
   m_Layer: 0
   m_Name: mesaProta
   m_TagString: Untagged
@@ -880,7 +906,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7f83198bb3c8fb54fae13eea97d40d42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -906,6 +932,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &288841276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288841273}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.19797564, y: 0.5411334}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.01, y: 4.64}
+    newSize: {x: 6.01, y: 4.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.614049, y: 3.188179}
+  m_EdgeRadius: 0
+--- !u!114 &288841277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288841273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8022288c742ce4b4eade5ab484e308c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clicks: 3
+  destroyObject: {fileID: 288841273}
+  objectShows: {fileID: 279425969}
 --- !u!1001 &427323573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -969,6 +1036,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a0d3929fb304add46b9c4a5ba958645b, type: 3}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: Tablon
       value: 
@@ -1149,6 +1224,8 @@ GameObject:
   m_Component:
   - component: {fileID: 699189711}
   - component: {fileID: 699189710}
+  - component: {fileID: 699189713}
+  - component: {fileID: 699189712}
   m_Layer: 0
   m_Name: sillaProta
   m_TagString: Untagged
@@ -1221,6 +1298,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &699189712
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699189709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.09011221, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.26, y: 5.79}
+    newSize: {x: 2.26, y: 5.79}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6392279, y: 5.79}
+  m_EdgeRadius: 0
+--- !u!114 &699189713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699189709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8022288c742ce4b4eade5ab484e308c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clicks: 3
+  destroyObject: {fileID: 699189709}
+  objectShows: {fileID: 1137842374}
 --- !u!212 &773613298 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3260731939866738355, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
@@ -1294,6 +1412,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 12c5b42983c1e7046bd4edc25067be96, type: 3}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: Tablon
       value: 
@@ -1831,6 +1957,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d798172b8d3ba9d4185b518c0e2ec7d2, type: 3}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 1829850805}
@@ -2186,6 +2320,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37c0f170c31ac2141b8d362f10aed6ce, type: 3}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: Tablon
       value: 
       objectReference: {fileID: 773613298}
@@ -2472,6 +2614,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 574de4dfe5e6fea4594cb286c0099cc9, type: 3}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: mesa
+      value: 
+      objectReference: {fileID: 288841273}
+    - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
+      propertyPath: silla
+      value: 
+      objectReference: {fileID: 699189709}
     - target: {fileID: 4447978279575906821, guid: 7632efd786a9b6d47a48d3866d5c2835, type: 3}
       propertyPath: tablones.Array.data[1]
       value: 
