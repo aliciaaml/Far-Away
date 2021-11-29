@@ -162,3 +162,24 @@ Received Import Request.
 Start importing Assets/Art/nivel4/mesaProta.png using Guid(7f83198bb3c8fb54fae13eea97d40d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45114f0efde2d8f6a0758e592635678e') in 0.022053 seconds
   Import took 0.025855 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.9 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 2.699000 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.100400 ms MarkObjects: 2.328200 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
