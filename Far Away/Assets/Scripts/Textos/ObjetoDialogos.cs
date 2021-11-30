@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class ObjetoDialogos : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Textos textos;
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        
+        FindObjectOfType<ControlDeDialogo>().ActivarCuadro(textos);
+        FindObjectOfType<ControlDeDialogo>().ActivarTexto();
     }
 }
