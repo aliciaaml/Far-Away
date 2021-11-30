@@ -8,6 +8,7 @@ public class ControlDeDialogo : MonoBehaviour
     private readonly Queue<string> colaDialogos = new Queue<string>();          // Declaraciones de queues go brrrrrrrrrrr xd
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
+    private bool running = false;
 
     private void Start()
     {
@@ -34,14 +35,32 @@ public class ControlDeDialogo : MonoBehaviour
 
     public void Siguiente()
     {
-        if (colaDialogos.Count == 0)
+        if (colaDialogos.Count == 0 && !running)
         {
             CierraCuadro();
             return;
         }
 
-        string fraseActual = colaDialogos.Dequeue();
-        textoPantalla.text = fraseActual;
+        if (!running)
+        {
+            string fraseActual = colaDialogos.Dequeue();
+            textoPantalla.text = fraseActual;
+            StartCoroutine(MostrarCaracteres(fraseActual));
+            
+        }
+        
+    }
+
+    IEnumerator MostrarCaracteres (string textoAMostrar)
+    {
+        running = true;
+        textoPantalla.text = "";
+        foreach (char caracter in textoAMostrar.ToCharArray())
+        {
+            textoPantalla.text += caracter;
+            yield return new WaitForSeconds(0.02f);
+        }
+        running = false;
     }
 
     void CierraCuadro()
