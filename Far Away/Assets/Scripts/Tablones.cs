@@ -1,12 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Tablones : MonoBehaviour
 { 
     public SpriteRenderer Tablon;
     public static int contador;
+
     [SerializeField] private GameObject[] tablones;
+    [SerializeField] private GameObject mesa;
+    [SerializeField] private GameObject silla;
+    [SerializeField] private Timer timer;
 
     Vector3 StartPos;
 
@@ -21,56 +23,60 @@ public class Tablones : MonoBehaviour
     // Update is called once per frame
     void OnMouseDrag()
     {
-        // Posición del ratón
-
-        Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
-
-        // Cmporbar si esta cerca de algun cable para hacer un snap
-
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
-        foreach (Collider2D collider in colliders)
+        if (!mesa.activeSelf && !silla.activeSelf && timer.timerIsRunning)
         {
-            if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasVentana") && gameObject.transform.parent.parent.name.Equals("SpritesVentana")) 
+            // Posición del ratón
+
+            Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
+
+            // Cmporbar si esta cerca de algun cable para hacer un snap
+
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(MousePos, 0.2f);
+
+            foreach (Collider2D collider in colliders)
             {
-                UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
-
-                contador += 1;
-
-                Destroy(gameObject.GetComponent<Tablones>());
-                Destroy(collider);
-
-                if (contador == 8)
+                if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasVentana") && gameObject.transform.parent.parent.name.Equals("SpritesVentana"))
                 {
-                    Debug.Log("Minijuego completado");
+                    UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
+
+                    contador += 1;
+
+                    Destroy(gameObject.GetComponent<Tablones>());
+                    Destroy(collider);
+
+                    if (contador == 8)
+                    {
+                        Debug.Log("Minijuego completado");
+                        timer.timerIsRunning = false;
+                    }
+
+
+                    return;                                     // Para que el UpdateWire de abajo no se ejecute
                 }
 
-
-                return;                                     // Para que el UpdateWire de abajo no se ejecute
-            }
-
-            else if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasPuerta") && gameObject.transform.parent.parent.name.Equals("SpritesPuerta"))
-            {
-                UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
-
-                contador += 1;
-
-                Destroy(gameObject.GetComponent<Tablones>());
-                Destroy(collider);
-
-                if (contador == 8)
+                else if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasPuerta") && gameObject.transform.parent.parent.name.Equals("SpritesPuerta"))
                 {
-                    Debug.Log("Minijuego completado");
+                    UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
+
+                    contador += 1;
+
+                    Destroy(gameObject.GetComponent<Tablones>());
+                    Destroy(collider);
+
+                    if (contador == 8)
+                    {
+                        Debug.Log("Minijuego completado");
+                        timer.timerIsRunning = false;
+                    }
+
+                    return;                                     // Para que el UpdateWire de abajo no se ejecute
                 }
 
-
-                return;                                     // Para que el UpdateWire de abajo no se ejecute
             }
 
+            UpdateWire(MousePos);
         }
-
-        UpdateWire(MousePos);
-
     }
 
     
