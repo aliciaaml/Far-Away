@@ -12,9 +12,6 @@ public class TileMovement : MonoBehaviour
 
     private Camera camera;
 
-    private bool solved;
-    private int contador;
-
     private int EmptyTileIndex = 8;
 
     // Start is called before the first frame update

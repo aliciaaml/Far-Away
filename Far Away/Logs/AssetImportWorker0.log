@@ -2746,3 +2746,678 @@ Received Import Request.
 Start importing Assets/Scripts/TileSmooth.cs using Guid(dfdea6296a0c9034b89727c7167d1b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d788d2daf1c755ff2dd327d4bdb2d4') in 0.003007 seconds
   Import took 0.006559 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3238.
+Total: 6.916000 ms (FindLiveObjects: 0.600200 ms CreateObjectMapping: 0.197700 ms MarkObjects: 6.064400 ms  DeleteObjects: 0.051900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.958070 seconds.
+  path: Assets/Scripts/TileMovement.cs
+  artifactKey: Guid(67b726b9bd9db7e41a6655f697daccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileMovement.cs using Guid(67b726b9bd9db7e41a6655f697daccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc63dca8eba6f505fb97041a6259fad') in 0.006342 seconds
+  Import took 0.011302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002974 seconds.
+  path: Assets/Scripts/TileMovement.cs
+  artifactKey: Guid(67b726b9bd9db7e41a6655f697daccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileMovement.cs using Guid(67b726b9bd9db7e41a6655f697daccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc63dca8eba6f505fb97041a6259fad') in 0.004606 seconds
+  Import took 0.009239 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3242.
+Total: 3.194100 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.784300 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.105347 seconds.
+  path: Assets/Scripts/TileMovement.cs
+  artifactKey: Guid(67b726b9bd9db7e41a6655f697daccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileMovement.cs using Guid(67b726b9bd9db7e41a6655f697daccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f13f8dafd54c6a54ee1ce62c493b208') in 0.005400 seconds
+  Import took 0.010458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1839.013998 seconds.
+  path: Assets/Scenes/Minijuegos/MinijuegoPeriodico.unity
+  artifactKey: Guid(1e1a1edc674c2fa4ba0de9ebdffc908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Minijuegos/MinijuegoPeriodico.unity using Guid(1e1a1edc674c2fa4ba0de9ebdffc908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c13e199361b656bae4b3961f16e282c') in 0.020492 seconds
+  Import took 0.026315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.933359 seconds.
+  path: Assets/Scenes/Minijuegos/Minijuego cables.unity
+  artifactKey: Guid(21d0d687ee05bcc4f99639b5f7eae8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Minijuegos/Minijuego cables.unity using Guid(21d0d687ee05bcc4f99639b5f7eae8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12411e6a51b252ebecdfce69b387a2b8') in 0.012264 seconds
+  Import took 0.016583 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3246.
+Total: 2.913800 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.112500 ms MarkObjects: 2.369700 ms  DeleteObjects: 0.135000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3250.
+Total: 3.597000 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.089600 ms MarkObjects: 3.183400 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3254.
+Total: 2.411000 ms (FindLiveObjects: 0.287600 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.011700 ms  DeleteObjects: 0.020100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6328.684039 seconds.
+  path: Assets/Art/nivel3
+  artifactKey: Guid(f08fa4ee55ec4dd43943ef5b47fd82c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3 using Guid(f08fa4ee55ec4dd43943ef5b47fd82c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f763dc9cb1b0200c30a3f78962e034') in 0.030219 seconds
+  Import took 0.046145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.656486 seconds.
+  path: Assets/Art/mapa
+  artifactKey: Guid(4b58ea39eec47064b96f29d91874f78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/mapa using Guid(4b58ea39eec47064b96f29d91874f78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec327870d8d2e22837da0d64003ef818') in 0.010411 seconds
+  Import took 0.015007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.479353 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fabaebb2ddd8cfac4586353cf620e7') in 0.093712 seconds
+  Import took 0.098617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.054444 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6449697f89f75169312fb30fce0b74') in 0.021275 seconds
+  Import took 0.025081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.102835 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c12ab415ec5c2cf7eeb65fb6bc6d05') in 0.018987 seconds
+  Import took 0.023901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.693832 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58683db5ece88dc2708124cf47a4f95e') in 0.051850 seconds
+  Import took 0.056336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.811902 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2511d72be75211ccbc471c1371b4c9') in 0.022279 seconds
+  Import took 0.026246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.813190 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe817dea1e71e2ed87f50d2568758ed') in 0.043176 seconds
+  Import took 0.047824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.416489 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318a82e04f1318bfd5afd85c4d128bb') in 0.042465 seconds
+  Import took 0.048052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.378910 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9520cc3980a6900fb0be8f4718aede') in 0.037140 seconds
+  Import took 0.040978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.565847 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641406bca7cfcdf3c0764a5eb3896cce') in 0.032291 seconds
+  Import took 0.036153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.176116 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772b7b1d9e46e836d7c2801a90454986') in 0.034116 seconds
+  Import took 0.037964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.094212 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e304363df86bb81c3aa0e41f4f2d197') in 0.034290 seconds
+  Import took 0.038812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.404123 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f862ce91f616077327ec5149e7b140') in 0.035003 seconds
+  Import took 0.038931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.591546 seconds.
+  path: Assets/Art/nivel3/Minijuego cables.png
+  artifactKey: Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables.png using Guid(5f2bf45155f53e84a95364b131cb78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d16ca78ee5d63d14c102c1294262bc') in 0.035955 seconds
+  Import took 0.040218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.053202 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727e7bf762c324a72ac7422525c180fd') in 0.025725 seconds
+  Import took 0.030700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.334471 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable final.png
+  artifactKey: Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable final.png using Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab7604952e8229a9ced8f220b6f8c17') in 0.020452 seconds
+  Import took 0.026447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.980519 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable interior.png
+  artifactKey: Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable interior.png using Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be24a2fca7fe9759623c5d6fe69dbe7a') in 0.019775 seconds
+  Import took 0.024996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.156225 seconds.
+  path: Assets/Art/nivel3/Minijuego cables fondo.png
+  artifactKey: Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables fondo.png using Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944b94160de9411f094315d5d9f20a48') in 0.019442 seconds
+  Import took 0.026118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.154345 seconds.
+  path: Assets/Art/nivel3/Minijuego cables luz.png
+  artifactKey: Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables luz.png using Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303f00d86f372b9bf46ecf0e7a044c20') in 0.017893 seconds
+  Import took 0.021763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.689879 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a1358167d8b53d1a935ea52cef9b57') in 0.019457 seconds
+  Import took 0.025075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.465450 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b068b57d3cb596fda50c9f10ea05aa') in 0.025022 seconds
+  Import took 0.029334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.330647 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8922191caf5c124b5513b97045d1c5') in 0.026897 seconds
+  Import took 0.030737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.455451 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a9fc29086188dc14ddb78be04e8e62') in 0.019188 seconds
+  Import took 0.023702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.088732 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable final.png
+  artifactKey: Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable final.png using Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b198814ae62d24c29e780b56f945aa18') in 0.017901 seconds
+  Import took 0.022090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.666542 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable interior.png
+  artifactKey: Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable interior.png using Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a56ad3776f76dee8a0f33e0e09eafd') in 0.015080 seconds
+  Import took 0.019566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.206540 seconds.
+  path: Assets/Art/nivel3/Minijuego cables fondo.png
+  artifactKey: Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables fondo.png using Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac3cdd50262b78545faf1b6f0c82e89') in 0.025560 seconds
+  Import took 0.030193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.490778 seconds.
+  path: Assets/Art/nivel3/Minijuego cables luz.png
+  artifactKey: Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables luz.png using Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692484e8b057c2accafbd65f2b67e958') in 0.016192 seconds
+  Import took 0.019499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003343 seconds.
+  path: Assets/Art/nivel3/Minijuego cables luz.png
+  artifactKey: Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables luz.png using Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692484e8b057c2accafbd65f2b67e958') in 0.009945 seconds
+  Import took 0.014183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.600991 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2694bb5149a0757f451e1ff6b7f6d00') in 0.014981 seconds
+  Import took 0.018961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2694bb5149a0757f451e1ff6b7f6d00') in 0.019129 seconds
+  Import took 0.023249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.955783 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d88ba5c5d20c10d08ecf41d67ee2ed') in 0.011597 seconds
+  Import took 0.015041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.678942 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable cuerpo.png
+  artifactKey: Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable cuerpo.png using Guid(4c020787ef74067408b8557b5dc8d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324e5d8a93c611d45122c4ac33b28c03') in 0.016665 seconds
+  Import took 0.019908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.257458 seconds.
+  path: Assets/Art/nivel3/Minijuego cables luz.png
+  artifactKey: Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables luz.png using Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab899dc0d80edd0b1665028ab793eb6') in 0.011289 seconds
+  Import took 0.015220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.194173 seconds.
+  path: Assets/Art/nivel3/Minijuego cables luz.png
+  artifactKey: Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables luz.png using Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac70002be541a928f6c85e01e94f2a41') in 0.013186 seconds
+  Import took 0.017403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.723692 seconds.
+  path: Assets/Art/nivel3/Minijuego cables luz.png
+  artifactKey: Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables luz.png using Guid(60ac810b948358941aff4a880927f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9923028848c359ea98fbff5144e38fb2') in 0.015906 seconds
+  Import took 0.020210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.449323 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable final.png
+  artifactKey: Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable final.png using Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b02d6b57656c876198590a3e4c09818') in 0.017875 seconds
+  Import took 0.024280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.882867 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable final.png
+  artifactKey: Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable final.png using Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b0e0edd259370c336d8ca95e0087f2') in 0.016611 seconds
+  Import took 0.021061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.925076 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable interior.png
+  artifactKey: Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable interior.png using Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e92fa5bea97bc813e7581ff1db80f7') in 0.011369 seconds
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.998217 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable interior.png
+  artifactKey: Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable interior.png using Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05c42b8c561ebc22af72332f33a3781') in 0.006625 seconds
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001659 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable interior.png
+  artifactKey: Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable interior.png using Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05c42b8c561ebc22af72332f33a3781') in 0.006012 seconds
+  Import took 0.009332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.961787 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable interior.png
+  artifactKey: Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable interior.png using Guid(86e26286a8821dd4fa30e5b0e9fc79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82ee7c8095b11891209366c983542d') in 0.016709 seconds
+  Import took 0.019929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.867068 seconds.
+  path: Assets/Art/nivel3/Minijuego cables fondo.png
+  artifactKey: Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables fondo.png using Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a3c2f36b6f879648b7f2a89331e30d') in 0.021163 seconds
+  Import took 0.024583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.652548 seconds.
+  path: Assets/Art/nivel3/Minijuego cables fondo.png
+  artifactKey: Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables fondo.png using Guid(02e808645079b064c8bcde2e327bf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1035cf4ec1620d33fad46e70b17535d4') in 0.028589 seconds
+  Import took 0.032734 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3291.
+Total: 2.446800 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.077500 ms MarkObjects: 2.088200 ms  DeleteObjects: 0.018200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.135357 seconds.
+  path: Assets/Art/nivel3/Minijuego cables cable final.png
+  artifactKey: Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/nivel3/Minijuego cables cable final.png using Guid(1e9f44224fa97e34b935bd7768c4f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1b7e619e014c9f8f45b75d2b54be80') in 0.052344 seconds
+  Import took 0.056505 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003536 seconds.
+Callback registration failed. Increase kMaxCallback.
+
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Mono;.;C:\Users\franc\OneDrive\Documentos\GitHub\Far-Away\Far Away;C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'franc'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe:Unity.exe (00007FF7780B0000), size: 134782976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.11.51119
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCD5D80000), size: 2125824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCD43A0000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCD33D0000), size: 3620864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFCD3260000), size: 1449984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFCD3AF0000), size: 1118208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFCD4D80000), size: 1753088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFCD3870000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFCC2A50000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFC745E0000), size: 10215424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.0.0
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFC601F0000), size: 43806720 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFCD4CF0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFCD3750000), size: 1122304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFCD38A0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCD5760000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFCD4C40000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22000.1
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFCA7B70000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6414336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFCD59B0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFCA3990000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFCD4AB0000), size: 454656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFCD5B60000), size: 1183744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.258
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFCD4FA0000), size: 8036352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FFCD3ED0000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFCD1900000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FFCD5AC0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFCD4D20000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFCD5810000), size: 1679360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\tbb.dll:tbb.dll (00007FFCC2870000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFCD4020000), size: 3637248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFCBE3C0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30133.0
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFCD5A50000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFCBE320000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30133.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFCD4460000), size: 4632576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.194
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCD3C10000), size: 876544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFCBE400000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40660.0
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFCD3940000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.194
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFCBC340000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40660.0
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC95F90000), size: 1052672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.41
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC95F20000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.41
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCD0FC0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFCBCDF0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30133.0
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFCCB3E0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFCCA620000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFCD0D70000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFCD2B40000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFCA3720000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFC73350000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCCE380000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFCBD4B0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFCCFAB0000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFCC25A0000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFCCE390000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFCD1EE0000), size: 262144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\OpenRL.dll:OpenRL.dll (000001A22B8E0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000052080000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000052120000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\embree.dll:embree.dll (00007FFC71CD0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFCD2F60000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFCD20D0000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001A22B800000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFCD2280000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFCD1480000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFCD3A70000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFCCF9D0000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFCD3DE0000), size: 958464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFCD0500000), size: 8790016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFCD0390000), size: 1466368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.41
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFCD3190000), size: 135168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFCD5C90000), size: 716800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFCCD860000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFCC9280000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFCD4F30000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFCCAF00000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFCCBAE0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFCD1030000), size: 946176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFCC9500000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFCC1CE0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCCB0E0000), size: 2621440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCCFAF0000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFCCDC20000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFCD2B70000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_0563af65101748e9\nvldumdx.dll:nvldumdx.dll (00007FFCBEEC0000), size: 1073152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.9676
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFCC9800000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFCC84A0000), size: 1347584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FFCD2F30000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFCD2430000), size: 249856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFCD23F0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFCD5A90000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFCD2F10000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFCD13E0000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_0563af65101748e9\nvwgf2umx.dll:nvwgf2umx.dll (00007FFC5D0B0000), size: 43163648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.9676
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFC8B5D0000), size: 2895872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.23.0.74
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFCBB2C0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFCBDFB0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFCB97E0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFCB9CA0000), size: 1024000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFCA6CE0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFCD23C0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2110.6-0\MpOav.dll:MpOav.dll (00007FFCA6C60000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2110.6
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFC757E0000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFC74470000), size: 1474560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.1.0
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\radeonrays.dll:radeonrays.dll (00007FFC75750000), size: 552960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC5C940000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFCD5750000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\ProgramData\Microsoft\VisualStudio\Setup\x64\Microsoft.VisualStudio.Setup.Configuration.Native.dll:Microsoft.VisualStudio.Setup.Configuration.Native.dll (00007FFC75700000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.11.47.9733
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFCCE9A0000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22000.37
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467\comctl32.dll:comctl32.dll (00007FFCD24E0000), size: 2772992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.22000.120
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFCC9B90000), size: 1761280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFC91F30000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.51
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFCCDD20000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFCCDC80000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\Windows\System32\Windows.System.Launcher.dll:Windows.System.Launcher.dll (00007FFCC0E00000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FFCCA100000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
+C:\Windows\System32\MrmCoreR.dll:MrmCoreR.dll (00007FFCB62B0000), size: 1052672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
+C:\Windows\System32\iertutil.dll:iertutil.dll (00007FFCC9E20000), size: 2826240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.22000.282
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFCD2BB0000), size: 2232320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFCD341466C (KERNELBASE) RaiseException
+0x00007FF77A7EA46D (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF77A7EB3DB (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF77C3BE89E (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF77C3BDE4F (Unity) DebugStringToFile
+0x00007FF778315253 (Unity) CallbackArraySubBase<void (__cdecl*)(MemoryManager::AllocationLogDetails const & __ptr64)>::Register
+0x00007FF77AFBC9E9 (Unity) LoadDomainAndUserAssemblies
+0x00007FF77AFBCE9E (Unity) LoadUserAssemblies
+0x00007FF77B425808 (Unity) <lambda_32ff519d5c36f44c8f28c9876d6db935>::operator()
+0x00007FF77B4C9522 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF77B4CB680 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF77B4CEE0E (Unity) asio::io_service::run
+0x00007FF77B4524BB (Unity) RunAssetImportWorkerClientV2
+0x00007FF77B452510 (Unity) RunAssetImporterV2
+0x00007FF77A943536 (Unity) Application::InitializeProject
+0x00007FF77B2C6F22 (Unity) WinMain
+0x00007FF77D118E86 (Unity) __scrt_common_main_seh
+0x00007FFCD43B54E0 (KERNEL32) BaseThreadInitThunk
+0x00007FFCD5D8485B (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/franc/AppData/Local/Temp/Unity/Editor/Crashes
