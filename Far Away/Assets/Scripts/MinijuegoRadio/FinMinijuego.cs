@@ -5,8 +5,12 @@ using UnityEngine;
 public class FinMinijuego : MonoBehaviour
 {
 
-    public GameObject completado;
+    public GameObject error;
     public GameObject button;
+
+    public GameObject texto;
+    public GameObject cuadro_dialogo;
+
 
     public MoverAntena1 antena1;
     public MoverAntena2 antena2;
@@ -22,8 +26,11 @@ public class FinMinijuego : MonoBehaviour
     {
         if((antena2.angulo2<300 && antena2.angulo2>30) && (antena1.angulo1<300 && antena1.angulo1>45)){
 
-            completado.SetActive(true);
+            error.SetActive(true);
             button.SetActive(true);
+
+            texto.SetActive(true);
+            cuadro_dialogo.SetActive(true);
         }
     }
 }

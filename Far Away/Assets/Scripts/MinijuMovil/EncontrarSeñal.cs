@@ -21,7 +21,7 @@ public class EncontrarSeñal : MonoBehaviour
 
         if((mousePos.x<154 && mousePos.x>=-42.22) && (transform.position.y>=156 && transform.position.y<218.24) ){
 
-            Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_con_señal");
+            Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_señal_min");
             Debug.Log("SEÑAL");
 
         }
