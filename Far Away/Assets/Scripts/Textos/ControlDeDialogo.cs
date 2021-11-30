@@ -5,15 +5,23 @@ using TMPro;
 
 public class ControlDeDialogo : MonoBehaviour
 {
-    private Queue<string> colaDialogos;
+    private readonly Queue<string> colaDialogos = new Queue<string>();          // Declaraciones de queues go brrrrrrrrrrr xd
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
-    
-    public void ActivarCuadro(Textos textoObj)
+
+    private void Start()
     {
-        texto = textoObj;
+        gameObject.SetActive(false);
     }
 
+    public void ActivarCuadro(Textos textoObj)
+    {
+        gameObject.SetActive(true);
+        texto = textoObj;
+        ActivarTexto();
+    }
+
+    
     public void ActivarTexto()
     {
         colaDialogos.Clear();

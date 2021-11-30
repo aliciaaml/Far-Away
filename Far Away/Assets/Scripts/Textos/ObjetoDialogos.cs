@@ -5,10 +5,10 @@ using UnityEngine;
 public class ObjetoDialogos : MonoBehaviour
 {
     public Textos textos;
+    [SerializeField] ControlDeDialogo control;
 
     private void OnMouseDown()
     {
-        FindObjectOfType<ControlDeDialogo>().ActivarCuadro(textos);
-        FindObjectOfType<ControlDeDialogo>().ActivarTexto();
+        control.ActivarCuadro(textos);
     }
 }
