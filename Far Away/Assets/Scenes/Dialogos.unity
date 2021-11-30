@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 963567475}
   - component: {fileID: 963567474}
   m_Layer: 5
-  m_Name: Imagen de texto
+  m_Name: Dialogos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 1102356488}
   - component: {fileID: 1102356487}
   m_Layer: 5
-  m_Name: Imagen de texto (1)
+  m_Name: Nombre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 1205993593}
   - component: {fileID: 1205993592}
   m_Layer: 0
-  m_Name: Radio
+  m_Name: CuadroDeLuz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
