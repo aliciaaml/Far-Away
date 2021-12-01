@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DoorController : MonoBehaviour
 {
     public string sceneName;
-    
-    // Start is called before the first frame update
-    void Start()
-    { 
+    public GameObject panel;
+
+    public bool locked {get{return isLocked;}}
+    public bool isLocked;
+
+    void changeState(){
+        isLocked = !isLocked;
+        instructionController text = gameObject.GetComponent<instructionController>();
+        text.changeText();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    public void displayInstructions(){
+        panel.SetActive(true);
+    }
+
+    public void hideInstructions(){
+        panel.SetActive(false);
     }
 }

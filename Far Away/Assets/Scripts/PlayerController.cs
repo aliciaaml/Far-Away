@@ -80,7 +80,12 @@ public class PlayerController : MonoBehaviour
             nextScene = puerta.sceneName;
             //Debug.Log("entrar");
             //Debug.Log(puerta.sceneName);
-            goNext1 = true;
+            puerta.displayInstructions();
+            if(!puerta.locked){
+                goNext1 = true;
+            } else {
+                Debug.Log("Puerta bloqueada");
+            }
         }
         
     }
@@ -88,8 +93,8 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.tag == "Puerta")
          {
-
-            
+            DoorController puerta = collision.gameObject.GetComponent<DoorController>();
+            puerta.hideInstructions();
             goNext1 = false;
             
         }
