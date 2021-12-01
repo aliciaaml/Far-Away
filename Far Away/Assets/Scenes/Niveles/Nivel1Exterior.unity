@@ -669,6 +669,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 869321683}
     m_Modifications:
     - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
+      propertyPath: personaje
+      value: 
+      objectReference: {fileID: 226204074}
+    - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: sceneName
       value: Casa3
       objectReference: {fileID: 0}
@@ -996,12 +1000,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1911022651}
     m_Modifications:
     - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
+      propertyPath: personaje
+      value: 
+      objectReference: {fileID: 226204074}
+    - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: sceneName
       value: Casa_prota
       objectReference: {fileID: 0}
     - target: {fileID: 6568288032104938577, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: m_Name
-      value: puerta
+      value: puerta_prota
       objectReference: {fileID: 0}
     - target: {fileID: 6568288032104938588, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: m_RootOrder
@@ -1246,6 +1254,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1027956964}
     m_Modifications:
+    - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
+      propertyPath: personaje
+      value: 
+      objectReference: {fileID: 226204074}
     - target: {fileID: 2757127348920873185, guid: 46d83106193db0243b3fb1d201387932, type: 3}
       propertyPath: sceneName
       value: Casa2

@@ -7,20 +7,30 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 3.0f;
 
+
     Rigidbody2D rigidbody2d;
     float horizontal;
     bool goNext1 = false;
     private string nextScene;
 
-    float lookDirection = 1;
-   
     Animator animator;
 
+
+
+/*
+    private void Awake(){
+        gameObject.transform.position= pos.posicionAUX;
+
+        Debug.Log(pos.posicionAUX);
+    }
+*/
     // Start is called before the first frame update
     void Start()
     {
+
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -30,14 +40,17 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
         horizontal = Input.GetAxis("Horizontal");
-     
-        //Debug.Log("speed: " + horizontal);
+    
 
         if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
         {
+            
             if (goNext1)     //repetir para cada puerta con su respectivo bool y escena
             {
+
+                //Debug.Log("POS PROTA   "+ gameObject.transform.position);
                 SceneManager.LoadScene(nextScene);
+                
             }
         }
     }
@@ -70,6 +83,9 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.tag == "Puerta")
          {
             goNext1 = false;
+            
         }
     }
+
+  
 }
