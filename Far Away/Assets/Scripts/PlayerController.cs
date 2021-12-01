@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     bool goNext1 = false;
     private string nextScene;
+
+    float lookDirection = 1;
    
     Animator animator;
 
@@ -24,9 +26,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
 
-        animator.SetFloat("Speed", horizontal);
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+
+        horizontal = Input.GetAxis("Horizontal");
+     
         //Debug.Log("speed: " + horizontal);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
@@ -39,9 +43,13 @@ public class PlayerController : MonoBehaviour
     }
 
     void FixedUpdate(){
+
         Vector2 position = rigidbody2d.position;
-        position.x = position.x + 3.0f * horizontal * Time.deltaTime;
+        position.x = position.x + speed * horizontal * Time.deltaTime;
         rigidbody2d.MovePosition(position);
+
+       
+
     }
 
 
