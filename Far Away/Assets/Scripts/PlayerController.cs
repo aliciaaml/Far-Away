@@ -15,15 +15,21 @@ public class PlayerController : MonoBehaviour
 
     Animator animator;
 
+    public  static Vector2 guardar_pos;
 
 
-/*
+
+
     private void Awake(){
-        gameObject.transform.position= pos.posicionAUX;
 
-        Debug.Log(pos.posicionAUX);
+        //Vector3 pos = new Vector3(POS_PUERTAS.inst.posAux.x, gameObject.transform.position.y,gameObject.transform.position.z);
+
+        gameObject.transform.position= Position.posAux;
+     
+        
+        //Debug.Log(Position.inst.posAux);
     }
-*/
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +53,7 @@ public class PlayerController : MonoBehaviour
             
             if (goNext1)     //repetir para cada puerta con su respectivo bool y escena
             {
-
+                guardar_pos=gameObject.transform.position;
                 //Debug.Log("POS PROTA   "+ gameObject.transform.position);
                 SceneManager.LoadScene(nextScene);
                 
@@ -72,8 +78,8 @@ public class PlayerController : MonoBehaviour
         {
             DoorController puerta = collision.gameObject.GetComponent<DoorController>();
             nextScene = puerta.sceneName;
-            Debug.Log("entrar");
-            Debug.Log(puerta.sceneName);
+            //Debug.Log("entrar");
+            //Debug.Log(puerta.sceneName);
             goNext1 = true;
         }
         
@@ -82,6 +88,8 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.tag == "Puerta")
          {
+
+            
             goNext1 = false;
             
         }
