@@ -8,6 +8,9 @@ public class EncontrarSeñal : MonoBehaviour
 
     public Image Imagen;
 
+    public GameObject completado;
+    public GameObject boton_salir;
+
 
     void Start(){
         
@@ -24,6 +27,8 @@ public class EncontrarSeñal : MonoBehaviour
             Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_señal_min");
             Debug.Log("SEÑAL");
 
+            completado.SetActive(true);
+            boton_salir.SetActive(true);
         }
         else {
 

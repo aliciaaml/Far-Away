@@ -6,10 +6,14 @@ public class MinigameEnter : MonoBehaviour
 {
     public GameObject tile;
     public GameObject exit;
+    public GameObject circular;
+    public GameObject flecha_salida;
 
     private void OnMouseDown()
     {
         tile.SetActive(true);
         exit.SetActive(true);
+        circular.SetActive(false);
+        flecha_salida.SetActive(false);
     }
 }
