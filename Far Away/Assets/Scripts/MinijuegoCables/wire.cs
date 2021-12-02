@@ -7,6 +7,7 @@ public class wire : MonoBehaviour
     public SpriteRenderer WireEnd;
     public GameObject light;
     public static int contador;
+    [SerializeField] GameObject completado;
 
     Vector3 StartParentPos;
     Vector3 StartPos;
@@ -16,6 +17,8 @@ public class wire : MonoBehaviour
     {
         StartParentPos = gameObject.transform.parent.position;
         StartPos = gameObject.transform.position;
+
+        completado.SetActive(false);
 
         contador = 0;
     }
@@ -48,6 +51,7 @@ public class wire : MonoBehaviour
                     if (contador == 4)
                     {
                         Debug.Log("Minijuego completado");
+                        completado.SetActive(true);
                     }
                 }
 
