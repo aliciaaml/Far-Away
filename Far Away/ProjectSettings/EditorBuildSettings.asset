@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Minijuegos/Minijuego cables.unity
     guid: 21d0d687ee05bcc4f99639b5f7eae8bd
   - enabled: 1
+    path: Assets/Scenes/Minijuegos/MinijuegoMovil.unity
+    guid: 7876113c32f0560439c2dff1c203b7fb
+  - enabled: 1
     path: Assets/Scenes/Minijuegos/MinijuegoRadio.unity
     guid: 280c8162a89475f42b80961236330e3b
   m_configObjects: {}
