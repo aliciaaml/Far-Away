@@ -37,7 +37,7 @@ public class Position : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        posAux= PlayerController.guardar_pos;
+        posAux = PlayerController.guardar_pos;
     }
 
 }

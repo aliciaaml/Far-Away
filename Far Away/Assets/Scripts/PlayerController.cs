@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     Animator animator;
 
-    public  static Vector2 guardar_pos;
+    public static Vector2 guardar_pos;
 
 
 
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
         //Vector3 pos = new Vector3(POS_PUERTAS.inst.posAux.x, gameObject.transform.position.y,gameObject.transform.position.z);
 
-        gameObject.transform.position= Position.posAux;
+        gameObject.transform.position = new Vector2(Position.posAux.x, -1.3f);
      
         
         //Debug.Log(Position.inst.posAux);
