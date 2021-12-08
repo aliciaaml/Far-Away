@@ -2610,8 +2610,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1117033625}
+  - component: {fileID: 1117033626}
   m_Layer: 0
-  m_Name: curscene
+  m_Name: cutscene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2634,6 +2635,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1117033626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117033624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee03f4c43dea9344b04d7f2d578d752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cutsceneTigger: {fileID: 1471040046}
 --- !u!1 &1156175241
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,6 +3638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playableDirector: {fileID: 1212650450}
   shadow: {fileID: 1077744676}
+  tiempo_end: 1
 --- !u!61 &1471040049
 BoxCollider2D:
   m_ObjectHideFlags: 0
