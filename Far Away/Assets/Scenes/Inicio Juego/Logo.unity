@@ -417,7 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempo_start: 0
   tiempo_end: 7
-  escena: Escena_inicialv2
+  escena: Escena_inicial
 --- !u!4 &1986508426
 Transform:
   m_ObjectHideFlags: 0

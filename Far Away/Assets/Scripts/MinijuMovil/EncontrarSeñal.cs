@@ -29,7 +29,6 @@ public class EncontrarSeñal : MonoBehaviour
 
             completado.SetActive(true);
             boton_salir.SetActive(true);
-            CutsceneTriggerController.instance.cutsceneTigger.SetActive(true);
         }
         else {
 
