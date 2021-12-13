@@ -218,6 +218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6551236111138846833, guid: 359e76f4282d71947a9762ed678726a5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 359e76f4282d71947a9762ed678726a5, type: 3}
 --- !u!1 &248240709
@@ -1232,7 +1236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -60, y: 220}
+  m_AnchoredPosition: {x: 69, y: 220}
   m_SizeDelta: {x: 80, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1710275933
@@ -1526,6 +1530,7 @@ GameObject:
   - component: {fileID: 2028887420}
   - component: {fileID: 2028887419}
   - component: {fileID: 2028887418}
+  - component: {fileID: 2028887423}
   m_Layer: 5
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -1546,6 +1551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Parent: {fileID: 513190061}
+  animator: {fileID: 2028887423}
 --- !u!114 &2028887419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1627,3 +1633,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &2028887423
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028887417}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bf897f4d930e6dd4c8a9733132d23c81, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

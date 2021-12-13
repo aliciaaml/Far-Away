@@ -7,6 +7,10 @@ public class inventoryUI : MonoBehaviour
 
     Slot[] slots;
 
+    public Animator animator;
+
+    bool animation = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,10 +32,13 @@ public class inventoryUI : MonoBehaviour
         {
             if (i < inventory.items.Count)
             {
+                animation = true;
+                animator.SetBool("NewItem", animation);
                 slots[i].AddItem(inventory.items[i]);
             }
             else
             {
+                animation = false;
                 slots[i].CleanSlot();
             }
         }
