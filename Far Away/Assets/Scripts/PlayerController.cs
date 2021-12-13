@@ -83,9 +83,9 @@ public class PlayerController : MonoBehaviour
             {
                 foreach (Item item in Inventory.inst.items)
                 {
-                    if (item.name == "Llave2")
+                    if (item.name == "Llave")
                     {
-                        Inventory.inst.Remove(item);
+                        //Inventory.inst.Remove(item);
                         puerta.isLocked = false;
                     }
                 }
@@ -96,9 +96,9 @@ public class PlayerController : MonoBehaviour
             {
                 foreach (Item item in Inventory.inst.items)
                 {
-                    if (item.name == "Llave2")
+                    if (item.name == "LlaveIglesia")
                     {
-                        Inventory.inst.Remove(item);
+                        //Inventory.inst.Remove(item);
                         puerta.isLocked = false;
                     }
                 }
