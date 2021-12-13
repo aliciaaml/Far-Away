@@ -540,7 +540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &117304882
 Transform:
   m_ObjectHideFlags: 0
@@ -2908,6 +2908,7 @@ MonoBehaviour:
   "pi\xF1on2": {fileID: 526178}
   "pi\xF1on3": {fileID: 1522792286}
   "pi\xF1on4": {fileID: 1611323121}
+  "flechas_pi\xF1ones": {fileID: 117304881}
 --- !u!114 &1443378558
 MonoBehaviour:
   m_ObjectHideFlags: 0

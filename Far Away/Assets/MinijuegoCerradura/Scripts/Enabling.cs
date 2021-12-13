@@ -16,11 +16,13 @@ public class Enabling : MonoBehaviour
     public GameObject piñon2;
     public GameObject piñon3;
     public GameObject piñon4;
+    public GameObject flechas_piñones;
 
 
     public void whenCerraduraClicked(){
         if (fondo.activeInHierarchy==false)
             texto.SetActive(false);
+            flechas_piñones.SetActive(true);
             cuadro_dialogo.SetActive(false);
             flecha_dialogo.SetActive(false);
             fondo.SetActive(true);
@@ -51,6 +53,7 @@ public class Enabling : MonoBehaviour
      public void whenBoton_XClicked(){
         if (fondo.activeInHierarchy==true)
             fondo.SetActive(false);
+            flechas_piñones.SetActive(false);
 
         if (boton_x.activeInHierarchy==true)
             boton_x.SetActive(false);
