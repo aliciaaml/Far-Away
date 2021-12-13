@@ -14,6 +14,14 @@ public class ObjectPickUp : MonoBehaviour
     void Start()
     {
         camera = Camera.main;
+
+        foreach (Item item in Inventory.inst.items)
+        {
+            if (item == gameObject.GetComponent<ObjectPickUp>().item)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     // Update is called once per frame

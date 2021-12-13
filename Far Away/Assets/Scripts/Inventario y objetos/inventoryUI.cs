@@ -19,13 +19,17 @@ public class inventoryUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        for (int i = 0; i < inventory.items.Count; i++)
+        {
+            slots[i].icon.sprite = inventory.items[i].icon;
+        }
     }
 
     void UpdateUI()
     {
         for (int i = 0; i < slots.Length; i++)
         {
+
             if (i < inventory.items.Count)
             {
                 slots[i].AddItem(inventory.items[i]);
