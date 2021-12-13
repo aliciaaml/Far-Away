@@ -8,6 +8,8 @@ public class ObjectPickUp : MonoBehaviour
 
     public Item item;
 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +26,13 @@ public class ObjectPickUp : MonoBehaviour
 
             if (hit.transform.tag == "Objeto")
             {
+                animator.SetBool("NewItem", true);
                 Inventory.inst.Add(item);
                 Destroy(gameObject);
                 
             }
         }
+
+        //animator.SetBool("NewItem", false);
     }
 }
