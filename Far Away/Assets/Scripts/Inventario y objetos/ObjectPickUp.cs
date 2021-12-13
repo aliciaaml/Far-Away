@@ -40,7 +40,5 @@ public class ObjectPickUp : MonoBehaviour
                 
             }
         }
-
-        //animator.SetBool("NewItem", false);
     }
 }

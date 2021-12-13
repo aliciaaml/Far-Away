@@ -14,6 +14,8 @@ public class inventoryUI : MonoBehaviour
         inventory.OnItemChangeCallback += UpdateUI;
 
         slots = Parent.GetComponentsInChildren<Slot>();
+
+        gameObject.GetComponent<Animator>().SetBool("Mouse", false);
     }
 
     // Update is called once per frame
@@ -23,6 +25,35 @@ public class inventoryUI : MonoBehaviour
         {
             slots[i].icon.sprite = inventory.items[i].icon;
         }
+
+        if (Input.mousePosition.x >= 1600f && Input.mousePosition.x < 1800f)
+        {
+            gameObject.GetComponent<Animator>().SetTrigger("MouseEnter");
+
+        }
+
+        if (Input.mousePosition.x > 1600f)
+        {
+            gameObject.GetComponent<Animator>().SetBool("Mouse", true);
+        }
+        else { gameObject.GetComponent<Animator>().SetBool("Mouse", false); }
+    }
+
+    public void AnimationIn()
+    {
+        gameObject.GetComponent<Animator>().SetBool("FinishIn", true);
+        gameObject.GetComponent<Animator>().SetBool("FinishOut", false);
+    }
+
+    public void AnimationOut()
+    {
+        gameObject.GetComponent<Animator>().SetBool("FinishOut", true);
+        gameObject.GetComponent<Animator>().SetBool("FinishIn", false);
+    }
+
+    public void AnimationPopUp()
+    {
+        gameObject.GetComponent<Animator>().SetBool("NewItem", false);
     }
 
     void UpdateUI()
