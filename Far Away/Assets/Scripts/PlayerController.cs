@@ -76,7 +76,35 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Puerta")
         {
+
             DoorController puerta = collision.gameObject.GetComponent<DoorController>();
+
+            if (collision.gameObject.transform.parent.name == "casaProta")
+            {
+                foreach (Item item in Inventory.inst.items)
+                {
+                    if (item.name == "Llave2")
+                    {
+                        Inventory.inst.Remove(item);
+                        puerta.isLocked = false;
+                    }
+                }
+            }
+
+            
+            if (collision.gameObject.transform.parent.name == "iglesia")
+            {
+                foreach (Item item in Inventory.inst.items)
+                {
+                    if (item.name == "Llave2")
+                    {
+                        Inventory.inst.Remove(item);
+                        puerta.isLocked = false;
+                    }
+                }
+            }
+            
+
             nextScene = puerta.sceneName;
             //Debug.Log("entrar");
             //Debug.Log(puerta.sceneName);
@@ -91,7 +119,7 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Puerta")
+        if (collision.gameObject.tag == "Puerta")
          {
             DoorController puerta = collision.gameObject.GetComponent<DoorController>();
             puerta.hideInstructions();
