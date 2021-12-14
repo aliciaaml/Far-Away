@@ -8,10 +8,20 @@ public class ObjectPickUp : MonoBehaviour
 
     public Item item;
 
+    public static inventoryUI ui;
+
     // Start is called before the first frame update
     void Start()
     {
         camera = Camera.main;
+
+        foreach (Item item in Inventory.inst.items)
+        {
+            if (item == gameObject.GetComponent<ObjectPickUp>().item)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     // Update is called once per frame
@@ -24,6 +34,7 @@ public class ObjectPickUp : MonoBehaviour
 
             if (hit.transform.tag == "Objeto")
             {
+                //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
                 Inventory.inst.Add(item);
                 Destroy(gameObject);
                 
