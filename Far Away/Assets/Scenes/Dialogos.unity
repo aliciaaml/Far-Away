@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 663564325}
   - component: {fileID: 663564327}
   - component: {fileID: 663564328}
+  - component: {fileID: 663564329}
   m_Layer: 5
   m_Name: Fondo cuadro de dialogo
   m_TagString: Untagged
@@ -339,6 +340,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!111 &663564329
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663564323}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e9ec2ebb7427c6540be285b01fbd8848, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e9ec2ebb7427c6540be285b01fbd8848, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &782404703
 GameObject:
   m_ObjectHideFlags: 0
