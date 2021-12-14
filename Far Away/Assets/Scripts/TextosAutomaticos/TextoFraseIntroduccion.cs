@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TextoFraseIntroduccion : MonoBehaviour
 {
-    string frase = " ``Monsters are real, ghosts are real too.\n" + "They live inside us, and sometimes, they win´´ \n" + "-Stephen king ";
+    string frase = " ``Monsters are real, ghosts are real too.\n" + "They live inside us, and sometimes, they winÂ´Â´ \n" + "-Stephen king ";
     public Text texto;
 
 
@@ -20,7 +20,7 @@ public class TextoFraseIntroduccion : MonoBehaviour
         foreach(char caracter in frase)
         {
             texto.text = texto.text + caracter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.07f);
         }
     }
 }

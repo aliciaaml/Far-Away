@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class TextoNombre : MonoBehaviour
 {
-    string frase = "Bienvenido a Far Away, pero antes de andetrarse a su próxima aventura, le rogamos que introduzca un nombre a nuestro protagonista. \n"+
-                   "Sugerencia: Se recomienda para una mayor integración con el juego y el personaje, que el jugador introduzca su nombre." ;
+    string frase = "Bienvenido a Far Away, pero antes de andetrarse a su prÃ³xima aventura, le rogamos que introduzca un nombre a nuestro protagonista";
+                   
     public Text dialogo;
     
 
@@ -21,7 +21,7 @@ public class TextoNombre : MonoBehaviour
         foreach (char caracter in frase)
         {
             dialogo.text = dialogo.text + caracter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.035f);
         }
     }
 }

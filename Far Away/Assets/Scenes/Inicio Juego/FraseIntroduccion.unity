@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempo_start: 0
-  tiempo_end: 15
+  tiempo_end: 10
   escena: IntroducirNombre
 --- !u!4 &1076615787
 Transform:

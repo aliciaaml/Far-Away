@@ -13,7 +13,7 @@ public class DoorController : MonoBehaviour
 
     void changeState(){
         isLocked = !isLocked;
-        instructionController text = gameObject.GetComponent<instructionController>();
+        instructionControllerTEXT text = gameObject.GetComponent<instructionControllerTEXT>();
         text.changeText();
     }
 
