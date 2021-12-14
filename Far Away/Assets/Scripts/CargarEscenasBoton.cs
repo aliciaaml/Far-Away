@@ -10,6 +10,32 @@ public class CargarEscenasBoton : MonoBehaviour
     public static string escenaActual;
     public static string escenaAnterior;
 
+    //Vector2 pos;
+    //public GameObject personaje;
+    //PlayerController personaje;
+
+    void Start(){
+         //PlayerController personaje = gameObject.GetComponent<PlayerController>();
+    }
+
+    void Update(){
+        /*
+        if (SceneManager.GetActiveScene().name=="Nivel1Exterior"){
+            pos=new Vector2(-3.02f,-1.3f);
+            personaje.gameObject.transform.position=pos;
+        }
+        if (SceneManager.GetActiveScene().name=="Nivel2Exterior"){
+            pos=new Vector2(-8.84f,-1.74f);
+            personaje.gameObject.transform.position=pos;
+        }
+         if (SceneManager.GetActiveScene().name=="Nivel3Exterior"){
+            pos=new Vector2(15.65f,-1.87f);
+            personaje.gameObject.transform.position=pos;
+        }
+
+       */ 
+    }
+
     public void LoadScene(string sceneName)
     {
         escenaAnterior = SceneManager.GetActiveScene().name;

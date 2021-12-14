@@ -19,6 +19,7 @@ public class MoverAntena2 : MonoBehaviour,IDragHandler
            if((angulo2>=0 && angulo2<90) || (angulo2>=312)){
 
                 transform.Rotate(Vector3.forward,-speed*Time.deltaTime);
+    
            }
                 
         }

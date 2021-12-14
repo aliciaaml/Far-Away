@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Position : MonoBehaviour
 {
@@ -11,10 +12,12 @@ public class Position : MonoBehaviour
     public static Position inst;        //singleton (se encarga de que solo haya una instancia y que no se duplique)
                                         //es una clase que se ocupa de que unicamente haya una instancia de esa clase
                                         //pero que ademas se pueda acceder desde cualquier lugar
+
+
     void Awake(){
 
 
-        if(Position.inst==null){
+        if(Position.inst==null ){
             //primera vez. Por lo que esta es la instancia
             Position.inst = this;
 
@@ -28,6 +31,7 @@ public class Position : MonoBehaviour
         else{
             //ya hay una instancia.Eliminar esta
             Destroy(gameObject);
+
         }
 
         
