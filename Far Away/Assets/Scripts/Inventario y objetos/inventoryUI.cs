@@ -7,9 +7,13 @@ public class inventoryUI : MonoBehaviour
 
     Slot[] slots;
 
+    bool checkInventory = false;
+
     #region Singleton
 
     public static inventoryUI inst;
+
+
     private void Awake()
     {
         if (inventoryUI.inst == null)         // Primera vez que se crea una intancia, osea primera instancia.
@@ -42,17 +46,17 @@ public class inventoryUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.mousePosition.x >= 1600f && Input.mousePosition.x < 1800f)
-        {
-            gameObject.GetComponent<Animator>().SetTrigger("MouseEnter");
-
-        }
-
-        if (Input.mousePosition.x > 1600f)
+        if (Input.GetKeyDown(KeyCode.I) && !checkInventory)
         {
             gameObject.GetComponent<Animator>().SetBool("Mouse", true);
+            checkInventory = true;
         }
-        else { gameObject.GetComponent<Animator>().SetBool("Mouse", false); }
+
+        else if (Input.GetKeyDown(KeyCode.I) && checkInventory)
+        { 
+            gameObject.GetComponent<Animator>().SetBool("Mouse", false);
+            checkInventory = false;
+        }
     }
 
     public void AnimationIn()

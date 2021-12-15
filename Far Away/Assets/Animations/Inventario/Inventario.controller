@@ -136,10 +136,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Mouse
+    m_ConditionEvent: FinishIn
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: FinishIn
+    m_ConditionEvent: Mouse
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5442705972874095184}
@@ -198,12 +198,6 @@ AnimatorController:
     m_Controller: {fileID: 0}
   - m_Name: Mouse
     m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: MouseEnter
-    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -411,10 +405,10 @@ AnimatorStateMachine:
     m_Position: {x: 260, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5442705972874095184}
-    m_Position: {x: 530, y: -30, z: 0}
+    m_Position: {x: 550, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 894616967128961433}
-    m_Position: {x: 530, y: 70, z: 0}
+    m_Position: {x: 550, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4974428188075188778}
     m_Position: {x: 260, y: -30, z: 0}
@@ -440,7 +434,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: MouseEnter
+    m_ConditionEvent: Mouse
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4974428188075188778}
