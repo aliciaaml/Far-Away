@@ -9,6 +9,9 @@ TagManager:
   - Puerta
   - Objeto
   - "Se\xF1al"
+  - Poca
+  - Media
+  - Completa
   layers:
   - Default
   - TransparentFX
