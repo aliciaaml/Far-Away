@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Position : MonoBehaviour
 {
 
-    public static Vector2 posAux;
+    public static float posAux;
     //public GameObject personaje;
 
     public static Position inst;        //singleton (se encarga de que solo haya una instancia y que no se duplique)
@@ -41,7 +41,7 @@ public class Position : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        posAux = PlayerController.guardar_pos;
+        posAux = PlayerController.guardar_pos.x;
     }
 
 }

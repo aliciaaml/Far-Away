@@ -17,23 +17,38 @@ public class PlayerController : MonoBehaviour
 
     public static Vector2 guardar_pos;
 
+    public static string escena;
+
 
 
 
     private void Awake(){
 
-        //Vector3 pos = new Vector3(POS_PUERTAS.inst.posAux.x, gameObject.transform.position.y,gameObject.transform.position.z);
-
-        gameObject.transform.position = new Vector2(Position.posAux.x, -1.3f);
-     
+        if(GuardarPos.pulsado==false && GuardarPos_N2.pulsado==false && GuardarPos_N3.pulsado==false)
+            gameObject.transform.position = new Vector2 (Position.posAux,gameObject.transform.position.y);
         
-        //Debug.Log(Position.inst.posAux);
+        else{
+            if(GuardarPos.pulsado==true){
+                gameObject.transform.position = GuardarPos.pos;
+                GuardarPos.pulsado=false;
+            }
+            if(GuardarPos_N2.pulsado==true){
+                gameObject.transform.position = GuardarPos_N2.pos;
+                GuardarPos_N2.pulsado=false;
+            }
+            if(GuardarPos_N3.pulsado==true){
+                gameObject.transform.position = GuardarPos_N3.pos;
+                GuardarPos_N3.pulsado=false;
+            }
+                
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
 
+        escena= SceneManager.GetActiveScene().name;
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
@@ -46,6 +61,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
         horizontal = Input.GetAxis("Horizontal");
+        guardar_pos=gameObject.transform.position;
     
 
         if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
