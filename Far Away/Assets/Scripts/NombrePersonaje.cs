@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class NombrePersonaje : MonoBehaviour
 {
-    public string theName;
+    public static string theName;
     public GameObject inputField;
     //public GameObject textDisplay;
 
@@ -24,7 +24,7 @@ public class NombrePersonaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GuardarNombre();
     }
 
 }
