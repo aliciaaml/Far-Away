@@ -879,6 +879,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8365121169053353263, guid: cb52f9652dc7b924cbda6d3c6c9a9bea, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8365121169053353264, guid: cb52f9652dc7b924cbda6d3c6c9a9bea, type: 3}
       propertyPath: m_Name
       value: dialogo

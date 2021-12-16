@@ -7,10 +7,14 @@ public class Iluminación : MonoBehaviour
     private SpriteRenderer sprite;
     private Sprite aux;
 
-    [SerializeField] Sprite nuevoSprite;
+    public Sprite nuevoSprite;
     private void Start()
     {
         sprite = gameObject.GetComponent<SpriteRenderer>();
+        aux = sprite.sprite;
+    }
+
+    public void Rotismo(){
         aux = sprite.sprite;
     }
 
