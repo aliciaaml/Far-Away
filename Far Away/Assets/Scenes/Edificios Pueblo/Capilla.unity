@@ -839,7 +839,7 @@ MonoBehaviour:
     - "Perfecto, ahora ya tengo con que comunicarme, ser\xE1 mejor que me de prisa
       para llamar a emergencias. Lo que sea que me est\xE9 observando puede ser el
       causante de la muerte del padre ___ y la se\xF1ora _____\r\n"
-  control: {fileID: 1737967883}
+ 
 --- !u!212 &484693889
 SpriteRenderer:
   m_ObjectHideFlags: 0
