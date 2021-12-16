@@ -5,6 +5,7 @@ using TMPro;
 
 public class ControlDeDialogo : MonoBehaviour
 {
+    public static bool circular;
     private readonly Queue<string> colaDialogos = new Queue<string>();          // Declaraciones de queues go brrrrrrrrrrr xd
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
@@ -12,6 +13,7 @@ public class ControlDeDialogo : MonoBehaviour
 
     private void Start()
     {
+        circular=false;
         gameObject.SetActive(false);
     }
 
@@ -38,6 +40,7 @@ public class ControlDeDialogo : MonoBehaviour
         if (colaDialogos.Count == 0 && !running)
         {
             CierraCuadro();
+            circular=true;
             return;
         }
 

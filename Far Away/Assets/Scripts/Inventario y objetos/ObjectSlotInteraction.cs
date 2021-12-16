@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class ObjectSlotInteraction : MonoBehaviour
 { 
     bool jugado1 = false;
-    bool jugado2 = true;
+    public static bool jugado2 = true;
 
     public void ClickTrigger()
     {

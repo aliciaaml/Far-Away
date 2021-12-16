@@ -15,6 +15,8 @@ public class FinMinijuego : MonoBehaviour
     public MoverAntena1 antena1;
     public MoverAntena2 antena2;
 
+    public GameObject dialogo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,10 @@ public class FinMinijuego : MonoBehaviour
 
             texto.SetActive(true);
             cuadro_dialogo.SetActive(true);
+            if(EsconderTexto.boton_no==false){
+                dialogo.SetActive(true);
+            }
+                
         }
     }
 }
