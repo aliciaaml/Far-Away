@@ -23,7 +23,7 @@ public class ObjectSlotInteraction : MonoBehaviour
             if (gameObject.transform.GetChild(0).gameObject.GetComponent<Image>().sprite.name == "Movil" && jugado1 && !jugado2)
             {
                 gameObject.transform.parent.parent.parent.parent.GetComponent<Animator>().SetBool("Mouse", false);
-                SceneManager.LoadScene("MinijuegoMovil");
+                SceneManager.LoadScene("MinijuegoMovilBien");
                 jugado2 = true;
 
 

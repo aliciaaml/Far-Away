@@ -80,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minijuegos/MinijuegoRadio.unity
     guid: 280c8162a89475f42b80961236330e3b
+  - enabled: 1
+    path: Assets/Scenes/final.unity
+    guid: cddda47a485182942ab86cbeb85f09c1
   m_configObjects: {}

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class Timer : MonoBehaviour
                 timeRemaining = 0;
                 timerIsRunning = false;
                 Debug.Log("Minijuego perdido");
+                SceneManager.LoadScene("final");
             }
         }
     }

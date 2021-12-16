@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Tablones : MonoBehaviour
 { 
@@ -25,7 +27,7 @@ public class Tablones : MonoBehaviour
     {
         if (!mesa.activeSelf && !silla.activeSelf && timer.timerIsRunning)
         {
-            // Posición del ratón
+            // Posiciï¿½n del ratï¿½n
 
             Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
@@ -38,7 +40,7 @@ public class Tablones : MonoBehaviour
             {
                 if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasVentana") && gameObject.transform.parent.parent.name.Equals("SpritesVentana"))
                 {
-                    UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
+                    UpdateWire(collider.transform.position);    // Actualiza la posiciï¿½n al collider adecuado
 
                     contador += 1;
 
@@ -47,8 +49,9 @@ public class Tablones : MonoBehaviour
 
                     if (contador == 8)
                     {
-                        Debug.Log("Minijuego completado");
+                        Debug.Log("Minijuego completado1");
                         timer.timerIsRunning = false;
+                        SceneManager.LoadScene("final");
                     }
 
 
@@ -57,7 +60,7 @@ public class Tablones : MonoBehaviour
 
                 else if (collider.transform.parent.parent.name.Equals("PosicionesCorrectasPuerta") && gameObject.transform.parent.parent.name.Equals("SpritesPuerta"))
                 {
-                    UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
+                    UpdateWire(collider.transform.position);    // Actualiza la posiciï¿½n al collider adecuado
 
                     contador += 1;
 
@@ -66,8 +69,11 @@ public class Tablones : MonoBehaviour
 
                     if (contador == 8)
                     {
-                        Debug.Log("Minijuego completado");
+                        /////////////////////////////////////////
+                        
+                        Debug.Log("Minijuego completado2");
                         timer.timerIsRunning = false;
+                        SceneManager.LoadScene("final");
                     }
 
                     return;                                     // Para que el UpdateWire de abajo no se ejecute
@@ -82,7 +88,7 @@ public class Tablones : MonoBehaviour
     
     private void OnMouseUp()
     {
-        // Reseteamos la posición del ratón al levantar
+        // Reseteamos la posiciï¿½n del ratï¿½n al levantar
 
         UpdateWire(StartPos);
     } 
@@ -90,7 +96,7 @@ public class Tablones : MonoBehaviour
 
     void UpdateWire(Vector3 MousePos)
     {
-        // Actuaizar posición del objeto
+        // Actuaizar posiciï¿½n del objeto
         gameObject.transform.position = MousePos;
     }
 }
