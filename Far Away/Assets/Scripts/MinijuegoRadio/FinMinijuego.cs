@@ -8,8 +8,7 @@ public class FinMinijuego : MonoBehaviour
     public GameObject error;
     public GameObject button;
 
-    public GameObject texto;
-    public GameObject cuadro_dialogo;
+ 
 
 
     public MoverAntena1 antena1;
@@ -31,8 +30,6 @@ public class FinMinijuego : MonoBehaviour
             error.SetActive(true);
             button.SetActive(true);
 
-            texto.SetActive(true);
-            cuadro_dialogo.SetActive(true);
             if(EsconderTexto.boton_no==false){
                 dialogo.SetActive(true);
             }
