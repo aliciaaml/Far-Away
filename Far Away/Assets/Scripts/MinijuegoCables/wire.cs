@@ -26,7 +26,7 @@ public class wire : MonoBehaviour
     // Update is called once per frame
     void OnMouseDrag()
     {
-        // Posiciï¿½n del ratï¿½n
+        // Posición del ratón
 
         Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         MousePos.z = 0;     // Ya que las coordenadas de z son -10 por defecto y el valor del input del raton es un vector3
@@ -38,7 +38,7 @@ public class wire : MonoBehaviour
         {
             if (collider.gameObject != gameObject)          // comprueba que e collider no pertenece al gameobject
             {
-                UpdateWire(collider.transform.position);    // Actualiza la posiciï¿½n al collider adecuado
+                UpdateWire(collider.transform.position);    // Actualiza la posición al collider adecuado
 
                 if (gameObject.transform.parent.name.Equals(collider.transform.parent.name))        // Se comprueba que colisiona con el color adecuado
                 {
@@ -51,8 +51,7 @@ public class wire : MonoBehaviour
                     if (contador == 4)
                     {
                         Debug.Log("Minijuego completado");
-                        //completado.SetActive(true);
-                        ObjectSlotInteraction.jugado2=false;
+                        completado.SetActive(true);
                     }
                 }
 
@@ -66,21 +65,21 @@ public class wire : MonoBehaviour
 
     private void OnMouseUp()
     {
-        // Reseteamos la posiciï¿½n del ratï¿½n al levantar
+        // Reseteamos la posición del ratón al levantar
 
         UpdateWire(StartPos);
     }
 
     void UpdateWire(Vector3 MousePos)
     {
-        // Actuaizar posiciï¿½n del objeto
+        // Actuaizar posición del objeto
 
         gameObject.transform.position = MousePos;
 
-        // Actualizar direcciï¿½n
+        // Actualizar dirección
 
         Vector3 Direction = MousePos - StartParentPos;
-        gameObject.transform.right = Direction * transform.lossyScale.x;        // Como usamos un cambio de escala para la parte derecha, transfrom.lossyScale hace que las coordenadas en este caso de rotaciï¿½n sean correctas
+        gameObject.transform.right = Direction * transform.lossyScale.x;        // Como usamos un cambio de escala para la parte derecha, transfrom.lossyScale hace que las coordenadas en este caso de rotación sean correctas
 
 
         // Actualizar escala
