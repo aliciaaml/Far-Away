@@ -19,9 +19,10 @@ public class DoorController : MonoBehaviour
 
     public void displayInstructions(){
         panel.SetActive(true);
+
     }
 
     public void hideInstructions(){
-        panel.SetActive(false);
+        panel.SetActive(false);      
     }
 }

@@ -20,9 +20,12 @@ public class SiguienteText1 : MonoBehaviour
 
 
     void TaskOnClick(){
-        if(NoDistroy.no_rep){
-            if(dialogo3.activeInHierarchy==false)
-                dialogo3.SetActive(true);
+
+        if(!EsconderTexto.run){
+            if(NoDistroy.no_rep){
+                if(dialogo3.activeInHierarchy==false)
+                    dialogo3.SetActive(true);
+            }
         }
         
     }

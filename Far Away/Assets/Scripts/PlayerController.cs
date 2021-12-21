@@ -19,13 +19,18 @@ public class PlayerController : MonoBehaviour
 
     public static string escena;
 
+    public static bool puerta_bloq;
+
+    public GameObject dialogoPuertaProta;
+
+    public DialogoPuerProta reloj;
 
 
 
     private void Awake(){
 
         if(GuardarPos.pulsado==false && GuardarPos_N2.pulsado==false && GuardarPos_N3.pulsado==false)
-            gameObject.transform.position = new Vector2 (Position.posAux,gameObject.transform.position.y);
+            gameObject.transform.position = new Vector2 (-4.08f,-1.3f);
         
         else{
             if(GuardarPos.pulsado==true){
@@ -50,7 +55,9 @@ public class PlayerController : MonoBehaviour
 
         escena= SceneManager.GetActiveScene().name;
         rigidbody2d = GetComponent<Rigidbody2D>();
+        //reloj= gameObject.GetComponent<DialogoPuerProta>();
         animator = GetComponent<Animator>();
+        puerta_bloq=true;
 
     }
 
@@ -77,6 +84,13 @@ public class PlayerController : MonoBehaviour
                 //Debug.Log("POS PROTA   "+ gameObject.transform.position);
                 SceneManager.LoadScene(nextScene);
                 
+            }
+            if(puerta_bloq){
+                Debug.Log("puertaaaaaaa blooooqq");
+                dialogoPuertaProta.SetActive(true);
+                StartCoroutine(reloj.Reloj());
+                puerta_bloq=false;
+
             }
         }
     }
@@ -129,10 +143,15 @@ public class PlayerController : MonoBehaviour
             //Debug.Log("entrar");
             //Debug.Log(puerta.sceneName);
             puerta.displayInstructions();
-            if(!puerta.locked){
+            if(!puerta.isLocked){
                 goNext1 = true;
-            } else {
-                Debug.Log("Puerta bloqueada");
+                puerta_bloq=false;
+
+            }   
+            else {
+                puerta_bloq=true;
+                //Debug.Log("Puerta bloqueada");                                   //Puerta BLOQUEADA
+                    
             }
         }
         
