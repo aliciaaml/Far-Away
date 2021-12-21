@@ -20,10 +20,12 @@ public class Texto1Cerradura : MonoBehaviour
     
     IEnumerator Reloj()
     {
+        EsconderTexto.run=true;
         foreach (char caracter in frase)
         {
             dialogo.text = dialogo.text + caracter;
             yield return new WaitForSeconds(0.1f);
         }
+        EsconderTexto.run=false;
     }
 }

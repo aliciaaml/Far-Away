@@ -18,29 +18,35 @@ public class Enabling : MonoBehaviour
 
 
     public void whenCerraduraClicked(){
-        if (fondo.activeInHierarchy==false)
-            flechas_piñones.SetActive(true);
-            //flecha_dialogo.SetActive(false);
-            fondo.SetActive(true);
-            cerradura.SetActive(false);
+
+        if(!EsconderTexto.run){
+            if (fondo.activeInHierarchy==false){
+                flechas_piñones.SetActive(true);
+                //flecha_dialogo.SetActive(false);
+                fondo.SetActive(true);
+                cerradura.SetActive(false);
+            }
+                
+            if (base_c.activeInHierarchy==false)
+                base_c.SetActive(true);
+
+            if (piñon.activeInHierarchy==false)
+                piñon.SetActive(true);
+
+            if (piñon1.activeInHierarchy==false)
+                piñon1.SetActive(true);
+
+            if (piñon2.activeInHierarchy==false)
+                piñon2.SetActive(true);
+
+            if (piñon3.activeInHierarchy==false)
+                piñon3.SetActive(true);
+
+            if (piñon4.activeInHierarchy==false)
+                piñon4.SetActive(true);
+
+        }
         
-        if (base_c.activeInHierarchy==false)
-            base_c.SetActive(true);
-
-        if (piñon.activeInHierarchy==false)
-            piñon.SetActive(true);
-
-        if (piñon1.activeInHierarchy==false)
-            piñon1.SetActive(true);
-
-        if (piñon2.activeInHierarchy==false)
-            piñon2.SetActive(true);
-
-        if (piñon3.activeInHierarchy==false)
-            piñon3.SetActive(true);
-
-        if (piñon4.activeInHierarchy==false)
-            piñon4.SetActive(true);
 
     }
 
