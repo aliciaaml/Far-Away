@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Texto1Cerradura : MonoBehaviour
+public class Texto2Nivel1 : MonoBehaviour
 {
-    string frase = "...... Que...? Qué está pasando? "+
-                    " Porqué no se abre la puerta? ...\n"+
-                    "Estoy encerrado... ";
+    string frase = "Seguro que el vecino sabe que está pasando, será mejor si voy a su casa a echarle un ojo y preguntar";
                    
     public Text dialogo;
     

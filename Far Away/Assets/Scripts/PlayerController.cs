@@ -58,13 +58,17 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        if(EsconderTexto.boton_no){
 
-        horizontal = Input.GetAxis("Horizontal");
-        guardar_pos=gameObject.transform.position;
+            animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+
+            horizontal = Input.GetAxis("Horizontal");
+            guardar_pos=gameObject.transform.position;
+        }
+        
     
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))    //al pulsar arriba comprueba si esta en puerta
+        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w"))&& EsconderTexto.boton_no)    //al pulsar arriba comprueba si esta en puerta
         {
             
             if (goNext1)     //repetir para cada puerta con su respectivo bool y escena

@@ -8,6 +8,8 @@ public class NoDistroy : MonoBehaviour
 
     public static string escena_ant;
 
+    public static bool no_rep=true; //dialogo no reproducido
+
     public static float posAux;
     //public GameObject personaje;
 
@@ -22,6 +24,7 @@ public class NoDistroy : MonoBehaviour
         if(NoDistroy.inst==null ){
             //primera vez. Por lo que esta es la instancia
             NoDistroy.inst = this;
+            no_rep=true;
 
             DontDestroyOnLoad(gameObject);          //Se crea una nueva escena que no se 
                                                 //destruye nunca y mete el objeto en ella
@@ -31,6 +34,7 @@ public class NoDistroy : MonoBehaviour
         else{
             //ya hay una instancia.Eliminar esta
             Destroy(gameObject);
+            no_rep=false;
 
         }
 
@@ -39,7 +43,7 @@ public class NoDistroy : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown("space")){
+        if (Input.GetKeyDown("space") &&  EsconderTexto.boton_no){
             SceneManager.LoadScene ("Reglas", LoadSceneMode.Single );
         }
         else{
