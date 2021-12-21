@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextoMinijuego1 : MonoBehaviour
+public class Texto1Cerradura : MonoBehaviour
 {
     string frase = "...... Que...? Qué está pasando? "+
                     " Porqué no se abre la puerta? ...\n"+
