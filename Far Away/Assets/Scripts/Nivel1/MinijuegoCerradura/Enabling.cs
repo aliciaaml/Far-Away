@@ -16,10 +16,18 @@ public class Enabling : MonoBehaviour
     public GameObject flechas_piñones;
     public GameObject cerradura;
 
+    public GameObject Instrucciones;
+
+    void Update(){
+
+        if(Texto2Cerradura.enablig)
+            Instrucciones.SetActive(true);
+    }
 
     public void whenCerraduraClicked(){
 
-        if(!EsconderTexto.run){
+        if(Texto2Cerradura.enablig){
+
             if (fondo.activeInHierarchy==false){
                 flechas_piñones.SetActive(true);
                 //flecha_dialogo.SetActive(false);

@@ -10,8 +10,11 @@ public class Activar2 : MonoBehaviour
     void Update()
     {
         if(DestroyDialoN1.no_rep1){
-            if(dialogo2.activeInHierarchy==false)
+            if(dialogo2.activeInHierarchy==false){
                 dialogo2.SetActive(true);
+            }
+                
+    
         }
     }
 }

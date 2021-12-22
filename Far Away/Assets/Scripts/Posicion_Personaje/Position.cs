@@ -6,17 +6,17 @@ using UnityEngine.SceneManagement;
 public class Position : MonoBehaviour
 {
 
-    public static float posAux;
+    public static float posAux=-4.08f;
     //public GameObject personaje;
 
     public static Position inst;        //singleton (se encarga de que solo haya una instancia y que no se duplique)
                                         //es una clase que se ocupa de que unicamente haya una instancia de esa clase
                                         //pero que ademas se pueda acceder desde cualquier lugar
-
+    
 
     void Awake(){
-
-
+        
+        
         if(Position.inst==null ){
             //primera vez. Por lo que esta es la instancia
             Position.inst = this;
@@ -38,6 +38,7 @@ public class Position : MonoBehaviour
 
 
     }
+
     // Update is called once per frame
     void Update()
     {

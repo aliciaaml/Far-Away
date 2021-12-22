@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     private void Awake(){
 
         if(GuardarPos.pulsado==false && GuardarPos_N2.pulsado==false && GuardarPos_N3.pulsado==false)
-            gameObject.transform.position = new Vector2 (-4.08f,-1.3f);
+            gameObject.transform.position = new Vector2 (Position.posAux,-1.3f);
         
         else{
             if(GuardarPos.pulsado==true){
@@ -58,19 +58,21 @@ public class PlayerController : MonoBehaviour
         //reloj= gameObject.GetComponent<DialogoPuerProta>();
         animator = GetComponent<Animator>();
         puerta_bloq=true;
+        guardar_pos.x=-4.08f;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
         if(EsconderTexto.boton_no){
 
             animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
             horizontal = Input.GetAxis("Horizontal");
             guardar_pos=gameObject.transform.position;
+            
         }
         
     
@@ -86,7 +88,7 @@ public class PlayerController : MonoBehaviour
                 
             }
             if(puerta_bloq){
-                Debug.Log("puertaaaaaaa blooooqq");
+                //Debug.Log("puertaaaaaaa blooooqq");
                 dialogoPuertaProta.SetActive(true);
                 StartCoroutine(reloj.Reloj());
                 puerta_bloq=false;

@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Texto2Cerradura : MonoBehaviour
+public class Texto1Casa2 : MonoBehaviour
 {
-    string frase = "¿Debería intentar forzar la cerradura para salir? \n"+
-                    "Creo que es la mejor opción. Tengo que salir para averiguar qué está pasando.";
+    string frase = "La puerta está abierta, pero no hay nadie... \n"+
+                    "Esto es muy raro. ";
                    
     public Text dialogo;
-
-    public static bool enablig;
     
 
     // Start is called before the first frame update
     void Start()
     {
-        enablig=false;
         StartCoroutine(Reloj());
-        
     }
     
     IEnumerator Reloj()
@@ -29,8 +25,6 @@ public class Texto2Cerradura : MonoBehaviour
             dialogo.text = dialogo.text + caracter;
             yield return new WaitForSeconds(0.1f);
         }
-        enablig=true;
         EsconderTexto.run=false;
-        
     }
 }

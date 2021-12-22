@@ -2727,7 +2727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1062759597
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3852,6 +3852,7 @@ MonoBehaviour:
   "pi\xF1on4": {fileID: 1611323121}
   "flechas_pi\xF1ones": {fileID: 117304881}
   cerradura: {fileID: 555507868}
+  Instrucciones: {fileID: 1062759596}
 --- !u!114 &1443378558
 MonoBehaviour:
   m_ObjectHideFlags: 0
