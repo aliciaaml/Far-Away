@@ -19,7 +19,6 @@ public class AnimarEntradaDialogos : MonoBehaviour
     void Update()
     {
         if(EsconderTexto.AnimSalida){
-            Debug.Log("saliddaaaaaaaaaaaaaaaaa");
             anim.SetTrigger("salir");
             EsconderTexto.AnimSalida=false;
         }

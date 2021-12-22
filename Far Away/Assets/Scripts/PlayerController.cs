@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     public static string escena;
 
-    public static bool puerta_bloq;
+    public static bool puerProta_bloq;
 
     public GameObject dialogoPuertaProta;
 
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         //reloj= gameObject.GetComponent<DialogoPuerProta>();
         animator = GetComponent<Animator>();
-        puerta_bloq=true;
+        puerProta_bloq=false;
         guardar_pos.x=-4.08f;
 
     }
@@ -87,11 +87,11 @@ public class PlayerController : MonoBehaviour
                 SceneManager.LoadScene(nextScene);
                 
             }
-            if(puerta_bloq){
+            if(puerProta_bloq){
                 //Debug.Log("puertaaaaaaa blooooqq");
                 dialogoPuertaProta.SetActive(true);
                 StartCoroutine(reloj.Reloj());
-                puerta_bloq=false;
+                //puerProta=false;
 
             }
         }
@@ -117,6 +117,12 @@ public class PlayerController : MonoBehaviour
 
             if (collision.gameObject.transform.parent.name == "casaProta")
             {
+                if(puerta.isLocked)    
+                    puerProta_bloq=true;
+
+                else
+                    puerProta_bloq=false;
+          
                 foreach (Item item in Inventory.inst.items)
                 {
                     if (item.name == "Llave")
@@ -147,14 +153,10 @@ public class PlayerController : MonoBehaviour
             puerta.displayInstructions();
             if(!puerta.isLocked){
                 goNext1 = true;
-                puerta_bloq=false;
+                
 
             }   
-            else {
-                puerta_bloq=true;
-                //Debug.Log("Puerta bloqueada");                                   //Puerta BLOQUEADA
-                    
-            }
+      
         }
         
     }
@@ -165,6 +167,7 @@ public class PlayerController : MonoBehaviour
             DoorController puerta = collision.gameObject.GetComponent<DoorController>();
             puerta.hideInstructions();
             goNext1 = false;
+            puerProta_bloq=false;
             
         }
     }

@@ -25,16 +25,21 @@ public class EsconderTexto : MonoBehaviour
         
     }
 
+    void Update(){
+
+        if(run)
+            boton_no=false;
+    }
 
     void TaskOnClick(){
 
         if(!run){
             StartCoroutine(Transiciona());
             AnimSalida=true;
-            boton_no=true;
-            PlayerController.puerta_bloq=true;
-            
+            boton_no=true;  
         }
+        
+        
    
     }
 
