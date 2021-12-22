@@ -1764,6 +1764,7 @@ GameObject:
   - component: {fileID: 504002088}
   - component: {fileID: 504002087}
   - component: {fileID: 504002086}
+  - component: {fileID: 504002090}
   m_Layer: 5
   m_Name: Fondo cuadro de dialogo
   m_TagString: Untagged
@@ -1890,6 +1891,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504002084}
   m_CullTransparentMesh: 1
+--- !u!95 &504002090
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504002084}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f56ecf7557fb12c42a2b1d700faf40c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519424781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,6 +3580,7 @@ GameObject:
   - component: {fileID: 1115789858}
   - component: {fileID: 1115789857}
   - component: {fileID: 1115789856}
+  - component: {fileID: 1115789860}
   m_Layer: 5
   m_Name: Fondo cuadro de dialogo
   m_TagString: Untagged
@@ -3686,6 +3707,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115789854}
   m_CullTransparentMesh: 1
+--- !u!95 &1115789860
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115789854}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f56ecf7557fb12c42a2b1d700faf40c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1135724597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4327639962163551759, guid: 63e5292c32c03d64a83ea540229a77be, type: 3}
@@ -4214,6 +4254,7 @@ GameObject:
   - component: {fileID: 1355965123}
   - component: {fileID: 1355965122}
   - component: {fileID: 1355965121}
+  - component: {fileID: 1355965125}
   m_Layer: 5
   m_Name: Fondo cuadro de dialogo
   m_TagString: Untagged
@@ -4340,6 +4381,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355965119}
   m_CullTransparentMesh: 1
+--- !u!95 &1355965125
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355965119}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f56ecf7557fb12c42a2b1d700faf40c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1505634166
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,10 +10,15 @@ public class ObjectPickUp : MonoBehaviour
 
     public static inventoryUI ui;
 
+    public static bool ciruclar_item;
+    public static bool nota_item;
+
     // Start is called before the first frame update
     void Start()
     {
         camera = Camera.main;
+        ciruclar_item=false;
+        nota_item=false;
 
         foreach (Item item in Inventory.inst.items)
         {
@@ -35,6 +40,16 @@ public class ObjectPickUp : MonoBehaviour
             if (hit.transform.tag == "Objeto")
             {
                 //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
+
+                
+                if(gameObject.transform.parent.name == "Circular"){
+                    ciruclar_item=true;
+                }
+
+                if(gameObject.transform.parent.name == "Nota"){
+                    nota_item=true;
+                }
+
                 Inventory.inst.Add(item);
                 Destroy(gameObject);
                 

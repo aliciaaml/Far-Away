@@ -22,7 +22,7 @@ public class SiguienteText1 : MonoBehaviour
     void TaskOnClick(){
 
         if(!EsconderTexto.run){
-            if(NoDistroy.no_rep){
+            if(DestroyDialoN1.no_rep1){
                 if(dialogo3.activeInHierarchy==false)
                     dialogo3.SetActive(true);
                 

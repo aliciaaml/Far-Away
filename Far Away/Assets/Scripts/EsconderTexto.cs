@@ -9,19 +9,17 @@ public class EsconderTexto : MonoBehaviour
     public Button yourButton;
     public GameObject dialog;
 
-    public static bool AnimSalida=false;
-
-    public static bool boton_no;
+    public static bool boton_no=false;
 
     public static bool run;
+    Animator anim;
 
     void Start()
     {
-        boton_no=false;
         run=true;
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
-        
+        anim=gameObject.GetComponent<Animator>();
         
     }
 
@@ -34,18 +32,16 @@ public class EsconderTexto : MonoBehaviour
     void TaskOnClick(){
 
         if(!run){
+
+            anim.SetTrigger("salir");
             StartCoroutine(Transiciona());
-            AnimSalida=true;
             boton_no=true;  
         }
-        
-        
-   
+
     }
 
     IEnumerator Transiciona()
     {   
-     
         yield return new WaitForSeconds(1);
         dialog.SetActive(false);
         
