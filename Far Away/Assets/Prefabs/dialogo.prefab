@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8365121169053353260}
   - component: {fileID: 8365121169053353263}
   - component: {fileID: 8365121169053353262}
-  - component: {fileID: 7145506488975994509}
   m_Layer: 5
   m_Name: dialogo
   m_TagString: Untagged
@@ -101,25 +100,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!95 &7145506488975994509
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8365121169053353264}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f56ecf7557fb12c42a2b1d700faf40c1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8365121170014580757
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +544,7 @@ GameObject:
   - component: {fileID: 8365121171034870538}
   - component: {fileID: 8365121171034870543}
   - component: {fileID: 8365121171034870541}
+  - component: {fileID: 6016264623226037541}
   m_Layer: 5
   m_Name: Fondo cuadro de dialogo
   m_TagString: Untagged
@@ -701,3 +682,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &6016264623226037541
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8365121171034870542}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f56ecf7557fb12c42a2b1d700faf40c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

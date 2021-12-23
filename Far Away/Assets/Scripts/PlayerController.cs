@@ -55,7 +55,6 @@ public class PlayerController : MonoBehaviour
 
         escena= SceneManager.GetActiveScene().name;
         rigidbody2d = GetComponent<Rigidbody2D>();
-        //reloj= gameObject.GetComponent<DialogoPuerProta>();
         animator = GetComponent<Animator>();
         puerProta_bloq=false;
         guardar_pos.x=-4.08f;

@@ -11,11 +11,13 @@ public class ControlDeDialogo : MonoBehaviour
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
     private bool running = false;
+    Animator anim;
 
     private void Start()
     {
         circular=false;
         gameObject.SetActive(false);
+        anim=gameObject.GetComponent<Animator>();
     }
 
     public void ActivarCuadro(Textos textoObj)
@@ -41,8 +43,6 @@ public class ControlDeDialogo : MonoBehaviour
         if (colaDialogos.Count == 0 && !running)
         {
             CierraCuadro();
-
-            Debug.Log(ObjectPickUp.ciruclar_item); 
 
             if(ObjectPickUp.ciruclar_item){
                 circular=true;
@@ -77,13 +77,23 @@ public class ControlDeDialogo : MonoBehaviour
         foreach (char caracter in textoAMostrar.ToCharArray())
         {
             textoPantalla.text += caracter;
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(0.06f);
         }
         running = false;
     }
 
     void CierraCuadro()
     {
+        anim.SetTrigger("salir");
+        StartCoroutine(Transiciona());
+        
+    }
+
+
+    IEnumerator Transiciona()
+    {   
+        yield return new WaitForSeconds(1);
         gameObject.SetActive(false);
+        
     }
 }

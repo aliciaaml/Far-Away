@@ -9,12 +9,15 @@ public class Inventory : MonoBehaviour
     #region Singleton
 
     public static Inventory inst;
+
+    public static int contador=0;
+
     private void Awake()
     {
         if (Inventory.inst == null)         // Primera vez que se crea una intancia, osea primera instancia.
         {
-            Inventory.inst = this;          // Instancia ÚNICA --> no duplicados en cambios de escena ni en DontDestroyOnLoad()
-                                            // Si este script se vuelve a cargar, Inventory.inst ya no será null, evitando así la creación de duplicados.
+            Inventory.inst = this;          // Instancia ï¿½NICA --> no duplicados en cambios de escena ni en DontDestroyOnLoad()
+                                            // Si este script se vuelve a cargar, Inventory.inst ya no serï¿½ null, evitando asï¿½ la creaciï¿½n de duplicados.
                                             // Inventory.inst para acceder a esta instancia desde cualquier escena
             DontDestroyOnLoad(gameObject);  // DontDestroyOnLoad crea una escena independiente y mueve a ella lo que sea que le digamos para mantenerla entre escenas, pero puede producir duplicados
         }
@@ -39,6 +42,14 @@ public class Inventory : MonoBehaviour
     public void Add(Item item)
     {
         items.Add(item);
+
+        if (item.name == "Nota")
+        {
+            contador+=1;
+        }
+        if(item.name=="Circular"){
+            contador+=1;
+        }
 
         if (OnItemChangeCallback != null) { OnItemChangeCallback.Invoke(); }
     }
