@@ -37,22 +37,25 @@ public class ObjectPickUp : MonoBehaviour
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-            if (hit.transform.tag == "Objeto")
-            {
-                //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
+            if(!MinigameEnter.circularDisable && EsconderTexto.boton_no){
+
+                if (hit.transform.tag == "Objeto")
+                {
+                    //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
 
                 
-                if(gameObject.transform.parent.name == "Circular"){
-                    ciruclar_item=true;
-                }
+                    if(item.name == "Circular"){
+                        ciruclar_item=true;
+                    }
 
-                if(gameObject.transform.parent.name == "Nota"){
-                    nota_item=true;
-                }
+                    if(item.name == "Nota"){
+                        nota_item=true;
+                    }
 
-                Inventory.inst.Add(item);
-                Destroy(gameObject);
+                    Inventory.inst.Add(item);
+                    Destroy(gameObject);
                 
+                }
             }
         }
     }

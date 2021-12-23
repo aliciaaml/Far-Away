@@ -40,7 +40,9 @@ public class ControlDeDialogo : MonoBehaviour
     {
         if (colaDialogos.Count == 0 && !running)
         {
-            CierraCuadro(); 
+            CierraCuadro();
+
+            Debug.Log(ObjectPickUp.ciruclar_item); 
 
             if(ObjectPickUp.ciruclar_item){
                 circular=true;

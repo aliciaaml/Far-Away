@@ -21,7 +21,8 @@ public class Iluminación : MonoBehaviour
 
     private void OnMouseOver()
     {
-        sprite.sprite = nuevoSprite;
+        if(!MinigameEnter.circularDisable && EsconderTexto.boton_no)
+            sprite.sprite = nuevoSprite;
     }
 
     private void OnMouseExit()

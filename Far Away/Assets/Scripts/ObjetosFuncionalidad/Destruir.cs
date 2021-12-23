@@ -6,6 +6,7 @@ public class Destruir : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        Destroy(gameObject);
+        if(!MinigameEnter.circularDisable && EsconderTexto.boton_no)
+            Destroy(gameObject);
     }
 }

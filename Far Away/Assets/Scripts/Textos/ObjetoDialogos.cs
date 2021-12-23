@@ -9,6 +9,25 @@ public class ObjetoDialogos : MonoBehaviour
 
     private void OnMouseDown()
     {
-        control.ActivarCuadro(textos);
+        if(EsconderTexto.boton_no){
+            if(gameObject.transform.name=="Interruptor"){
+                foreach (Item item in Inventory.inst.items)
+                {
+                    if (item.name == "Nota")
+                    {
+                        control.ActivarCuadro(textos);
+                    }
+                }
+            }
+
+            else if(!MinigameEnter.circularDisable){
+                control.ActivarCuadro(textos);
+            }
+
+        }
+
+        
+        
+      
     }
 }
