@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogoPuerProta : MonoBehaviour
+public class DialogoIglesia : MonoBehaviour
 {
-    public static string frase = "Antes de volver a casa, debería ir a ver a mi vecino y preguntarle.";
+    public static string frase = "Cerrada. *toc toc \n"+
+                                  "HOLA? ¿ME PODEÍS ABRIR, POR FAVOR? ...";
                    
     public Text dialogo;
     

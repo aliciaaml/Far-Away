@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogoPuerProta : MonoBehaviour
+public class Texto1Nivel2 : MonoBehaviour
 {
-    public static string frase = "Antes de volver a casa, debería ir a ver a mi vecino y preguntarle.";
+    string frase = "Ya estoy aquí, será mejor que me de prisa y me dirija a la iglesia.";
                    
     public Text dialogo;
     
@@ -13,11 +13,11 @@ public class DialogoPuerProta : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(Reloj());
     }
-
-    public IEnumerator Reloj()
+    
+    IEnumerator Reloj()
     {
-        dialogo.text="";
         EsconderTexto.run=true;
         foreach (char caracter in frase)
         {
@@ -25,5 +25,5 @@ public class DialogoPuerProta : MonoBehaviour
             yield return new WaitForSeconds(0.07f);
         }
         EsconderTexto.run=false;
-   } 
+    }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogoPuerProta : MonoBehaviour
+public class NoPasarDialog : MonoBehaviour
 {
-    public static string frase = "Antes de volver a casa, debería ir a ver a mi vecino y preguntarle.";
+    public static string frase = "Esta no es la casa del padre, es la de al lado.";
                    
     public Text dialogo;
     
