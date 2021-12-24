@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DestroyDialoN1 : MonoBehaviour
 {
     public static DestroyDialoN1 inst;        //singleton (se encarga de que solo haya una instancia y que no se duplique)
@@ -9,6 +10,10 @@ public class DestroyDialoN1 : MonoBehaviour
                                         //pero que ademas se pueda acceder desde cualquier lugar
 
     public static bool no_rep1=true;
+
+
+    public static bool unavez=true;
+
 
     void Awake(){
 
@@ -32,4 +37,6 @@ public class DestroyDialoN1 : MonoBehaviour
         }
 
     }
+
+   
 }

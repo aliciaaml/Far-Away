@@ -22,17 +22,18 @@ public class GuardarPos_N2 : MonoBehaviour
     }
 
     void TaskOnClick(){
-        if (PlayerController.escena!="Nivel2Exterior"){
-            pos=new Vector2(-8.84f,-1.74f);
-            pulsado=true;
-            Debug.Log ("You have clicked the button 2 !");
+        if(gameObject.transform.name== "Nivel2" && Inventory.contador>=2){
 
+            if (PlayerController.escena!="Nivel2Exterior"){
+                pos=new Vector2(-8.84f,-1.74f);
+                pulsado=true;
+            }
+
+            else{
+                pulsado=false;
+            }
         }
-
-        else{
-
-            pulsado=false;
-        }
+       
 		   
 	}
 }

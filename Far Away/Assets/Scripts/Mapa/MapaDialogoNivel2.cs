@@ -23,7 +23,7 @@ public class MapaDialogoNivel2 : MonoBehaviour
         foreach (char caracter in frase)
         {
             dialogo.text = dialogo.text + caracter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.07f);
         }
         EsconderTexto.run=false;
     }

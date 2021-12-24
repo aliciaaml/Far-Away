@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeerNotaVecino : MonoBehaviour
+public class LeerNota : MonoBehaviour
 {
     public GameObject leer;
     public GameObject boton;
@@ -15,10 +15,10 @@ public class LeerNotaVecino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(ObjectPickUp.nota_item){
+        if(ControlDeDialogo.nota){
             leer.SetActive(true);
             boton.SetActive(true);
-            ObjectPickUp.nota_item=false;
+            ControlDeDialogo.nota=false;
         }
     }
 }

@@ -27,7 +27,7 @@ public class GuardarPos : MonoBehaviour
         if (PlayerController.escena!="Nivel1Exterior"){
             pos=new Vector2(-4.08f,-1.3f);
             pulsado=true;
-            Debug.Log ("You have clicked the button!");
+
         }
 
         else{

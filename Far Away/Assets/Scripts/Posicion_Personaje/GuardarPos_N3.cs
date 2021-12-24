@@ -22,17 +22,19 @@ public class GuardarPos_N3 : MonoBehaviour
     }
 
     void TaskOnClick(){
-        if (PlayerController.escena!="Nivel3Exterior"){
-            pos=new Vector2(15.65f,-1.9f);
-            pulsado=true;
 
-            Debug.Log ("You have clicked the button 3 !");
+        if(gameObject.transform.name== "Nivel3"&& Inventory.contador>=4){
 
+            if (PlayerController.escena!="Nivel3Exterior"){
+                pos=new Vector2(15.65f,-1.9f);
+                pulsado=true;
+            }
+
+            else{
+                pulsado=false;
+            }   
         }
-
-        else{
-            pulsado=false;
-        }
+      
 		   
 	}
 }

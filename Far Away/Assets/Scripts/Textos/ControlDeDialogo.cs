@@ -48,12 +48,12 @@ public class ControlDeDialogo : MonoBehaviour
                 circular=true;
                 ObjectPickUp.ciruclar_item=false;
             }
-            /*
+            
             if(ObjectPickUp.nota_item){
                 nota=true;
                 ObjectPickUp.nota_item=false;
             }
-            */
+            
             return;
 
         
@@ -77,7 +77,7 @@ public class ControlDeDialogo : MonoBehaviour
         foreach (char caracter in textoAMostrar.ToCharArray())
         {
             textoPantalla.text += caracter;
-            yield return new WaitForSeconds(0.06f);
+            yield return new WaitForSeconds(0.07f);
         }
         running = false;
     }

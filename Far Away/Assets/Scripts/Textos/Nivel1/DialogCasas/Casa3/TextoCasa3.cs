@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TextoCasa3 : MonoBehaviour
 {
     string frase = "Esta casa también está desierta...\n"+
-                    "A ver si hay algo aquí que me pueda servir para averiguar qué ocurre ";
+                    "A ver si hay algo aquí que me pueda servir para averiguar qué ocurre. ";
                    
     public Text dialogo;
     
@@ -23,7 +23,7 @@ public class TextoCasa3 : MonoBehaviour
         foreach (char caracter in frase)
         {
             dialogo.text = dialogo.text + caracter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.07f);
         }
         EsconderTexto.run=false;
     }

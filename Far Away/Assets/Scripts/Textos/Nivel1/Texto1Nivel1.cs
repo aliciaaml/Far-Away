@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MapaDialogoNivel3 : MonoBehaviour
+public class Texto1Nivel1 : MonoBehaviour
 {
-    string frase = "Aún no es momento de ir al nivel 3, me faltan cosas por hacer aquí.";
+    string frase = "Ufff… menos mal que he conseguido salir, pero ¿no está el pueblo como muy silencioso? \n"+
+                    "¿Dónde está todo el mundo? Algo está pasando y debo averiguar qué es.";
                    
     public Text dialogo;
     
@@ -13,12 +14,11 @@ public class MapaDialogoNivel3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //StartCoroutine(Reloj());
+        StartCoroutine(Reloj());
     }
     
-    public IEnumerator Reloj()
+    IEnumerator Reloj()
     {
-        dialogo.text="";
         EsconderTexto.run=true;
         foreach (char caracter in frase)
         {
