@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SiguienteText2 : MonoBehaviour
 {
-    public GameObject dialogo2;
+    public GameObject dialogoIglesia;
     public GameObject dialogo3;
 
     public Button yourButton;

@@ -33,6 +33,11 @@ public class PlayerController : MonoBehaviour
     public static bool no_puertaCura=false;
     public static bool no_casa4=false;
 
+    public static DoorController puerta;
+    public static bool dialog=false;
+
+
+
 
 
 
@@ -86,16 +91,6 @@ public class PlayerController : MonoBehaviour
             
             
         }
-
-
-
-        //Debug.Log( desbloq_purtaCura +" DESBLOQ PUERTA CURA");
-        //Debug.Log(desbloq_puertaCasa4+ " DESBLOQ PUERTA CASA 4");
-
-        //Debug.Log(no_puertaCura+ " PUERTA CURA BLOQQQQ");
-        //Debug.Log(no_casa4 + " PUERTA CASA4 BLOQQQ");
-        
-        
     
 
         if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w"))&& EsconderTexto.boton_no)    //al pulsar arriba comprueba si esta en puerta
@@ -105,12 +100,10 @@ public class PlayerController : MonoBehaviour
             if (goNext1)     //repetir para cada puerta con su respectivo bool y escena
             {
                 guardar_pos=gameObject.transform.position;
-                //Debug.Log("POS PROTA   "+ gameObject.transform.position);
                 SceneManager.LoadScene(nextScene);
                 
             }
             if(puerProta_bloq){
-                //Debug.Log("puertaaaaaaa blooooqq");
                 dialogoPuertaProta.SetActive(true);
                 StartCoroutine(reloj.Reloj());
         
@@ -118,7 +111,6 @@ public class PlayerController : MonoBehaviour
             }
 
             if(puertaIglesia_bloq){
-                //Debug.Log("puertaaaaaaa blooooqq");
                 dialogoIglesia.SetActive(true);
                 StartCoroutine(reloj2.Reloj());
                 desbloq_purtaCura=true;   
@@ -141,14 +133,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)   //inicio de interaccion con puertas (Repetir para cada puerta con otro tag y bool ambos void)
     {
-        Debug.Log(collision.gameObject.transform.parent.name);
-        Debug.Log(desbloq_purtaCura);
-        Debug.Log(no_casa4);
+
+
 
         if (collision.gameObject.tag == "Puerta")
         {
 
-            DoorController puerta = collision.gameObject.GetComponent<DoorController>();
+            puerta = collision.gameObject.GetComponent<DoorController>();
+
 
             if (collision.gameObject.transform.parent.name == "casaProta")
             {
@@ -176,7 +168,6 @@ public class PlayerController : MonoBehaviour
 
                 }    
                     
-
                 else
                     puertaIglesia_bloq=false;
 
@@ -194,8 +185,9 @@ public class PlayerController : MonoBehaviour
                 no_puertaCura=true;
             }
             if (collision.gameObject.transform.parent.name == "casaIglesia2" && desbloq_purtaCura){
-                puerta.isLocked=false;
+
                 desbloq_puertaCasa4=true;
+                dialog=true;
             }
                 
 
@@ -210,8 +202,6 @@ public class PlayerController : MonoBehaviour
             
 
             nextScene = puerta.sceneName;
-            //Debug.Log("entrar");
-            //Debug.Log(puerta.sceneName);
             puerta.displayInstructions();
             if(!puerta.isLocked){
                 goNext1 = true;
@@ -226,7 +216,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Puerta")
          {
-            DoorController puerta = collision.gameObject.GetComponent<DoorController>();
+            puerta = collision.gameObject.GetComponent<DoorController>();
             puerta.hideInstructions();
             goNext1 = false;
             puerProta_bloq=false;
@@ -236,6 +226,10 @@ public class PlayerController : MonoBehaviour
             
         }
     }
+
+
+        
+
 
   
 }
