@@ -11,7 +11,7 @@ public class MoverMovil : MonoBehaviour, IDragHandler
      bool terminado;
 
     public Image Imagen;
-    public GameObject completado;
+    public GameObject dialog;
     public GameObject boton_salir;
 
     // Start is called before the first frame update
@@ -29,7 +29,7 @@ public class MoverMovil : MonoBehaviour, IDragHandler
         {
             Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_1raya");
             terminado=true;
-            completado.SetActive(true);
+            dialog.SetActive(true);
             boton_salir.SetActive(true);
         }
 

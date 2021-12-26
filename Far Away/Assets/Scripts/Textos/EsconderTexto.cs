@@ -38,7 +38,12 @@ public class EsconderTexto : MonoBehaviour
             anim.SetTrigger("salir");
             StartCoroutine(Transiciona());
             boton_no=true;
-            num_textos+=1;  
+            
+            num_textos+=1;
+
+      
+
+            Debug.Log(num_textos);  
         }
 
     }

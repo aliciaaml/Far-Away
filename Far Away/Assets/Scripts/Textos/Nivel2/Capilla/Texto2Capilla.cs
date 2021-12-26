@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogoFinalNivel1 : MonoBehaviour
+public class Texto2Capilla : MonoBehaviour
 {
-    string frase = "Algo debe andar mal con la señal.\n" +
-                    "Lo mejor será que me dirija a la torre de comunicaciones para ver si algo está imposibilitando la señal.";
+    string frase = "Todo esto hule muy mal, y noto una presencia muy extraña a mi alrededor. \n" + 
+                    "Como si alguien me estuviera observando, cada vez un poco más cerca."; 
                    
     public Text dialogo;
     

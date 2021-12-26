@@ -15,9 +15,9 @@ public class MinigameEnter : MonoBehaviour
     {
         if(EsconderTexto.boton_no){
 
-            tile.SetActive(true);
-            radio.SetActive(false);
             exit.SetActive(true);
+            tile.SetActive(true);
+            radio.SetActive(false);       
             flecha_salida.SetActive(false);
             circularDisable=true;
         }

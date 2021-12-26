@@ -16,7 +16,7 @@ public class ActivarEscenaFianla2 : MonoBehaviour
     void Update()
     {
         if(DestroyDialoN1.unavez){
-            if(Inventory.contador==4 && SceneManager.GetActiveScene().name=="Nivel2Exterior"){
+            if(Inventory.contador==4 && SceneManager.GetActiveScene().name=="Nivel2Exterior" && DestroyDialoC2.casa4 && TextoMovil.movil1terminado){
                 dialogo4.SetActive(true);
                 DestroyDialoN2.unavez=false;
             }

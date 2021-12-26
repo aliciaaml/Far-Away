@@ -12,7 +12,6 @@ public class DestroyDialoC2 : MonoBehaviour
     public static bool no_rep2=true;
 
     public static bool casa4=false;
-    public static bool casa5=false;
 
     void Awake(){
 
@@ -42,8 +41,6 @@ public class DestroyDialoC2 : MonoBehaviour
         if(SceneManager.GetActiveScene().name=="Casa4"){
             casa4=true;
         }
-        if(SceneManager.GetActiveScene().name=="Casa5"){
-            casa5=true;
-        }
+
     }
 }

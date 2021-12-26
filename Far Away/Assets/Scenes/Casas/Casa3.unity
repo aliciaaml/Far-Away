@@ -672,7 +672,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 34.216, y: 4.272, z: 7.567}
 --- !u!1 &243602926
 GameObject:
@@ -735,6 +735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 902721381}
   exit: {fileID: 1645758654}
+  radio: {fileID: 0}
   flecha_salida: {fileID: 38569318}
 --- !u!222 &243602929
 CanvasRenderer:
@@ -1918,7 +1919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8365121169053353264, guid: cb52f9652dc7b924cbda6d3c6c9a9bea, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8365121169053353265, guid: cb52f9652dc7b924cbda6d3c6c9a9bea, type: 3}
       propertyPath: m_Pivot.x
@@ -1930,7 +1931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8365121169053353265, guid: cb52f9652dc7b924cbda6d3c6c9a9bea, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8365121169053353265, guid: cb52f9652dc7b924cbda6d3c6c9a9bea, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2444,7 +2445,7 @@ Transform:
   - {fileID: 423957830}
   - {fileID: 1033492086}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956090659
 GameObject:
@@ -3490,7 +3491,7 @@ Transform:
   - {fileID: 403816153}
   - {fileID: 1398788771}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1645758656
 BoxCollider2D:
@@ -3532,8 +3533,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 902721381}
   exit: {fileID: 1645758654}
-  boton: {fileID: 1398788767}
   flecha_salida: {fileID: 38569318}
+  radio: {fileID: 0}
   boton_exit: {fileID: 77140274}
 --- !u!212 &1645758658
 SpriteRenderer:

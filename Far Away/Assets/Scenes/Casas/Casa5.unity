@@ -2613,6 +2613,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5034230455585685530, guid: 4f455fc299a61704885320d9d62cc671, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Nivel2Exterior
+      objectReference: {fileID: 0}
     - target: {fileID: 5034230455585685535, guid: 4f455fc299a61704885320d9d62cc671, type: 3}
       propertyPath: m_Name
       value: Button

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogoFinalNivel1 : MonoBehaviour
+public class TextoMovil : MonoBehaviour
 {
-    string frase = "Algo debe andar mal con la señal.\n" +
-                    "Lo mejor será que me dirija a la torre de comunicaciones para ver si algo está imposibilitando la señal.";
+    string frase =  "Apenas hay cobertura, con esta no me es suficiente para poder llamar a emergencias.";
                    
     public Text dialogo;
+
+    public static bool movil1terminado=false;
     
 
     // Start is called before the first frame update
@@ -26,5 +27,6 @@ public class DialogoFinalNivel1 : MonoBehaviour
             yield return new WaitForSeconds(0.07f);
         }
         EsconderTexto.run=false;
+        movil1terminado=true;
     }
 }
