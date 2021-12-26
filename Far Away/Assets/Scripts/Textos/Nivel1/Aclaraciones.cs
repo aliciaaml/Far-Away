@@ -14,7 +14,10 @@ public class Aclaraciones : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(EsconderTexto.boton_no)
+        if(EsconderTexto.boton_no && !SiguienteText1.segundoTexto)
+            gameObject.SetActive(false);
+
+        if(SiguienteText1.segundoTexto && EsconderTexto.num_textos==2)
             gameObject.SetActive(false);
     }
 }

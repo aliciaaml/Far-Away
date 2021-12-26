@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyDialoC2 : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class DestroyDialoC2 : MonoBehaviour
                                         //pero que ademas se pueda acceder desde cualquier lugar
 
     public static bool no_rep2=true;
+
+    public static bool casa4=false;
+    public static bool casa5=false;
 
     void Awake(){
 
@@ -31,5 +35,15 @@ public class DestroyDialoC2 : MonoBehaviour
 
         }
 
+    }
+
+    void Update(){
+
+        if(SceneManager.GetActiveScene().name=="Casa4"){
+            casa4=true;
+        }
+        if(SceneManager.GetActiveScene().name=="Casa5"){
+            casa5=true;
+        }
     }
 }

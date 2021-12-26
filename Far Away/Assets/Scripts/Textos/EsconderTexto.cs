@@ -14,6 +14,8 @@ public class EsconderTexto : MonoBehaviour
     public static bool run;
     Animator anim;
 
+    public static int num_textos=0;
+
     void Start()
     {
         run=true;
@@ -35,7 +37,8 @@ public class EsconderTexto : MonoBehaviour
 
             anim.SetTrigger("salir");
             StartCoroutine(Transiciona());
-            boton_no=true;  
+            boton_no=true;
+            num_textos+=1;  
         }
 
     }

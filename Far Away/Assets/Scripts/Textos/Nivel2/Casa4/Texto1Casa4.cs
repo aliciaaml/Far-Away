@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextoFinal : MonoBehaviour
+public class Texto1Casa4 : MonoBehaviour
 {
-    string frase =  "Oh no, la radio no funciona. \n"+
-                    "Tiene que haber otra manera.";
+    string frase = "Todas las casas se encuentran en el mismo estado, destrozadas."; 
                    
     public Text dialogo;
     

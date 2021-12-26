@@ -11,6 +11,8 @@ public class SiguienteText1 : MonoBehaviour
 
     public Button yourButton;
 
+    public static bool segundoTexto=false;
+
     void Start()
     {
         Button btn = yourButton.GetComponent<Button>();
@@ -25,6 +27,7 @@ public class SiguienteText1 : MonoBehaviour
             if(DestroyDialoN1.no_rep1){
                 if(dialogo3.activeInHierarchy==false)
                     dialogo3.SetActive(true);
+                    segundoTexto=true;
                 
             }
         }

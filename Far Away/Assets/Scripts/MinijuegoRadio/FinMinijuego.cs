@@ -5,8 +5,9 @@ using UnityEngine;
 public class FinMinijuego : MonoBehaviour
 {
 
-    public GameObject error;
-    public GameObject button;
+   // public GameObject error;
+   // public GameObject button;
+    public GameObject dialogFinJuego;
 
  
 
@@ -14,7 +15,6 @@ public class FinMinijuego : MonoBehaviour
     public MoverAntena1 antena1;
     public MoverAntena2 antena2;
 
-    public GameObject dialogo;
 
     // Start is called before the first frame update
     void Start()
@@ -27,12 +27,11 @@ public class FinMinijuego : MonoBehaviour
     {
         if((antena2.angulo2<300 && antena2.angulo2>30) && (antena1.angulo1<300 && antena1.angulo1>45)){
 
-            error.SetActive(true);
-            button.SetActive(true);
+            //error.SetActive(true);
+            //button.SetActive(true);
 
-            if(EsconderTexto.boton_no==false){
-                dialogo.SetActive(true);
-            }
+            dialogFinJuego.SetActive(true);
+            
                 
         }
     }
