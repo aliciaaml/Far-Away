@@ -11,12 +11,14 @@ public class SiguienteText1 : MonoBehaviour
 
     public Button yourButton;
 
-    public static bool segundoTexto=false;
+    public static bool segundoTexto;
 
     void Start()
     {
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
+
+        segundoTexto=false;
         
     }
 

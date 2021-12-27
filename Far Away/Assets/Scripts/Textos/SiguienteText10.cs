@@ -9,12 +9,13 @@ public class SiguienteText10 : MonoBehaviour
     public GameObject dialogo3;
 
     public Button yourButton;
-    public static bool  texto10=false;
+    public static bool  texto10;
 
     void Start()
     {
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
+        texto10=false;
         
     }
 

@@ -2795,7 +2795,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587024888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 736d263eb81f6c94f88435aff970468a, type: 3}
+  m_Script: {fileID: 11500000, guid: 15a975cf8e122304b9fa279278fd1633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1587024890
@@ -3282,7 +3282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1801377852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82a34d256e7c99478ef6891d086a5a0, type: 3}
+  m_Script: {fileID: 11500000, guid: e2be419e5b420b047a508ebd1f920883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogo2: {fileID: 1908350428}

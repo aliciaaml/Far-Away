@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogoFinalNivel1 : MonoBehaviour
+public class DialogoFinalN2 : MonoBehaviour
 {
-    string frase = "Según dice la circular se han reunido todos en la iglesia.\n" +
-                    "Debo ir allí ha reunirme con ellos y descubrir que ocurre.";
+    string frase = "Algo debe andar mal con la señal.\n" +
+                    "Lo mejor será que me dirija a la torre de comunicaciones para ver si algo está imposibilitando la señal.";
                    
     public Text dialogo;
     

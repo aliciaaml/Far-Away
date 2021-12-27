@@ -14,7 +14,7 @@ public class EsconderTexto : MonoBehaviour
     public static bool run;
     Animator anim;
 
-    public static int num_textos=0;
+    public static int num_textos;
 
     void Start()
     {
@@ -22,6 +22,9 @@ public class EsconderTexto : MonoBehaviour
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
         anim=gameObject.GetComponent<Animator>();
+        num_textos=0;
+
+        Debug.Log(num_textos);  
         
     }
 

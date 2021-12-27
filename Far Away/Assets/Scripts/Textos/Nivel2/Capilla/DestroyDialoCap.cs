@@ -1,27 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class DestroyDialoC2 : MonoBehaviour
+public class DestroyDialoCap : MonoBehaviour
 {
-    public static DestroyDialoC2 inst;        //singleton (se encarga de que solo haya una instancia y que no se duplique)
+    public static DestroyDialoCap inst;        //singleton (se encarga de que solo haya una instancia y que no se duplique)
                                         //es una clase que se ocupa de que unicamente haya una instancia de esa clase
                                         //pero que ademas se pueda acceder desde cualquier lugar
 
-    public static bool no_rep2=true;
-
-    public static bool casa4=false;
+    public static bool no_repCap=true;
 
     void Awake(){
 
 
-        if(DestroyDialoC2.inst==null ){
+        if(DestroyDialoCap.inst==null ){
             //primera vez. Por lo que esta es la instancia
-            DestroyDialoC2.inst = this;
-            no_rep2=true;
+            DestroyDialoCap.inst = this;
+            no_repCap=true;
             EsconderTexto.boton_no=false;
-
+            
             SiguienteText1.segundoTexto=false;
             SiguienteText10.texto10=false;
 
@@ -33,19 +30,9 @@ public class DestroyDialoC2 : MonoBehaviour
         else{
             //ya hay una instancia.Eliminar esta
             Destroy(gameObject);
-            no_rep2=false;
+            no_repCap=false;
 
         }
 
     }
-
-    void Update(){
-
-        if(SceneManager.GetActiveScene().name=="Casa4"){
-            casa4=true;
-        }
-
-    }
-
-    
 }
