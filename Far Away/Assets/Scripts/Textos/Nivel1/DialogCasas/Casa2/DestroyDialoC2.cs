@@ -22,8 +22,7 @@ public class DestroyDialoC2 : MonoBehaviour
             no_rep2=true;
             EsconderTexto.boton_no=false;
 
-            SiguienteText1.segundoTexto=false;
-            SiguienteText10.texto10=false;
+  
 
             DontDestroyOnLoad(gameObject);          //Se crea una nueva escena que no se 
                                                 //destruye nunca y mete el objeto en ella

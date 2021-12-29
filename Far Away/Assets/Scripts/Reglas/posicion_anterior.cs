@@ -27,6 +27,8 @@ public class posicion_anterior : MonoBehaviour
 
     void TaskOnClick(){
 
+        Debug.Log(TextoMovil.movil1terminado);
+
        // Debug.Log("tacado");
         SceneManager.LoadScene(NoDistroy.escena_ant);
         reglas=false;

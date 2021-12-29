@@ -11,14 +11,14 @@ public class SiguienteText1 : MonoBehaviour
 
     public Button yourButton;
 
-    public static bool segundoTexto;
+    public static bool texto1;
 
     void Start()
     {
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
 
-        segundoTexto=false;
+        texto1=false;
         
     }
 
@@ -26,12 +26,15 @@ public class SiguienteText1 : MonoBehaviour
     void TaskOnClick(){
 
         if(!EsconderTexto.run){
-            if(DestroyDialoN1.no_rep1){
-                if(dialogo3.activeInHierarchy==false)
-                    dialogo3.SetActive(true);
-                    segundoTexto=true;
-                
+            //if(DestroyDialoN1.no_rep1){
+            if(dialogo3.activeInHierarchy==false){
+                dialogo3.SetActive(true);
+
+                if(Aclaraciones.aclar)
+                    texto1=true;
             }
+               
+         
         }
        
         

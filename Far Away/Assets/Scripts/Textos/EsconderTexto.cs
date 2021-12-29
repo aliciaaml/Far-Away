@@ -12,9 +12,17 @@ public class EsconderTexto : MonoBehaviour
     public static bool boton_no=false;
 
     public static bool run;
+
+    /*
+    public static bool esconder1=false;
+    public static bool esconder2=false;
+    public static bool esconder3=false;
+    public static bool esconder4=false;
+    */
+
     Animator anim;
 
-    public static int num_textos;
+    public static int num_textos=0;
 
     void Start()
     {
@@ -22,9 +30,8 @@ public class EsconderTexto : MonoBehaviour
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
         anim=gameObject.GetComponent<Animator>();
-        num_textos=0;
 
-        Debug.Log(num_textos);  
+        
         
     }
 
@@ -44,8 +51,7 @@ public class EsconderTexto : MonoBehaviour
             
             num_textos+=1;
 
-      
-
+            
             Debug.Log(num_textos);  
         }
 

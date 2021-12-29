@@ -4041,7 +4041,6 @@ GameObject:
   m_Component:
   - component: {fileID: 783459914}
   - component: {fileID: 783459913}
-  - component: {fileID: 783459915}
   m_Layer: 0
   m_Name: DialogosNoDestruir2
   m_TagString: Untagged
@@ -4080,19 +4079,6 @@ RectTransform:
   m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &783459915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783459912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa679915971893440b5b2c89801ce855, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogo4: {fileID: 666625023}
 --- !u!1 &785604607
 GameObject:
   m_ObjectHideFlags: 0

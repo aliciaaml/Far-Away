@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DestroyDialoN2 : MonoBehaviour
 {
@@ -39,6 +41,17 @@ public class DestroyDialoN2 : MonoBehaviour
 
         }
 
+    }
+
+    void Update(){
+        if(SceneManager.GetActiveScene().name=="Nivel2Exterior"){
+            EsconderTexto.num_textos=0;
+            Aclaraciones.aclar=false;
+        }
+
+        if(SceneManager.GetActiveScene().name!="Reglas" && SceneManager.GetActiveScene().name!="MinijuegoMovil"){
+            posicion_anterior.reglas=false;
+        }
     }
 }
 

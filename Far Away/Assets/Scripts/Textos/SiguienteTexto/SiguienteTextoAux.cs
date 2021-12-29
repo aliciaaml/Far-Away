@@ -3,19 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SiguienteText10 : MonoBehaviour
+public class SiguienteTextoAux : MonoBehaviour
 {
     public GameObject dialogo2;
     public GameObject dialogo3;
 
     public Button yourButton;
-    public static bool  texto10;
+
+    public static bool textaux;
+
+  
 
     void Start()
     {
         Button btn = yourButton.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
-        texto10=false;
+
+        textaux=false;
+
+   
         
     }
 
@@ -23,13 +29,16 @@ public class SiguienteText10 : MonoBehaviour
     void TaskOnClick(){
 
         if(!EsconderTexto.run){
-            if(DestroyDialoN1.no_rep1){
-                if(dialogo3.activeInHierarchy==false)
-                    dialogo3.SetActive(true);
-                    texto10=true;
+            //if(DestroyDialoN2.no_rep1){
+            if(dialogo3.activeInHierarchy==false){
+                dialogo3.SetActive(true);
+                if(Aclaraciones.aclar)
+                    textaux=true;
+            }
+                    
                     
                 
-            }
+            
         }
        
         

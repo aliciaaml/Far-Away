@@ -51,7 +51,7 @@ public class NoDistroy : MonoBehaviour
             if(posicion_anterior.reglas==false){
 
                 escena_ant=SceneManager.GetActiveScene().name;
-                //Debug.Log(escena_ant);
+                Debug.Log(escena_ant);
             }
                 
         }
