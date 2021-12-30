@@ -34,7 +34,7 @@ public class CargarEscenasBoton : MonoBehaviour
             EsconderTexto.boton_no=false;
         }
 
-        if(gameObject.transform.name== "Nivel2" && Inventory.contador>=2){
+        if(gameObject.transform.name== "Nivel2" && Inventory.contador>=2 && PlayerController.escena=="Nivel2Exterior" && !EsconderTexto.run){
 
              SceneManager.LoadScene(sceneName);
              nivel2_bloq=false;
@@ -49,7 +49,7 @@ public class CargarEscenasBoton : MonoBehaviour
             EsconderTexto.boton_no=false;
         }
 
-        if(gameObject.transform.name== "Nivel3" && Inventory.contador>=4){
+        if(gameObject.transform.name== "Nivel3" && Inventory.contador>=4 && PlayerController.escena=="Nivel3Exterior"){
 
              nivel3_bloq=false;
              SceneManager.LoadScene(sceneName);
@@ -57,7 +57,7 @@ public class CargarEscenasBoton : MonoBehaviour
         }
             
 
-        if(gameObject.transform.name!= "Nivel2" && gameObject.transform.name!= "Nivel3" )
+        if(gameObject.transform.name!= "Nivel2" && gameObject.transform.name!= "Nivel3" && !EsconderTexto.run)
             SceneManager.LoadScene(sceneName);
     }
 

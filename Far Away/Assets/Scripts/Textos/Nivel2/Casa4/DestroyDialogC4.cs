@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyDialogC4 : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class DestroyDialogC4 : MonoBehaviour
                                         //pero que ademas se pueda acceder desde cualquier lugar
 
     public static bool no_rep4=true;
+
+
+    public static bool casa4=false;
 
     void Awake(){
 
@@ -30,6 +34,14 @@ public class DestroyDialogC4 : MonoBehaviour
             Destroy(gameObject);
             no_rep4=false;
 
+        }
+
+    }
+
+    void Update(){
+
+        if(SceneManager.GetActiveScene().name=="Casa4"){
+            casa4=true;
         }
 
     }

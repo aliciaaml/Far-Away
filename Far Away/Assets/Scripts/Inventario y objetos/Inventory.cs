@@ -43,13 +43,9 @@ public class Inventory : MonoBehaviour
     {
         items.Add(item);
 
-        if (item.name == "Nota")
-        {
-            contador+=1;
-        }
-        if(item.name=="Circular"){
-            contador+=1;
-        }
+        contador+=1;
+      
+        Debug.Log("contador: "+contador);
 
         if (OnItemChangeCallback != null) { OnItemChangeCallback.Invoke(); }
     }

@@ -13,12 +13,6 @@ public class EsconderTexto : MonoBehaviour
 
     public static bool run;
 
-    /*
-    public static bool esconder1=false;
-    public static bool esconder2=false;
-    public static bool esconder3=false;
-    public static bool esconder4=false;
-    */
 
     Animator anim;
 
@@ -50,9 +44,7 @@ public class EsconderTexto : MonoBehaviour
             boton_no=true;
             
             num_textos+=1;
-
-            
-            Debug.Log(num_textos);  
+  
         }
 
     }

@@ -29,4 +29,5 @@ public class TextoMovil : MonoBehaviour
         EsconderTexto.run=false;
         movil1terminado=true;
     }
+
 }

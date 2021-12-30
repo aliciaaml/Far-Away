@@ -15,14 +15,13 @@ public class ActivarEscenaFianla2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(Inventory.contador  + "  numero de items");
 
-
-        if(DestroyDialoN2.unavez){
-            if(Inventory.contador==4 && SceneManager.GetActiveScene().name=="Nivel2Exterior" && DestroyDialoC2.casa4 && TextoMovil.movil1terminado){
-                dialogo4.SetActive(true);
-                DestroyDialoN2.unavez=false;
-            }
+        if(Inventory.contador==4 && SceneManager.GetActiveScene().name=="Nivel2Exterior" && DestroyDialogC4.casa4 && TextoMovil.movil1terminado){
+            dialogo4.SetActive(true);
+            DestroyDialoN2.unavez=false;
         }
+        
         
     }
 }

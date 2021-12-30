@@ -23,10 +23,11 @@ public class GuardarPos_N3 : MonoBehaviour
 
     void TaskOnClick(){
 
-        if(gameObject.transform.name== "Nivel3"&& Inventory.contador>=4){
+        if(gameObject.transform.name== "Nivel3"&& Inventory.contador>=4 && DestroyDialogC4.casa4){
 
             if (PlayerController.escena!="Nivel3Exterior"){
                 pos=new Vector2(15.65f,-1.9f);
+                SceneManager.LoadScene("Nivel3Exterior");
                 pulsado=true;
             }
 
