@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ActivarEscenaFianla2 : MonoBehaviour
+public class ActivarEscenaFinal3 : MonoBehaviour
 {
    public GameObject dialogo4;
     // Start is called before the first frame update
@@ -16,9 +16,8 @@ public class ActivarEscenaFianla2 : MonoBehaviour
     void Update()
     {
 
-        if(Inventory.contador==4 && SceneManager.GetActiveScene().name=="Nivel2Exterior" && DestroyDialogC4.casa4 && TextoMovil.movil1terminado){
+        if(Inventory.contador==5 && SceneManager.GetActiveScene().name=="Nivel3Exterior" && MomerMovil_Bien.dialogoactivar){
             dialogo4.SetActive(true);
-            //DestroyDialoN2.unavez=false;
         }
         
         

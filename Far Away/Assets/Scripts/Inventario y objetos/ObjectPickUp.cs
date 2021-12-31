@@ -22,6 +22,10 @@ public class ObjectPickUp : MonoBehaviour
 
         foreach (Item item in Inventory.inst.items)
         {
+
+            Debug.Log(item);
+
+            Debug.Log("cosa que no entiendo "+ gameObject.GetComponent<ObjectPickUp>().item);
             if (item == gameObject.GetComponent<ObjectPickUp>().item)
             {
                 Destroy(gameObject);

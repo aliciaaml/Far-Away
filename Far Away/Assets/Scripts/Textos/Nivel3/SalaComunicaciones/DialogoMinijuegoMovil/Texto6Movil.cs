@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Texto_cables : MonoBehaviour
+public class Texto6Movil : MonoBehaviour
 {
-     string frase = "Ya está. Ya debería tener más cobertura. Intentaré llamar otra vez. ";
+    string frase =  "Su pueblo está muy lejos y el acceso es complicado. Asegúrese de encontrar un lugar seguro mientras llegan, por favor. Tendrá a alguien mañana a primera hora así que… \n"+
+                    "***SIN SEÑAL***"; 
                    
     public Text dialogo;
     
@@ -18,10 +19,12 @@ public class Texto_cables : MonoBehaviour
     
     IEnumerator Reloj()
     {
+        EsconderTexto.run=true;
         foreach (char caracter in frase)
         {
             dialogo.text = dialogo.text + caracter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.07f);
         }
+        EsconderTexto.run=false;
     }
 }

@@ -21,20 +21,29 @@ public class PlayerController : MonoBehaviour
 
     public static bool puerProta_bloq;
     public static bool puertaIglesia_bloq;
+    public static bool puertaAyuntamiento_bloq;
+    public static bool  puertaComun_bloq;
 
     public GameObject dialogoPuertaProta;
     public GameObject dialogoIglesia;
+     public GameObject dialogoSalaComun;
 
     public DialogoPuerProta reloj;
     public DialogoIglesia reloj2;
+    public DialogoSalaComun reloj3;
 
     public static bool desbloq_purtaCura=false;
     public static bool desbloq_puertaCasa4=false;
     public static bool no_puertaCura=false;
     public static bool no_casa4=false;
+    public static bool colion_ayuntamiento=false;
+
+    
 
     public static DoorController puerta;
     public static bool dialog=false;
+
+    public static bool desbloq_ayuntamiento=false;
 
 
 
@@ -76,6 +85,9 @@ public class PlayerController : MonoBehaviour
         puertaIglesia_bloq=false;
         guardar_pos.x=-4.08f;
 
+        puertaAyuntamiento_bloq=false;
+        puertaComun_bloq=false;
+
     }
 
     // Update is called once per frame
@@ -116,6 +128,14 @@ public class PlayerController : MonoBehaviour
                 desbloq_purtaCura=true;   
 
             }
+            if(puertaComun_bloq){
+                dialogoSalaComun.SetActive(true);
+                StartCoroutine(reloj3.Reloj());
+                desbloq_ayuntamiento=true;
+
+            }
+
+            
         }
  
     }
@@ -150,14 +170,7 @@ public class PlayerController : MonoBehaviour
                 else
                     puerProta_bloq=false;
           
-                foreach (Item item in Inventory.inst.items)
-                {
-                    if (item.name == "Llave")
-                    {
-                        //Inventory.inst.Remove(item);
-                        puerta.isLocked = false;
-                    }
-                }
+           
             }
 
             
@@ -180,6 +193,40 @@ public class PlayerController : MonoBehaviour
                     }
                 }
             }
+
+            if (collision.gameObject.transform.parent.name == "torreCom")
+            {
+                if(puerta.isLocked){
+                    puertaComun_bloq=true;
+
+                }    
+                    
+                else
+                    puertaComun_bloq=false;
+
+                foreach (Item item in Inventory.inst.items)
+                {
+                    if (item.name == "Llave2")
+                    {
+                        //Inventory.inst.Remove(item);
+                        puerta.isLocked = false;
+                    }
+                }
+            }
+
+
+
+
+
+            if (collision.gameObject.transform.parent.name == "ayuntamiento")
+                colion_ayuntamiento=true;
+
+            if (collision.gameObject.transform.parent.name == "ayuntamiento" && desbloq_ayuntamiento)
+            {
+                puerta.isLocked = false;
+            }
+
+          
 
             if (collision.gameObject.transform.parent.name == "casaIglesia2" && !desbloq_purtaCura){
                 no_puertaCura=true;
@@ -221,8 +268,10 @@ public class PlayerController : MonoBehaviour
             goNext1 = false;
             puerProta_bloq=false;
             puertaIglesia_bloq=false;
+            puertaComun_bloq=false;
             no_puertaCura=false;
             no_casa4=false;
+            colion_ayuntamiento=false;
             
         }
     }

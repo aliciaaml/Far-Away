@@ -11,7 +11,10 @@ public class MomerMovil_Bien : MonoBehaviour, IDragHandler
      Rigidbody2D rigidbody2d;
 
     public GameObject completado;
+    public GameObject dialogoFin;
     public GameObject boton_salir;
+
+    public static bool dialogoactivar;
 
     bool terminado;
 
@@ -21,6 +24,18 @@ public class MomerMovil_Bien : MonoBehaviour, IDragHandler
         terminado=false;
         Imagen= GameObject.Find("Movil").GetComponent<Image>();
         rigidbody2d = GetComponent<Rigidbody2D>();
+
+         dialogoactivar=false;
+    }
+
+    void Update(){
+
+        if(dialogoactivar){
+            if(dialogoFin.activeInHierarchy==false){
+                dialogoFin.SetActive(true);
+            }
+        }
+        
     }
 
     public void OnDrag(PointerEventData data){
@@ -54,6 +69,7 @@ public class MomerMovil_Bien : MonoBehaviour, IDragHandler
         {
             Imagen.sprite= Resources.Load<Sprite>("Sprites/movil_5rayas");
             completado.SetActive(true);
+            dialogoactivar=true;
             boton_salir.SetActive(true);
             terminado=true;
 
