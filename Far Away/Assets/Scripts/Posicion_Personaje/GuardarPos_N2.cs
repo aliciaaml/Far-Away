@@ -23,7 +23,7 @@ public class GuardarPos_N2 : MonoBehaviour
 
     void TaskOnClick(){
         
-        if(gameObject.transform.name== "Nivel2" && Inventory.contador>=2){
+        if(gameObject.transform.name== "Nivel2" && Inventory.contador>=2 && !EsconderTexto.run){
 
             
             if (PlayerController.escena!="Nivel2Exterior"){

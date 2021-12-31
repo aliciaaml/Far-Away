@@ -11,7 +11,7 @@ public class DestroyDialoN3 : MonoBehaviour
                                         //pero que ademas se pueda acceder desde cualquier lugar
 
     public static bool no_rep1=true;
-    public static bool no_rep2=true;
+
 
 
     public static bool unavez=true;
@@ -25,7 +25,7 @@ public class DestroyDialoN3 : MonoBehaviour
             DestroyDialoN3.inst = this;
             no_rep1=true;
             EsconderTexto.boton_no=false;
-            no_rep2=true;
+
 
             DontDestroyOnLoad(gameObject);          //Se crea una nueva escena que no se 
                                                 //destruye nunca y mete el objeto en ella
@@ -36,17 +36,24 @@ public class DestroyDialoN3 : MonoBehaviour
             //ya hay una instancia.Eliminar esta
             Destroy(gameObject);
             no_rep1=false;
-            if(NoPasar2.salido)
-                no_rep2=false;
+ 
 
         }
 
     }
 
     void Update(){
+
+        Debug.Log(SceneManager.GetActiveScene().name);
+
         if(SceneManager.GetActiveScene().name=="Nivel3Exterior"){
+
+            Debug.Log("SIIII QUE ENTROOOOOO");
+            
             EsconderTexto.num_textos=0;
             Aclaraciones.aclar=false;
+            SiguienteTextoAux.textaux=false;
+            
         }
 
         if(SceneManager.GetActiveScene().name!="Reglas" ){

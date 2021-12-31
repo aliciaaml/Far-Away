@@ -7,6 +7,10 @@ public class Tablones : MonoBehaviour
     public SpriteRenderer Tablon;
     public static int contador;
 
+    public GameObject TrozoNota;
+    public GameObject DialogoTrozoNota;
+    public GameObject Dialogo;
+
     [SerializeField] private GameObject[] tablones;
     [SerializeField] private GameObject mesa;
     [SerializeField] private GameObject silla;
@@ -50,8 +54,11 @@ public class Tablones : MonoBehaviour
                     if (contador == 8)
                     {
                         Debug.Log("Minijuego completado1");
+                        TrozoNota.SetActive(true);
+                        DialogoTrozoNota.SetActive(true);
+                        Dialogo.SetActive(true);
                         timer.timerIsRunning = false;
-                        SceneManager.LoadScene("final");
+                        //SceneManager.LoadScene("final");
                     }
 
 
@@ -73,7 +80,10 @@ public class Tablones : MonoBehaviour
                         
                         Debug.Log("Minijuego completado2");
                         timer.timerIsRunning = false;
-                        SceneManager.LoadScene("final");
+                        TrozoNota.SetActive(true);
+                        DialogoTrozoNota.SetActive(true);
+                        Dialogo.SetActive(true);
+                        //SceneManager.LoadScene("final");
                     }
 
                     return;                                     // Para que el UpdateWire de abajo no se ejecute

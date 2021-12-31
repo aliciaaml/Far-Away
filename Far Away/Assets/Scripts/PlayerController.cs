@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     public DialogoIglesia reloj2;
     public DialogoSalaComun reloj3;
 
+
     public static bool desbloq_purtaCura=false;
     public static bool desbloq_puertaCasa4=false;
     public static bool no_puertaCura=false;
@@ -103,6 +104,20 @@ public class PlayerController : MonoBehaviour
             
             
         }
+
+        else{
+
+
+            if(Input.GetKeyDown("right") || Input.GetKeyDown("d")){
+                
+                animator.SetFloat("Horizontal", 0.0001f);
+
+                Debug.Log("Entra pero no entiende lo que le digo");
+            }
+
+            if(Input.GetKeyDown("left") || Input.GetKeyDown("a"))
+                animator.SetFloat("Horizontal", -0.0001f);
+        }
     
 
         if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w"))&& EsconderTexto.boton_no)    //al pulsar arriba comprueba si esta en puerta
@@ -142,9 +157,12 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate(){
 
-        Vector2 position = rigidbody2d.position;
-        position.x = position.x + speed * horizontal * Time.deltaTime;
-        rigidbody2d.MovePosition(position);
+        if(EsconderTexto.boton_no){
+            Vector2 position = rigidbody2d.position;
+            position.x = position.x + speed * horizontal * Time.deltaTime;
+            rigidbody2d.MovePosition(position);
+        }
+      
 
        
 
@@ -170,7 +188,8 @@ public class PlayerController : MonoBehaviour
                 else
                     puerProta_bloq=false;
           
-           
+                if(Inventory.contador==6)
+                    puerta.isLocked=false;
             }
 
             
@@ -235,6 +254,8 @@ public class PlayerController : MonoBehaviour
 
                 desbloq_puertaCasa4=true;
                 dialog=true;
+                if(DestroyDialoC5.entradoCasa5)
+                    puerta.isLocked=false;
             }
                 
 

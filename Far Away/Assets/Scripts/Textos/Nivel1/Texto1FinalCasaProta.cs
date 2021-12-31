@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextoNombre : MonoBehaviour
+public class Texto1FinalCasaProta : MonoBehaviour
 {
-    string frase = "Bienvenido a Far Away, antes de adentrarse en esta aventura, le rogamos que introduzca un nombre a nuestro protagonista.";
+    string frase = "Esto no me puede estar pasando, debo estar soñando, esto no es normal. Quiero despertarme de esta pesadilla.";
                    
     public Text dialogo;
     
@@ -15,13 +15,15 @@ public class TextoNombre : MonoBehaviour
     {
         StartCoroutine(Reloj());
     }
-
+    
     IEnumerator Reloj()
     {
+        EsconderTexto.run=true;
         foreach (char caracter in frase)
         {
             dialogo.text = dialogo.text + caracter;
-            yield return new WaitForSeconds(0.035f);
+            yield return new WaitForSeconds(0.07f);
         }
+        EsconderTexto.run=false;
     }
 }

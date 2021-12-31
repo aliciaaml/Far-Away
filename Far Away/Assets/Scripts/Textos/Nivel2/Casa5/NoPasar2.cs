@@ -39,8 +39,7 @@ public class NoPasar2 : MonoBehaviour
                 
                 salido=true;
                 if(DestroyDialoN2.no_rep2){
-                    dialogoCasa5Entrar.SetActive(true);
-                    Debug.Log(scene);  
+                    dialogoCasa5Entrar.SetActive(true); 
                     StartCoroutine(Espera());
                 }
                 PlayerController.dialog=false;
@@ -52,10 +51,9 @@ public class NoPasar2 : MonoBehaviour
    
     }
 
-    IEnumerator Espera ()
+    public IEnumerator Espera ()
     {
         yield return new WaitForSeconds(9);
-        PlayerController.puerta.isLocked=false;
         SceneManager.LoadScene(scene);
 
         

@@ -7,6 +7,8 @@ public class ControlDeDialogo : MonoBehaviour
 {
     public static bool circular;
     public static bool nota;
+    public static bool trozoNota;
+
     private readonly Queue<string> colaDialogos = new Queue<string>();          // Declaraciones de queues go brrrrrrrrrrr xd
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
@@ -52,6 +54,11 @@ public class ControlDeDialogo : MonoBehaviour
             if(ObjectPickUp.nota_item){
                 nota=true;
                 ObjectPickUp.nota_item=false;
+            }
+
+            if(ObjectPickUp.trozoNota_item){
+                trozoNota=true;
+                ObjectPickUp.trozoNota_item=false;
             }
             
             return;

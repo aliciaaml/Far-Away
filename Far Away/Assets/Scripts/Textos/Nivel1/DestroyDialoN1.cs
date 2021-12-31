@@ -13,6 +13,8 @@ public class DestroyDialoN1 : MonoBehaviour
 
     public static bool no_rep1=true;
 
+    public static bool no_rep2=true;
+
 
     public static bool unavez=true;
 
@@ -24,6 +26,7 @@ public class DestroyDialoN1 : MonoBehaviour
             //primera vez. Por lo que esta es la instancia
             DestroyDialoN1.inst = this;
             no_rep1=true;
+            no_rep2=true;
             EsconderTexto.boton_no=false;
 
             DontDestroyOnLoad(gameObject);          //Se crea una nueva escena que no se 
@@ -35,12 +38,14 @@ public class DestroyDialoN1 : MonoBehaviour
             //ya hay una instancia.Eliminar esta
             Destroy(gameObject);
             no_rep1=false;
+ 
 
         }
 
     }
 
     void Update(){
+
         if(SceneManager.GetActiveScene().name=="Nivel1Exterior"){
             EsconderTexto.num_textos=0;
             Aclaraciones.aclar=false;

@@ -12,6 +12,7 @@ public class ObjectPickUp : MonoBehaviour
 
     public static bool ciruclar_item;
     public static bool nota_item;
+    public static bool trozoNota_item;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class ObjectPickUp : MonoBehaviour
         camera = Camera.main;
         ciruclar_item=false;
         nota_item=false;
+        trozoNota_item=false;
 
         foreach (Item item in Inventory.inst.items)
         {
@@ -54,6 +56,10 @@ public class ObjectPickUp : MonoBehaviour
 
                     if(item.name == "Nota"){
                         nota_item=true;
+                    }
+
+                    if(item.name=="TrozoNota2"){
+                        trozoNota_item=true;
                     }
 
                     Inventory.inst.Add(item);

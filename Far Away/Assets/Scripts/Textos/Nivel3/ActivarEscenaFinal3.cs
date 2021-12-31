@@ -16,7 +16,7 @@ public class ActivarEscenaFinal3 : MonoBehaviour
     void Update()
     {
 
-        if(Inventory.contador==5 && SceneManager.GetActiveScene().name=="Nivel3Exterior" && MomerMovil_Bien.dialogoactivar){
+        if(Inventory.contador==6 && SceneManager.GetActiveScene().name=="Nivel3Exterior" && MomerMovil_Bien.dialogoactivar){
             dialogo4.SetActive(true);
         }
         

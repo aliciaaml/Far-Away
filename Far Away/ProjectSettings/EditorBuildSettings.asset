@@ -78,6 +78,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Minijuegos/MinijuegoMovil.unity
     guid: 7876113c32f0560439c2dff1c203b7fb
   - enabled: 1
+    path: Assets/Scenes/Minijuegos/MinijuegoMovilBien.unity
+    guid: 603b6bc1e278295419e12a467a0026b5
+  - enabled: 1
     path: Assets/Scenes/Minijuegos/MinijuegoRadio.unity
     guid: 280c8162a89475f42b80961236330e3b
   - enabled: 1

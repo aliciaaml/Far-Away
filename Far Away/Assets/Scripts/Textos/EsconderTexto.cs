@@ -44,6 +44,8 @@ public class EsconderTexto : MonoBehaviour
             boton_no=true;
             
             num_textos+=1;
+
+        
   
         }
 
