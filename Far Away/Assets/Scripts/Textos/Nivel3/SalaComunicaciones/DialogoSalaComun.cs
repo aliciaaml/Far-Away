@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DialogoSalaComun : MonoBehaviour
 {
-    public static string frase = "Cerrada. Tampoco parece que haya nadie dentro.\n"+
+    public static string frase = "Cerrada.. Y tampoco parece que haya nadie dentro.\n"+
                                   "...Si no recuerdo mal, el alcalde tenía una copia de la llave en su despacho. Debería dirigirme hacia allí.";
                    
     public Text dialogo;

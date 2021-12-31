@@ -44,18 +44,6 @@ public class DestroyDialoN3 : MonoBehaviour
 
     void Update(){
 
-        Debug.Log(SceneManager.GetActiveScene().name);
-
-        if(SceneManager.GetActiveScene().name=="Nivel3Exterior"){
-
-            Debug.Log("SIIII QUE ENTROOOOOO");
-            
-            EsconderTexto.num_textos=0;
-            Aclaraciones.aclar=false;
-            SiguienteTextoAux.textaux=false;
-            
-        }
-
         if(SceneManager.GetActiveScene().name!="Reglas" ){
             posicion_anterior.reglas=false;
         }

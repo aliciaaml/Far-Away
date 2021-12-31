@@ -50,6 +50,14 @@ public class DestroyDialoN1 : MonoBehaviour
             EsconderTexto.num_textos=0;
             Aclaraciones.aclar=false;
         }
+
+        if(SceneManager.GetActiveScene().name=="Nivel3Exterior"){
+
+            EsconderTexto.num_textos=0;
+            Aclaraciones.aclar=false;
+            SiguienteTextoAux.textaux=false;
+            
+        }
     }
 
    

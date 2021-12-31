@@ -16,7 +16,14 @@ public class Aclaraciones : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        /*
+        Debug.Log(EsconderTexto.boton_no);
+        Debug.Log(SiguienteTextoAux.textaux);
+        Debug.Log(SiguienteText1.texto1);
+        Debug.Log(SiguienteText2.texto2);
+        Debug.Log(SiguienteText3.texto3);
+        Debug.Log(SiguienteTexto4.texto4);
+       */
         if(EsconderTexto.boton_no && !SiguienteTextoAux.textaux &&!SiguienteText1.texto1 && !SiguienteText2.texto2  && !SiguienteText3.texto3 && !SiguienteTexto4.texto4){
 
             gameObject.SetActive(false);
