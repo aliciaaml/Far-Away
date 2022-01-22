@@ -24,11 +24,6 @@ public class ObjectPickUp : MonoBehaviour
 
         foreach (Item item in Inventory.inst.items)
         {
-
-            Debug.Log(item);
-
-            Debug.Log("cosa que no entiendo "+ gameObject.GetComponent<ObjectPickUp>().item);
-
             if (item == gameObject.GetComponent<ObjectPickUp>().item)
             {
                 Destroy(gameObject);
@@ -48,8 +43,7 @@ public class ObjectPickUp : MonoBehaviour
 
                 if (hit.collider != null)
                 {
-                    Debug.Log("BBBBBBBBB");
-                    if (hit.transform.tag == "Objeto")
+                    if (hit.transform.CompareTag("Objeto"))
                     {
                         //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
 
@@ -69,7 +63,6 @@ public class ObjectPickUp : MonoBehaviour
                             trozoNota_item = true;
                         }
 
-                        Debug.Log("AAAAAAAAAA");
                         Inventory.inst.Add(item);
                         Destroy(gameObject);
 
