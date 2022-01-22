@@ -41,7 +41,7 @@ public class ObjectPickUp : MonoBehaviour
 
             if(!MinigameEnter.circularDisable && EsconderTexto.boton_no){
 
-                if (hit.collider != null)
+                if (hit.collider != null && hit.transform == transform)
                 {
                     if (hit.transform.CompareTag("Objeto"))
                     {
