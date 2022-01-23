@@ -84,7 +84,7 @@ public class ControlDeDialogo : MonoBehaviour
         foreach (char caracter in textoAMostrar.ToCharArray())
         {
             textoPantalla.text += caracter;
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(0.07f);
         }
         running = false;
     }
