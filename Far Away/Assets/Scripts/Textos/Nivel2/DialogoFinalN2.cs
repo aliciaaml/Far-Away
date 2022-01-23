@@ -9,6 +9,8 @@ public class DialogoFinalN2 : MonoBehaviour
                     "Lo mejor será que me dirija a la torre de comunicaciones para ver si algo está imposibilitando la señal.";
                    
     public Text dialogo;
+
+    public static bool textoFinal2=false;
     
 
     // Start is called before the first frame update
@@ -25,6 +27,7 @@ public class DialogoFinalN2 : MonoBehaviour
             dialogo.text = dialogo.text + caracter;
             yield return new WaitForSeconds(0.07f);
         }
+        textoFinal2=true;
         EsconderTexto.run=false;
     }
 }

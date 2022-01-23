@@ -12,5 +12,12 @@ public class CutsceneTriggerController : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
+
+    void Update(){
+        if(EsconderTexto.activar){
+            cutsceneTigger.SetActive(true);
+            EsconderTexto.activar=false;
+        }
+    }
     
 }
