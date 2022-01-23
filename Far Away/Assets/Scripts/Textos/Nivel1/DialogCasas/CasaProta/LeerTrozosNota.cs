@@ -5,6 +5,7 @@ using UnityEngine;
 public class LeerTrozosNota : MonoBehaviour
 {
     public GameObject leer;
+    public GameObject boton;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class LeerTrozosNota : MonoBehaviour
     {
         if(ControlDeDialogo.trozoNota){
             leer.SetActive(true);
+            boton.SetActive(true);
             ControlDeDialogo.nota=false;
         }
     }
