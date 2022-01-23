@@ -24,10 +24,6 @@ public class ObjectPickUp : MonoBehaviour
 
         foreach (Item item in Inventory.inst.items)
         {
-
-            Debug.Log(item);
-
-            Debug.Log("cosa que no entiendo "+ gameObject.GetComponent<ObjectPickUp>().item);
             if (item == gameObject.GetComponent<ObjectPickUp>().item)
             {
                 Destroy(gameObject);
@@ -45,27 +41,34 @@ public class ObjectPickUp : MonoBehaviour
 
             if(!MinigameEnter.circularDisable && EsconderTexto.boton_no){
 
-                if (hit.transform.tag == "Objeto")
+                if (hit.collider != null && hit.transform == transform)
                 {
-                    //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
+                    if (hit.transform.CompareTag("Objeto"))
+                    {
+                        //ui.gameObject.GetComponent<Animator>().SetBool("NewItem", true);
 
-                
-                    if(item.name == "Circular"){
-                        ciruclar_item=true;
+
+                        if (item.name == "Circular")
+                        {
+                            ciruclar_item = true;
+                        }
+
+                        if (item.name == "Nota")
+                        {
+                            nota_item = true;
+                        }
+
+                        if (item.name == "TrozoNota2")
+                        {
+                            trozoNota_item = true;
+                        }
+
+                        Inventory.inst.Add(item);
+                        Destroy(gameObject);
+
                     }
-
-                    if(item.name == "Nota"){
-                        nota_item=true;
-                    }
-
-                    if(item.name=="TrozoNota2"){
-                        trozoNota_item=true;
-                    }
-
-                    Inventory.inst.Add(item);
-                    Destroy(gameObject);
-                
                 }
+                
             }
         }
     }
