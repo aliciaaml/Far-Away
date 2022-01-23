@@ -11,10 +11,7 @@ public class Trozos : MonoBehaviour
     Vector3 StartPos;
 
     public static int contador;
-<<<<<<< HEAD
     public GameObject Dialogo;
-=======
->>>>>>> fe6076a88ec4b01164385cbb817e5177e8be2dd0
 
     // Start is called before the first frame update
     void Start()
@@ -45,14 +42,9 @@ public class Trozos : MonoBehaviour
 
                 if (contador == 2)
                 {
-<<<<<<< HEAD
                     Debug.Log("Minijuego completado1");
                     Dialogo.SetActive(true);
 
-=======
-                    Debug.Log("Minijuego completado1");;
-                    SceneManager.LoadScene("final");
->>>>>>> fe6076a88ec4b01164385cbb817e5177e8be2dd0
                 }
 
                 return;                                     // Para que el UpdateWire de abajo no se ejecute
@@ -68,14 +60,9 @@ public class Trozos : MonoBehaviour
 
                 if (contador == 2)
                 {
-<<<<<<< HEAD
                     Debug.Log("Minijuego completado2");
                     Dialogo.SetActive(true);
                     //SceneManager.LoadScene("final");
-=======
-                    Debug.Log("Minijuego completado2"); ;
-                    SceneManager.LoadScene("final");
->>>>>>> fe6076a88ec4b01164385cbb817e5177e8be2dd0
                 }
 
                 return;                                     // Para que el UpdateWire de abajo no se ejecute
