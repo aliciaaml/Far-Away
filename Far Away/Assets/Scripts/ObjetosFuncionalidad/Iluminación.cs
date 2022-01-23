@@ -4,29 +4,28 @@ using UnityEngine;
 
 public class Iluminación : MonoBehaviour
 {
-    private SpriteRenderer sprite;
+    private SpriteRenderer Sprite;
     private Sprite aux;
 
     public Sprite nuevoSprite;
     private void Start()
     {
-        sprite = gameObject.GetComponent<SpriteRenderer>();
-        aux = sprite.sprite;
+        Sprite = gameObject.GetComponent<SpriteRenderer>();
+        aux = Sprite.sprite;
     }
 
     public void Rotismo(){
-        aux = sprite.sprite;
+        aux = Sprite.sprite;
     }
-
 
     private void OnMouseOver()
     {
         if(!MinigameEnter.circularDisable && EsconderTexto.boton_no)
-            sprite.sprite = nuevoSprite;
+            Sprite.sprite = nuevoSprite;
     }
 
     private void OnMouseExit()
     {
-        sprite.sprite = aux;
+        Sprite.sprite = aux;
     }
 }

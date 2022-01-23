@@ -8,7 +8,7 @@ public class Tablones : MonoBehaviour
     public static int contador;
 
     public GameObject TrozoNota;
-    public GameObject DialogoTrozoNota;
+    //public GameObject DialogoTrozoNota;
     public GameObject Dialogo;
 
     [SerializeField] private GameObject[] tablones;
@@ -55,7 +55,7 @@ public class Tablones : MonoBehaviour
                     {
                         Debug.Log("Minijuego completado1");
                         TrozoNota.SetActive(true);
-                        DialogoTrozoNota.SetActive(true);
+                        //DialogoTrozoNota.SetActive(true);
                         Dialogo.SetActive(true);
                         timer.timerIsRunning = false;
                         //SceneManager.LoadScene("final");
@@ -81,7 +81,7 @@ public class Tablones : MonoBehaviour
                         Debug.Log("Minijuego completado2");
                         timer.timerIsRunning = false;
                         TrozoNota.SetActive(true);
-                        DialogoTrozoNota.SetActive(true);
+                        //DialogoTrozoNota.SetActive(true);
                         Dialogo.SetActive(true);
                         //SceneManager.LoadScene("final");
                     }
