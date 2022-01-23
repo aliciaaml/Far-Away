@@ -9,6 +9,8 @@ public class Trozos : MonoBehaviour
     [SerializeField] private GameObject Trozo1;
     [SerializeField] private GameObject Trozo2;
 
+    public GameObject Dialogo;
+
     Vector3 StartPos;
     public static int contador;
 
@@ -42,6 +44,7 @@ public class Trozos : MonoBehaviour
 
                 if (contador == 2)
                 {
+                    Dialogo.SetActive(true);
                     Debug.Log("Minijuego completado1");
                 }
 
@@ -59,6 +62,7 @@ public class Trozos : MonoBehaviour
 
                 if (contador == 2)
                 {
+                    Dialogo.SetActive(true);
                     Debug.Log("Minijuego completado2");
                 }
 
